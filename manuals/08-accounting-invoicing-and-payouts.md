@@ -63,3 +63,19 @@ Open **`/staff/reports/ar-payout-reconciliation`** (Turnkey Report **`R28`**) to
 - **Accounts Receivable Aging:** `0–30`, `31–60`, `61–90`, and `90+` day buckets across Self-Pay, HMO, and Corporate Sponsor accounts.
 - **Clinician Payouts:** Matches collected/settled encounters against clinician revenue-share or per-session fee schedules.
 - **Accounting Export:** Produces clean, auditable period summaries for external bookkeeping and tax reconciliation.
+
+## 5. Connected Accounting examples
+
+These captures show the separate Accounting workspace, not the Clinic payer desk or a live journal.
+
+### Validate opening rows before saving
+
+![Accounting opening import shows two accepted rows, equal debit and credit, and no journal saved](../assets/screenshots/accounting-validate-opening-rows.png)
+
+*Synthetic operator-training capture, November 2026. Read the row checks and totals before deciding whether to save as an opening draft. Validation does not save or post a journal.*
+
+### Review a journal before approval
+
+![Accounting approval dialog showing the synthetic book, journal amount, reason field and Approve journal button](../assets/screenshots/accounting-review-journal-approval.png)
+
+*Synthetic operator-training capture, November 2026. The assigned approver checks the book, date, amount and reason. This dialog shows the review before approval, not a posted entry.*

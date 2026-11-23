@@ -9,9 +9,7 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 
 ## Quick Navigation
 
-**Illustrated walkthroughs:** [Staff sign-in](manuals/01-getting-started-and-mfa.md#staff-sign-in-screen) · [Missing booking hours](manuals/02-scheduling-and-hmo-operations.md#when-the-booking-panel-shows-no-published-hours) · [Internal Report Explorer](manuals/06-reporting-and-analytics-guide.md#4-example-internal-report-explorer). Captures are from synthetic training exercises, not a live installation or release certification.
-
-**More illustrated tasks:** [Missing connected access](manuals/01-getting-started-and-mfa.md#when-no-connected-workspaces-appear) · [Retry HMO availability](manuals/02-scheduling-and-hmo-operations.md#when-an-hmo-availability-lookup-fails) · [Review a note conflict](manuals/03-clinical-workflows-and-prescribing.md#reviewing-a-note-draft-conflict) · [Check a certificate draft](manuals/03-clinical-workflows-and-prescribing.md#checking-a-saved-certificate-draft) · [Track an assessment submission](manuals/04-assessments-and-specialty-tracks.md#following-an-assessment-from-assignment-to-submission).
+[**Start with the Visual Guide**](VISUAL_GUIDE.md) for screenshots organized by task. Each example comes from synthetic training.
 
 ### 1. Presentation Decks (`decks/`)
 | Audience | Document | What It Covers |
