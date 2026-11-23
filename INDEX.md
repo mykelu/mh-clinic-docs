@@ -45,6 +45,7 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 - `/admin/learning-hub` — Psychoeducation & blog publisher ([Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md))
 - `/admin/ihc-workplan` & `/admin/ihc-roster` — ADB IHC OS & `R14`–`R21` reports ([Manual 05](manuals/05-adb-ihc-and-case-management.md))
 - `/staff/reports` & `/admin/reports-studio` — Executive/Clinical/Commercial reports (`R01`–`R30`) & No-Code Report Studio ([Manual 06](manuals/06-reporting-and-analytics-guide.md))
+- `/platform/clients`, `/admin/brands/new-wizard`, `/admin/brand-portals`, `/sites/[company]` — SaaS tenant provisioning, entitlements (`WP-20`) & white-label brand launch ([Manual 10](manuals/10-saas-clients-and-tenant-onboarding.md))
 
 ---
 

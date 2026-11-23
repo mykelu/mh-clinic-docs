@@ -28,6 +28,7 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 | **07** | [Anonymous Helpline, Learning Hub & AI Coordinator](manuals/07-helpline-learning-hub-and-ai-coordinator.md) | `WP-31` zero-PII helpline (`ANON-xxxx`, `L1`–`L4`), `/learn` hub, `WP-32` `AG-UI` Co-Pilot, and Telehealth Scribe. |
 | **08** | [Accounting, Invoicing & Journal Mapping](manuals/08-accounting-invoicing-and-payouts.md) | HMO payer review, SOA/SI drafts, journal accounts, `BIR 2307` remittance, refunds, and `R28` payout reconciliation. |
 | **09** | [CRM, Inquiries, Outreach & Corporate Events](manuals/09-crm-inquiries-and-outreach.md) | Inquiry pipeline, professional matching, proactive outreach queues, waitlist backfill, and corporate events. |
+| **10** | [SaaS Clients, Multi-Tenancy & Brand Onboarding](manuals/10-saas-clients-and-tenant-onboarding.md) | `/platform/clients`, `WP-20` entitlements, brand launch wizard, white-label portals, and RLS tenant isolation. |
 
 ### 3. Role-Based Persona Guides (`personas/`)
 - [01 · Company & Branch Administrator](personas/01-company-and-branch-administrator.md)
