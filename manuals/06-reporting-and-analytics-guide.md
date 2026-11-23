@@ -1,7 +1,7 @@
 # Manual 06: BI Dashboards, `R01`–`R30` Turnkey Reports & Report Studio (`WP-30`)
 
 ## 1. Privacy & Governance Rules
-- **Database-Enforced $k$-Anonymity:** All aggregate reports enforce `floor := greatest(5, clinic.sponsor_minimum_cohort_size(...))`. Any slice with fewer than `floor` distinct clients returns `status: 'suppressed'` and `NULL` counts.
+- **Database-Enforced $k$-Anonymity:** Sponsor and institutional reports subject to the disclosure floor enforce `floor := greatest(5, clinic.sponsor_minimum_cohort_size(...))`. Any slice with fewer than `floor` distinct clients returns `status: 'suppressed'` and `NULL` counts.
 - **Read Auditing:** Every report call logs an immutable `clinic.record_staff_read_access` receipt with actor, company, brand, and date window.
 
 ## 2. Complete `R01`–`R30` Turnkey Report Directory
@@ -54,3 +54,9 @@
 
 ## 3. No-Code Report Studio (`/admin/reports-studio`)
 Allows company administrators to build saved appointment recipes, apply privacy-filtered previews, and export 1-click `.xlsx`, `.pdf`, and `.pptx` decks.
+
+## 4. Example: Internal Report Explorer
+
+![Internal Report Explorer with measure, grouping and status filters, an as-of timestamp, chart bars, and CSV and print controls](../assets/screenshots/report-explorer-inquiries.png)
+
+*Synthetic operations-training capture, November 2026. Check the brand, filters and as-of timestamp before using an export. This example shows the internal inquiry view, not sponsor reporting, cohort suppression or Report Studio.*

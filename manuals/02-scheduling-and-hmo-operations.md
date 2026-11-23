@@ -13,6 +13,12 @@ Before confirming any appointment, the **8-Gate Booking Simulator** evaluates:
 
 Administrators can promote draft planned hours to bookable calendar capacity in 1 click from `/admin/configuration/schedules`.
 
+### When the booking panel shows no published hours
+
+![Staff booking panel showing a disabled Book pending confirmation button and a no-published-hours notice](../assets/screenshots/booking-unpublished-hours.png)
+
+*Synthetic operator-training capture, November 2026. If this notice appears, check your selected brand, professional and booking method. Choose another option or ask an administrator to review published hours.*
+
 ## 2. Smart Waitlist Backfill (`WP-27`, `R29`)
 - When a confirmed appointment is cancelled, `/staff/waitlist` surfaces ranked waitlisted clients matching the clinician, service, mode, and time preference.
 - Staff (or the `WP-32` AI Coordinator in `HITL` mode) can offer the vacated slot with a bounded hold expiry, tracked by `R29` Waitlist Backfill & Recovery.
