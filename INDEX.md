@@ -37,8 +37,11 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 - `/professional/evaluations/instruments` & `/professional/evaluations/report` — `RPm` + `RPsy` evaluation suite ([Psychologist Guide](personas/04-psychologist-and-psychometrician.md))
 - `/case-manager/episodes` — Longitudinal MDT case management ([Case Manager Guide](personas/07-case-manager-and-safety-responder.md))
 
-### Administration, IHC & BI Reporting Routes
+- `/staff/inquiries`, `/staff/professional-matching`, `/staff/outreach`, `/staff/corporate-events` — CRM inquiry pipeline, clinician matching, outreach & corporate events ([Manual 09](manuals/09-crm-inquiries-and-outreach.md))
+
+### Administration, Accounting, IHC & BI Reporting Routes
 - `/admin/configuration/formulary` & `/admin/configuration/prescription-authority` — 1-click PH Psychiatric Starter Formulary & clinical approval ([Manual 03](manuals/03-clinical-workflows-and-prescribing.md))
+- `/admin/hmo-payer-review`, `/admin/cancellation-refunds`, `/staff/payments`, `/staff/reports/ar-payout-reconciliation` — HMO invoicing, journal accounts, refunds & `R28` reconciliation ([Manual 08](manuals/08-accounting-invoicing-and-payouts.md))
 - `/admin/learning-hub` — Psychoeducation & blog publisher ([Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md))
 - `/admin/ihc-workplan` & `/admin/ihc-roster` — ADB IHC OS & `R14`–`R21` reports ([Manual 05](manuals/05-adb-ihc-and-case-management.md))
 - `/staff/reports` & `/admin/reports-studio` — Executive/Clinical/Commercial reports (`R01`–`R30`) & No-Code Report Studio ([Manual 06](manuals/06-reporting-and-analytics-guide.md))
