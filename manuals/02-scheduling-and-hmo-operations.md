@@ -32,6 +32,12 @@ Administrators can promote draft planned hours to bookable calendar capacity in 
 6. **Branded `SOA` & `Sales Invoice` (`/hmo/statements`):** Generates 100% Brand-Identity-driven `Statement of Account` (privacy-safe client initials) and `Sales Invoice` with **10% Withholding Tax (`WTax`)** and `Net Payable`.
 7. **Settlement & `BIR 2307`:** Record AUB deposit slip + `BIR Form 2307` certificate; feeds `R25` Tiered Volume (`1–20`, `21–30`, `31+`) and `R28` AR Aging.
 
+### When an HMO availability lookup fails
+
+![HMO availability screen with a simulated lookup error and a Refresh available times button](../assets/screenshots/hmo-availability-retry.png)
+
+*Synthetic operator-training capture, November 2026. Select **Refresh available times** and wait for a current result before proceeding. A failed lookup does not mean that all times are booked. The request’s original expiry still applies.*
+
 ## 4. Self-Pay Memberships, Bundles & Senior/PWD Statutory Discounts (`WP-25`)
 - `/staff/clients/[clientId]/memberships` manages recurring memberships and prepaid care bundles (deferred revenue rollforward in `R27`).
 - **PH Senior Citizen (`RA 9994`) & PWD (`RA 10754`):** Built-in statutory calculator applies **20% discount + 12% VAT exemption** with verified ID evidence at checkout.

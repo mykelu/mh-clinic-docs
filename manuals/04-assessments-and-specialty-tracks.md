@@ -20,6 +20,18 @@ MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with 
   - Psychologist (`RPsy`) authors the 7-section formulation and co-signs.
   - **Feedback Lock:** Client PDF unlocks in `/client/[brand]/evaluation-reports` only after **Feedback Session Completed** is attested.
 
+### Following an assessment from assignment to submission
+
+1. **Coordinator:** At the correct appointment, check the approved assessment version and verify that the task is **assigned**. The coordinator sees task status, not submitted answers.
+
+   ![Coordinator assessment panel showing a synthetic form version and the assigned status](../assets/screenshots/assessment-coordinator-assigned.png)
+
+2. **Linked client:** Submit the assigned task and look for **Submitted for professional review**. This confirms receipt, not completed clinical review or report release.
+
+   ![Client assessment task with the synthetic form version and the Submitted for professional review receipt](../assets/screenshots/assessment-client-submitted.png)
+
+*Both captures are from the same synthetic training exercise, November 2026. They show an invented form, not a clinical instrument, licensed content or a signed evaluation report.*
+
 ## 3. 6-Pillar `Lifestyle Rx` & Psychotropic Safety Monitoring (`WP-26`)
 - **6 Pillars (`Nutrition`, `Movement`, `Sleep`, `Stress`, `Connection`, `Substances`):** Clinicians publish SMART plans; clients log weekly check-ins (`/client/[brand]/lifestyle-rx`); tracked in `R10`.
 - **Psychotropic Monitoring (`R07`):** Tracks baseline, week 4/8/12, quarterly, and annual labs (`BMI`, `HbA1c`, `Lipids`, `QTc`, `AIMS`, `Lithium`, `Clozapine ANC`), blocking renewal issuance if mandatory monitoring evidence is missing.
