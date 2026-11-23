@@ -13,6 +13,12 @@ Before confirming any appointment, the **8-Gate Booking Simulator** evaluates:
 
 Administrators can promote draft planned hours to bookable calendar capacity in 1 click from `/admin/configuration/schedules`.
 
+### When the booking panel shows no published hours
+
+![Staff booking panel showing a disabled Book pending confirmation button and a no-published-hours notice](../assets/screenshots/booking-unpublished-hours.png)
+
+*Synthetic operator-training capture, November 2026. If this notice appears, check your selected brand, professional and booking method. Choose another option or ask an administrator to review published hours.*
+
 ## 2. Smart Waitlist Backfill (`WP-27`, `R29`)
 - When a confirmed appointment is cancelled, `/staff/waitlist` surfaces ranked waitlisted clients matching the clinician, service, mode, and time preference.
 - Staff (or the `WP-32` AI Coordinator in `HITL` mode) can offer the vacated slot with a bounded hold expiry, tracked by `R29` Waitlist Backfill & Recovery.
@@ -25,6 +31,12 @@ Administrators can promote draft planned hours to bookable calendar capacity in 
 5. **Encounter & Clinical Output:** Clinician attests `served` and completes `SOAP` + `MedCert`/`eRx`; HMO staff see completion booleans only.
 6. **Branded `SOA` & `Sales Invoice` (`/hmo/statements`):** Generates 100% Brand-Identity-driven `Statement of Account` (privacy-safe client initials) and `Sales Invoice` with **10% Withholding Tax (`WTax`)** and `Net Payable`.
 7. **Settlement & `BIR 2307`:** Record AUB deposit slip + `BIR Form 2307` certificate; feeds `R25` Tiered Volume (`1–20`, `21–30`, `31+`) and `R28` AR Aging.
+
+### When an HMO availability lookup fails
+
+![HMO availability screen with a simulated lookup error and a Refresh available times button](../assets/screenshots/hmo-availability-retry.png)
+
+*Synthetic operator-training capture, November 2026. Select **Refresh available times** and wait for a current result before proceeding. A failed lookup does not mean that all times are booked. The request’s original expiry still applies.*
 
 ## 4. Self-Pay Memberships, Bundles & Senior/PWD Statutory Discounts (`WP-25`)
 - `/staff/clients/[clientId]/memberships` manages recurring memberships and prepaid care bundles (deferred revenue rollforward in `R27`).

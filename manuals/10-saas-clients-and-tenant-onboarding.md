@@ -58,6 +58,18 @@ flowchart LR
 
 ---
 
+### Review a brand profile before saving
+
+![Synthetic branch profile editor with public name, optional address and phone, logo selector and required reason for change](../assets/screenshots/brand-profile-review.png)
+
+*Synthetic administrator-training capture, November 2026. Verify the target branch, the intended public fields and the reason before saving. Saving this profile does not verify production routing or publish a site.*
+
+### Prepare professional access separately
+
+![Administrator guidance distinguishes the staff account invitation, professional access invitation and clinical readiness review](../assets/screenshots/professional-invitation-steps.png)
+
+*Synthetic administrator-training capture, November 2026. Account setup, access to a brand and readiness for bookings are separate checks. The screenshot shows guidance, not an invitation link or an active grant.*
+
 ## 4. Tenant Isolation & Data Governance Guarantees
 - **Database Isolation:** Every tenant-scoped table enforces PostgreSQL `RLS` keyed to `company_id`; cross-tenant queries are blocked at the database layer.
 - **Separate Audit & Export Scopes:** `/admin/audit` and `/admin/compliance-exports` are strictly scoped to the active tenant (`RA 10173`).

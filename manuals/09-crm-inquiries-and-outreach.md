@@ -48,6 +48,12 @@ The **Outreach** workspace consolidates outbound follow-up tasks across operatio
 
 ---
 
+### Confirm a connected CRM follow-up is closed
+
+![Connected CRM outreach task showing Client reached and Closed, with a link back to the Clinic appointment](../assets/screenshots/crm-outreach-closed.png)
+
+*Synthetic operator-training capture, November 2026. In the connected CRM workspace, check both **Client reached** and **Closed** after recording the outcome. Closing the follow-up is not the same as confirming the appointment in Clinic.*
+
 ## 4. Corporate Events & Institutional Campaigns (`/staff/corporate-events`)
 
 Used for wellness talks, screening drives, and sponsored organizational events:

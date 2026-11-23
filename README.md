@@ -9,6 +9,8 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 
 ## Quick Navigation
 
+[**Start with the Visual Guide**](VISUAL_GUIDE.md) for screenshots organized by task. Each example comes from synthetic training.
+
 ### 1. Presentation Decks (`decks/`)
 | Audience | Document | What It Covers |
 | :--- | :--- | :--- |

@@ -8,6 +8,12 @@
   - Adult clients use Google SSO or clinic-issued one-time claim links.
   - Minors/dependents access care through an enrolled, verified guardian (`/staff/guardian-enrollment`).
 
+### Staff sign-in screen
+
+![Staff sign-in with Google and passkey buttons and empty email and password fields](../assets/screenshots/staff-sign-in.png)
+
+*Synthetic operator-training capture, November 2026. Use the sign-in method assigned by your clinic. This screen shows sign-in choices, not role activation or MFA enrollment.*
+
 ## 2. Mandatory Multi-Factor Authentication (MFA)
 Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordinator**, **Parent/Oversight Viewer**, **Platform Master Admin**) require MFA on every active session:
 1. **Setup (`/mfa/setup`):** Enroll an authenticator app (TOTP QR code) and store single-use backup recovery codes offline.
@@ -21,3 +27,9 @@ Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordin
 | **Front-Desk Coordinator / HMO** | 15 min | **Denied (`403`)** — sees appointment status/completion booleans only |
 | **Psychiatrist / Psychologist / Counselor / Specialty Clinician** | 30 min | **Assigned-care only** (or approved colleague access grant) |
 | **AI Coordinator Agent (`WP-32`)** | Per-run | **Denied (`403`)** on all clinical notes, prescriptions, and certificates |
+
+### When no connected workspaces appear
+
+![Connected workspaces screen stating that no destinations are available for the current Clinic access](../assets/screenshots/connected-workspaces-empty.png)
+
+*Synthetic operator-training capture, November 2026. If you expect a connected workspace, ask your Clinic administrator to verify your role and access to that destination. Signing in alone does not grant access.*
