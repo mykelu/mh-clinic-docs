@@ -4,6 +4,8 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 
 ---
 
+[Visual Guide](VISUAL_GUIDE.md): Find screenshots by task and see which workflows still need safe training captures.
+
 ## 1. Work Package Index (`WP-01` – `WP-32`)
 
 | Wave | Work Packages | Primary Documentation |

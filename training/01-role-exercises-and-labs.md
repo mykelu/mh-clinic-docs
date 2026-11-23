@@ -1,6 +1,6 @@
 # Training Labs 01: Role-Based Exercises & Hands-On Labs
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Content & Data Onboarding Checklist](02-content-and-data-onboarding-checklist.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Visual Guide](../VISUAL_GUIDE.md) · [Content & Data Onboarding Checklist](02-content-and-data-onboarding-checklist.md)
 
 > [!CAUTION]
 > **Synthetic Data Only:** All labs below must be executed in a staging/training tenant using **synthetic personas** (e.g., `patient.demo@example.test`, `ANON-9042`). Never enter real patient names, real PRC/S2 numbers, or live HMO member IDs in training environments.
@@ -31,6 +31,8 @@
 4. **Verify Audit Trail:** Open `/admin/audit` and confirm user-creation and role-assignment events appear with timestamp and actor ID.
 5. **Pass Criteria:** New branch appears in the 8-Gate Simulator; audit log records 100% of administrative actions.
 
+> Visual reference: [Staff sign-in](../manuals/01-getting-started-and-mfa.md#staff-sign-in-screen) and [professional access preparation](../manuals/10-saas-clients-and-tenant-onboarding.md#prepare-professional-access-separately).
+
 ---
 
 ## Lab 02: Front Desk — 8-Gate Booking, Waitlist Backfill & Aventus HMO
@@ -38,6 +40,8 @@
 2. **7-Step Aventus HMO Intake:** Create a synthetic HMO visit with Member ID `AVT-DEMO-001`, LOA `LOA-2026-991`, and mark **HMO Verified**.
 3. **Waitlist Backfill (`WP-17`):** Cancel an existing afternoon slot and use `/schedule/waitlist` to send a backfill offer to a waiting synthetic patient.
 4. **Pass Criteria:** Credential mismatch blocked cleanly; HMO visit reaches `CHECKED_IN` with LOA attached; waitlist offer converts to `CONFIRMED`.
+
+> Visual reference: [Missing booking hours](../manuals/02-scheduling-and-hmo-operations.md#when-the-booking-panel-shows-no-published-hours) and [HMO availability retry](../manuals/02-scheduling-and-hmo-operations.md#when-an-hmo-availability-lookup-fails).
 
 ---
 
@@ -47,6 +51,8 @@
 3. **RA 6675 `eRx`:** Open the eRx drawer, pick a regimen from the **1-Click Starter Formulary**, verify the generic name is displayed prominently, and sign.
 4. **QR MedCert:** Generate a `FIT_TO_WORK` certificate and verify the QR verification URL resolves to a masked authenticity confirmation.
 5. **Pass Criteria:** Encounter locks as `SIGNED`, Safety Plan triggers Case Manager alert, and eRx/MedCert PDFs render with valid credential blocks.
+
+> Visual reference: [SOAP draft conflict](../manuals/03-clinical-workflows-and-prescribing.md#reviewing-a-note-draft-conflict) and [saved certificate draft](../manuals/03-clinical-workflows-and-prescribing.md#checking-a-saved-certificate-draft).
 
 ---
 
@@ -78,8 +84,8 @@
 
 ## Lab 07: Case Manager & Safety Responder — Safety Queue & Helpline `L1`–`L4`
 1. **High-Risk Outreach:** Open `/cases/safety`, locate the synthetic `Moderate/High C-SSRS` alert from Lab 03, and log a documented outreach attempt.
-2. **Helpline Triage (`WP-31`):** Open `/helpline/console`, accept a synthetic `ANON-9042` session, classify it as `L4` (Imminent Risk), trigger **National Hotline Deflection**, and close the session.
-3. **Cooldown Verification:** Confirm the responder console enforces the **15-minute post-crisis cooldown** before accepting the next high-acuity call.
+2. **Helpline Triage (`WP-31`):** In the training workspace at `/staff/helpline-desk`, use a synthetic `ANON-9042` session for **`L1` (Imminent Life Safety)**. **`L4` is informational or self-guided**, not imminent risk. Rehearse the handoff with a simulated recipient and close the training session; do not contact a live emergency service.
+3. **Cooldown Verification:** Confirm the responder console enforces the **15-minute post-`L1` cooldown** before accepting the next high-acuity call.
 4. **Pass Criteria:** Outreach logged with SLA timestamp; `ANON-9042` remains zero-PII; cooldown timer active.
 
 ---
@@ -98,6 +104,8 @@
 3. **Telehealth Check & Lifestyle:** Run the pre-call hardware test in `/portal/appointments` and check off 1 habit in `/portal/lifestyle`.
 4. **Public Hub:** Open `/learn` and `/helpline` in an unauthenticated window to verify zero-login access.
 5. **Pass Criteria:** PHQ-9 score syncs to clinician chart; `/learn` and `/helpline` load without authentication.
+
+> Visual reference: [Assignment and submission receipt](../manuals/04-assessments-and-specialty-tracks.md#following-an-assessment-from-assignment-to-submission). The screenshots use an invented form and do not depict PHQ-9 or a released report.
 
 ---
 
