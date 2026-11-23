@@ -9,6 +9,8 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 
 ## Quick Navigation
 
+**Illustrated walkthroughs:** [Staff sign-in](manuals/01-getting-started-and-mfa.md#staff-sign-in-screen) · [Missing booking hours](manuals/02-scheduling-and-hmo-operations.md#when-the-booking-panel-shows-no-published-hours) · [Internal Report Explorer](manuals/06-reporting-and-analytics-guide.md#4-example-internal-report-explorer). Captures are from synthetic training exercises, not a live installation or release certification.
+
 ### 1. Presentation Decks (`decks/`)
 | Audience | Document | What It Covers |
 | :--- | :--- | :--- |

@@ -8,6 +8,12 @@
   - Adult clients use Google SSO or clinic-issued one-time claim links.
   - Minors/dependents access care through an enrolled, verified guardian (`/staff/guardian-enrollment`).
 
+### Staff sign-in screen
+
+![Staff sign-in with Google and passkey buttons and empty email and password fields](../assets/screenshots/staff-sign-in.png)
+
+*Synthetic operator-training capture, November 2026. Use the sign-in method assigned by your clinic. This screen shows sign-in choices, not role activation or MFA enrollment.*
+
 ## 2. Mandatory Multi-Factor Authentication (MFA)
 Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordinator**, **Parent/Oversight Viewer**, **Platform Master Admin**) require MFA on every active session:
 1. **Setup (`/mfa/setup`):** Enroll an authenticator app (TOTP QR code) and store single-use backup recovery codes offline.
