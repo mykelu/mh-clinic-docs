@@ -1,0 +1,46 @@
+# Persona Guide 09: Client, Patient & Guardian
+
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Getting Started & MFA](../manuals/01-getting-started-and-mfa.md) · [Helpline & Learning Hub](../manuals/07-helpline-learning-hub-and-ai-coordinator.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+
+---
+
+## 1. Role Summary & Scope
+
+The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses MH-Clinic through the dedicated **Client Portal** (`/portal`), **Telehealth Waiting Room** (`/telehealth/[id]`), **Learning Hub** (`/learn`), and **Anonymous Helpline** (`/helpline`) — designed for privacy, low friction, and clarity.
+
+| Dimension | Details |
+| :--- | :--- |
+| **Primary Workspaces** | `/portal`, `/portal/appointments`, `/portal/assessments`, `/portal/erx`, `/portal/lifestyle`, `/learn`, `/helpline` |
+| **Core Work Packages** | `WP-14` Client Portal, `WP-15` Telehealth, `WP-12` Pre-Visit Assessments, `WP-28` Lifestyle Rx, `WP-31` Helpline & `/learn` |
+| **Privacy Rights** | Full `RA 10173` consent controls, proxy/guardian linkage for minors or incapacitated adults, zero clinician-only note leakage |
+
+---
+
+## 2. What Clients & Guardians Can Do
+
+### 2.1 Manage Appointments & Join Telehealth (`/portal/appointments`)
+1. View upcoming in-person and telehealth visits.
+2. Complete digital **Consent to Care** and **RA 10173 Privacy Notice** before the first session.
+3. Click **Join Telehealth** 10 minutes before the scheduled time; run the pre-call camera/mic check.
+
+### 2.2 Complete Pre-Visit Assessments (`/portal/assessments`)
+1. Open assigned **DSM-5-TR** / **PHQ-9** / **GAD-7** / **Pediatric** questionnaires prior to the visit.
+2. Save progress or submit directly so your clinician sees longitudinal trends before you even enter the room.
+
+### 2.3 Access Prescriptions, MedCerts & Lifestyle Plans (`/portal/erx`, `/portal/lifestyle`)
+- Download signed **RA 6675 Electronic Prescriptions** and **QR-Verified Medical Certificates**.
+- Follow daily **6-Pillar Lifestyle Rx** habits (sleep, nutrition, movement, mindfulness) and log check-ins.
+
+### 2.4 Guardian / Proxy Access Rules
+- Parents or legal guardians linked via verified **Guardian Relationship** can manage scheduling, consents, and pediatric/guardian assessments for minors.
+- Adolescent confidentiality rules allow age-appropriate privacy boundaries where clinically and legally required.
+
+### 2.5 Anonymous Helpline & Learning Hub (`/helpline`, `/learn`)
+- **Need immediate anonymous support?** Use **`/helpline`** (`WP-31`) without logging in — assigned an ephemeral `ANON-xxxx` ID with zero personal data stored.
+- **Want self-guided psychoeducation?** Browse **`/learn`** for evidence-based articles, breathing/grounding exercises, and Filipino/English mental health resources.
+
+---
+
+## 3. Practice & Verification
+- Complete **Lab 09** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
+- Review portal and helpline details in [Manual 07: Helpline, Learning Hub & AI Coordinator](../manuals/07-helpline-learning-hub-and-ai-coordinator.md).
