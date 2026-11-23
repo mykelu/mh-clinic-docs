@@ -29,6 +29,7 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 | **08** | [Accounting, Invoicing & Journal Mapping](manuals/08-accounting-invoicing-and-payouts.md) | HMO payer review, SOA/SI drafts, journal accounts, `BIR 2307` remittance, refunds, and `R28` payout reconciliation. |
 | **09** | [CRM, Inquiries, Outreach & Corporate Events](manuals/09-crm-inquiries-and-outreach.md) | Inquiry pipeline, professional matching, proactive outreach queues, waitlist backfill, and corporate events. |
 | **10** | [SaaS Clients, Multi-Tenancy & Brand Onboarding](manuals/10-saas-clients-and-tenant-onboarding.md) | `/platform/clients`, `WP-20` entitlements, brand launch wizard, white-label portals, and RLS tenant isolation. |
+| **11** | [System Configurations & Technical Reference](manuals/11-configurations-and-reference.md) | `/admin/configuration` sub-modules, 6-layer policy hierarchy, identifiers, clinical standards & PH laws. |
 
 ### 3. Role-Based Persona Guides (`personas/`)
 - [01 · Company & Branch Administrator](personas/01-company-and-branch-administrator.md)
