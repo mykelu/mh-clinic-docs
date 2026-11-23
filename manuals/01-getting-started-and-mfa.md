@@ -27,3 +27,9 @@ Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordin
 | **Front-Desk Coordinator / HMO** | 15 min | **Denied (`403`)** — sees appointment status/completion booleans only |
 | **Psychiatrist / Psychologist / Counselor / Specialty Clinician** | 30 min | **Assigned-care only** (or approved colleague access grant) |
 | **AI Coordinator Agent (`WP-32`)** | Per-run | **Denied (`403`)** on all clinical notes, prescriptions, and certificates |
+
+### When no connected workspaces appear
+
+![Connected workspaces screen stating that no destinations are available for the current Clinic access](../assets/screenshots/connected-workspaces-empty.png)
+
+*Synthetic operator-training capture, November 2026. If you expect a connected workspace, ask your Clinic administrator to verify your role and access to that destination. Signing in alone does not grant access.*
