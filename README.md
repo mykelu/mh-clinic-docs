@@ -42,6 +42,7 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 ### 4. Training Labs & Onboarding (`training/`)
 - [Role Exercises & Hands-On Labs](training/01-role-exercises-and-labs.md)
 - [Content & Data Onboarding Checklist](training/02-content-and-data-onboarding-checklist.md)
+- [Company & Branch Administrator Training Curriculum](training/03-admin-training-curriculum.md)
 - [Full Alphabetical & Route Knowledge Base Index](INDEX.md)
 
 ---
