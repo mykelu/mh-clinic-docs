@@ -30,6 +30,10 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 | **05** | [ADB In-House Counseling (`IHC`) & Case Mgmt](manuals/05-adb-ihc-and-case-management.md) | `IHC Today`, client codes, roster/`.ics` import, `SOAP <-> 5Ps`, 27-subtopic taxonomy, and `MDT` hub. |
 | **06** | [BI Dashboards, `R01`–`R30` Reports & Studio](manuals/06-reporting-and-analytics-guide.md) | Complete guide to all 30 turnkey reports (`R01`–`R30`), Report Studio, $k$-anonymity ($k \ge 5$), and exports. |
 | **07** | [Anonymous Helpline, Learning Hub & AI Coordinator](manuals/07-helpline-learning-hub-and-ai-coordinator.md) | `WP-31` zero-PII helpline (`ANON-xxxx`, `L1`–`L4`), `/learn` hub, `WP-32` `AG-UI` Co-Pilot, and Telehealth Scribe. |
+| **08** | [Accounting, Invoicing & Journal Mapping](manuals/08-accounting-invoicing-and-payouts.md) | HMO payer review, SOA/SI drafts, journal accounts, `BIR 2307` remittance, refunds, and `R28` payout reconciliation. |
+| **09** | [CRM, Inquiries, Outreach & Corporate Events](manuals/09-crm-inquiries-and-outreach.md) | Inquiry pipeline, professional matching, proactive outreach queues, waitlist backfill, and corporate events. |
+| **10** | [SaaS Clients, Multi-Tenancy & Brand Onboarding](manuals/10-saas-clients-and-tenant-onboarding.md) | `/platform/clients`, `WP-20` entitlements, brand launch wizard, white-label portals, and RLS tenant isolation. |
+| **11** | [System Configurations & Technical Reference](manuals/11-configurations-and-reference.md) | `/admin/configuration` sub-modules, 6-layer policy hierarchy, identifiers, clinical standards & PH laws. |
 
 ### 3. Role-Based Persona Guides (`personas/`)
 - [01 · Company & Branch Administrator](personas/01-company-and-branch-administrator.md)
@@ -46,6 +50,7 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 ### 4. Training Labs & Onboarding (`training/`)
 - [Role Exercises & Hands-On Labs](training/01-role-exercises-and-labs.md)
 - [Content & Data Onboarding Checklist](training/02-content-and-data-onboarding-checklist.md)
+- [Company & Branch Administrator Training Curriculum](training/03-admin-training-curriculum.md)
 - [Full Alphabetical & Route Knowledge Base Index](INDEX.md)
 
 ---
