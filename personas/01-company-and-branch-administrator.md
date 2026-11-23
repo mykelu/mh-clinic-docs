@@ -82,5 +82,6 @@ flowchart LR
 ---
 
 ## 5. Practice & Verification
+- Complete the full [Company & Branch Administrator Training Curriculum](../training/03-admin-training-curriculum.md).
 - Complete **Lab 01** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Verify go-live readiness using the [Content & Data Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md).
