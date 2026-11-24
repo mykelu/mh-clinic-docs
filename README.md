@@ -5,6 +5,24 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 > [!NOTE]
 > **Scope & Privacy:** All examples, screenshots, and lab exercises in this repository use **synthetic data only** and contain zero real patient PHI, live credentials, or private infrastructure secrets.
 
+Staff standard operating procedures live in the internal operator documentation.
+
+---
+
+## Contents
+
+- [Quick Navigation](#quick-navigation)
+  - [Presentation Decks](#1-presentation-decks-decks)
+  - [System Manuals](#2-comprehensive-system-manuals-manuals)
+  - [Persona Guides](#3-role-based-persona-guides-personas)
+  - [Training Labs & Onboarding](#4-training-labs--onboarding-training)
+- [Glossary](GLOSSARY.md)
+- [Security](SECURITY.md)
+- [Master Index](INDEX.md)
+- [Visual Guide](VISUAL_GUIDE.md)
+- [Platform Architecture Overview](#platform-architecture-overview)
+- [Visual Highlights](#visual-highlights-synthetic-training-captures)
+
 ---
 
 ## Quick Navigation
@@ -30,7 +48,7 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 | **07** | [Anonymous Helpline, Learning Hub & AI Coordinator](manuals/07-helpline-learning-hub-and-ai-coordinator.md) | `WP-31` zero-PII helpline (`ANON-xxxx`, `L1`–`L4`), `/learn` hub, `WP-32` `AG-UI` Co-Pilot, and Telehealth Scribe. |
 | **08** | [Accounting, Invoicing & Journal Mapping](manuals/08-accounting-invoicing-and-payouts.md) | HMO payer review, SOA/SI drafts, journal accounts, `BIR 2307` remittance, refunds, and `R28` payout reconciliation. |
 | **09** | [CRM, Inquiries, Outreach & Corporate Events](manuals/09-crm-inquiries-and-outreach.md) | Inquiry pipeline, professional matching, proactive outreach queues, waitlist backfill, and corporate events. |
-| **10** | [SaaS Clients, Multi-Tenancy & Brand Onboarding](manuals/10-saas-clients-and-tenant-onboarding.md) | `/platform/clients`, `WP-20` entitlements, brand launch wizard, white-label portals, and RLS tenant isolation. |
+| **10** | [SaaS Clients, Multi-Tenancy & Brand Onboarding](manuals/10-saas-clients-and-tenant-onboarding.md) | `/admin/organization-structure`, `WP-20` entitlements, brand launch wizard, white-label portals, and RLS tenant isolation. |
 | **11** | [System Configurations & Technical Reference](manuals/11-configurations-and-reference.md) | `/admin/configuration` sub-modules, 6-layer policy hierarchy, identifiers, clinical standards & PH laws. |
 
 ### 3. Role-Based Persona Guides (`personas/`)
@@ -50,6 +68,8 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 - [Content & Data Onboarding Checklist](training/02-content-and-data-onboarding-checklist.md)
 - [Company & Branch Administrator Training Curriculum](training/03-admin-training-curriculum.md)
 - [Full Alphabetical & Route Knowledge Base Index](INDEX.md)
+- [Glossary](GLOSSARY.md)
+- [Security](SECURITY.md)
 
 ---
 
@@ -59,9 +79,9 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 
 ```mermaid
 flowchart LR
-  Public["Public Brand Portals\n/sites, /learn, /helpline"] --> Auth["Verified Actor & MFA\nGoogle SSO / Passkeys / TOTP"]
+  Public["Public Brand Portals\n/sites/[company]/[target], /learn, /helpline"] --> Auth["Verified Actor & MFA\nGoogle SSO / Passkeys / TOTP"]
   Auth --> Ops["Scheduling & HMO Desk\n/staff, /hmo, /staff/ai-coordinator"]
-  Auth --> Clinical["Clinical & Specialty Workspaces\n/professional, /telehealth, /case-manager"]
+  Auth --> Clinical["Clinical & Specialty Workspaces\n/professional/schedule, /telehealth/[appointmentId], /case-manager"]
   Ops --> PG[("PostgreSQL 15/16\nRLS + SECURITY DEFINER\nImmutable Audit Trail")]
   Clinical --> PG
   PG --> BI["8 Dashboards & R01–R30 Reports\n+ Report Studio (k >= 5)"]

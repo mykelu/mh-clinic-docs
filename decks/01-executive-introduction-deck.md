@@ -1,6 +1,8 @@
 # MH-Clinic: Executive Introduction Deck
 
-> **Audience:** Clinic Owners, Medical Directors, Corporate Sponsors, and Institutional Partners  
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md)
+
+> **Audience:** Clinic Owners, Medical Directors, Corporate Sponsors, and Institutional Partners
 > **Scope:** Complete 6-Wave Platform (`WP-01` through `WP-32`)
 
 ---

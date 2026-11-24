@@ -1,6 +1,6 @@
 # Persona Guide 05: Counselor & IHC Specialist
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -10,24 +10,24 @@ The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SP
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/ihc`, `/ihc/today`, `/ihc/sessions/[id]`, `/ihc/mdt`, `/encounters/[id]` |
+| **Primary Workspaces** | `/professional/ihc`, `/professional/ihc`, `/professional/appointments/[appointmentId]/notes`, `/case-manager/episodes`, `/professional/appointments/[appointmentId]/notes` |
 | **Core Work Packages** | `WP-26` ABC Bank IHC OS, `WP-09` C-SSRS & Safety Plans, `WP-20` Sponsor Aggregate Reporting |
 | **Case Identifier Standard** | `MMDDYYYY+Initials+MMDDYYYY` (session date + client initials + DOB) |
 | **Data Visibility** | Full IHC caseload; **zero individual PHI** is ever exposed to HR or corporate sponsors (`k >= 5` aggregate only) |
 
 ---
 
-## 2. Daily Workflow in `IHC Today` (`/ihc/today`)
+## 2. Daily Workflow in `IHC Today` (`/professional/ihc`)
 
 1. **Morning Queue & Calendar Sync:**
-   - Review today's sessions in **`/ihc/today`**.
+   - Review today's sessions in **`/professional/ihc`**.
    - Import or reconcile organizational schedules via **`.ics` Calendar Import** or **Roster CSV Import** without exposing external HR systems to clinical notes.
 2. **Generate Deterministic Case Key:**
    - Verify the session's `MMDDYYYY+Initials+MMDDYYYY` key for standardized IHC tracking.
 3. **Document `SOAP <-> 5Ps` Formulation:**
    - Capture `SOAP` narrative alongside the **5Ps** (*Presenting, Predisposing, Precipitating, Perpetuating, Protective* factors).
    - Tag relevant themes from the **27 Standardized IHC Subtopics** (e.g., *Workplace Burnout*, *Caregiver Fatigue*, *Adjustment/Relocation*, *Grief*, *Interpersonal Conflict*) for anonymized aggregate analytics (`R21`–`R25`).
-4. **C-SSRS Check & MDT Escalation (`/ihc/mdt`):**
+4. **C-SSRS Check & MDT Escalation (`/case-manager/episodes`):**
    - Run `C-SSRS` when distress indicators appear.
    - Escalate complex cases to the **Multidisciplinary Team (`MDT`) Hub** for `MD` (psychiatry) or `RPsy` (psychotherapy) co-management.
 

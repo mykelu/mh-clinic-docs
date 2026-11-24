@@ -1,6 +1,6 @@
 # Manual 09: CRM, Inquiries, Outreach & Corporate Events
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [Front-Desk Guide](../personas/02-front-desk-coordinator.md) · [Case Manager Guide](../personas/07-case-manager-and-safety-responder.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [Front-Desk Guide](../personas/02-front-desk-coordinator.md) · [Case Manager Guide](../personas/07-case-manager-and-safety-responder.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -54,7 +54,7 @@ flowchart LR
 The **Outreach** workspace consolidates outbound follow-up tasks across operational and clinical teams:
 - **Intake & No-Show Recovery:** Re-engages prospective clients who dropped off before completing consent or missed an initial consultation.
 - **High-Risk Safety Outreach (`WP-18`):** Prioritizes outreach requests for clients with `Moderate`/`High` `C-SSRS` flags, logging every attempt (`PHONE`, `SMS`, `PORTAL`) with SLA timestamps.
-- **Open Requests (`/staff/outreach/open`):** Surfaces unassigned or overdue follow-up items for shift handover.
+- **Open Requests (`/staff/outreach`):** Surfaces unassigned or overdue follow-up items for shift handover.
 
 ---
 

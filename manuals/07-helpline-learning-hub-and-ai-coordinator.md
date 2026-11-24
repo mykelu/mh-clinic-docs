@@ -1,5 +1,7 @@
 # Manual 07: Anonymous Helpline, Learning Hub & AI Virtual Coordinator (`WP-31` & `WP-32`)
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Client Guide](../personas/09-client-patient-and-guardian.md)
+
 ![WP-31 Zero-PII Anonymous Helpline and WP-32 AG-UI AI Coordinator Safety Guardrails](../assets/visuals/helpline-ai-guardrails.svg)
 
 ## 1. Entitlement-Gated Anonymous Helpline (`/helpline` & `/staff/helpline-desk`)

@@ -2,9 +2,11 @@
 
 This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **turnkey report (`R01`–`R30`)**, and **compliance control** to its manual and persona guide.
 
+> **Navigation:** [Knowledge Base Home](README.md) · [Glossary](GLOSSARY.md) · [Visual Guide](VISUAL_GUIDE.md)
+
 ---
 
-[Visual Guide](VISUAL_GUIDE.md): Find screenshots by task and see which workflows still need safe training captures.
+[Visual Guide](VISUAL_GUIDE.md): Find screenshots by task. [Glossary](GLOSSARY.md) defines the shared vocabulary used in the manuals and labs.
 
 ## 1. Work Package Index (`WP-01` – `WP-32`)
 
@@ -24,7 +26,9 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 ### Client, Public & Self-Service Routes
 - `/helpline` — Entitlement-gated anonymous helpline & national crisis hotline deflection ([Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md))
 - `/learn` — Public psychoeducation library & self-reading blog hub ([Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md))
+- `/client-access/[brand]` — Client and guardian sign-in for a brand portal ([Client Guide](personas/09-client-patient-and-guardian.md))
 - `/client/[brand]` — Client portal dashboard & assigned assessment tasks ([Client Guide](personas/09-client-patient-and-guardian.md))
+- `/sponsor-access/[company]/[brand]` — Sponsor and HR aggregate dashboard with $k$-anonymity ([Sponsor Guide](personas/10-sponsor-and-hr-viewer.md))
 - `/client/[brand]/evaluation-reports` — Feedback-gated dual-signed psychological evaluation PDFs ([Manual 04](manuals/04-assessments-and-specialty-tracks.md))
 - `/client/[brand]/lifestyle-rx` & `/client/[brand]/nutrition-summary` — Client care plans & summaries ([Manual 04](manuals/04-assessments-and-specialty-tracks.md))
 - `/verify/document/[token]` — Public QR verification for `eRx` and `MedCert`/`Fit-to-Work` ([Manual 03](manuals/03-clinical-workflows-and-prescribing.md))
@@ -47,7 +51,7 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 - `/admin/learning-hub` — Psychoeducation & blog publisher ([Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md))
 - `/admin/ihc-workplan` & `/admin/ihc-roster` — ABC Bank IHC OS & `R14`–`R21` reports ([Manual 05](manuals/05-ihc-and-case-management.md))
 - `/staff/reports` & `/admin/reports-studio` — Executive/Clinical/Commercial reports (`R01`–`R30`) & No-Code Report Studio ([Manual 06](manuals/06-reporting-and-analytics-guide.md))
-- `/platform/clients`, `/admin/brands/new-wizard`, `/admin/brand-portals`, `/sites/[company]` — SaaS tenant provisioning, entitlements (`WP-20`) & white-label brand launch ([Manual 10](manuals/10-saas-clients-and-tenant-onboarding.md))
+- `/admin/organization-structure`, `/admin/brands/new-wizard`, `/admin/brand-portals`, `/sites/[company]/[target]` — SaaS tenant provisioning, entitlements (`WP-20`) & white-label brand launch ([Manual 10](manuals/10-saas-clients-and-tenant-onboarding.md))
 - `/admin/configuration/*` — 6-layer policy registry, specialty track protocols, statutory sales & technical reference ([Manual 11](manuals/11-configurations-and-reference.md))
 
 ---

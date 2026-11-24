@@ -1,6 +1,6 @@
 # Manual 08: Accounting, Invoicing & Journal Mapping
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [BI & Reports](06-reporting-and-analytics-guide.md) · [Finance Persona Guide](../personas/08-hmo-billing-and-finance-officer.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [BI & Reports](06-reporting-and-analytics-guide.md) · [Finance Persona Guide](../personas/08-hmo-billing-and-finance-officer.md) · [Glossary](../GLOSSARY.md)
 
 ---
 

@@ -1,5 +1,7 @@
 # MH-Clinic: Clinical & Operations User Walkthrough Deck
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Operations Manuals](../manuals/02-scheduling-and-hmo-operations.md)
+
 > **Audience:** Coordinators, Psychiatrists, Psychologists, Psychometricians, Counselors, Specialty Clinicians, and Billing Officers
 
 ---
@@ -10,7 +12,7 @@
 flowchart LR
   A["1. Inquiry / Referral\n/staff/inquiries\n/staff/hmo-requests"] --> B["2. 8-Gate Booking\n/staff/appointments\n/staff/waitlist"]
   B --> C["3. Client Preparation\nConsent, Intake, PHQ-9/GAD-7\n/client/[brand]"]
-  C --> D["4. Consultation\nSOAP / 5Ps, MSE, eRx, MedCert\n/professional, /telehealth"]
+  C --> D["4. Consultation\nSOAP / 5Ps, MSE, eRx, MedCert\n/professional/schedule, /telehealth/[appointmentId]"]
   D --> E["5. Billing / Settlement\nSOA, Sales Invoice, BIR 2307\n/staff/payments, /hmo"]
   E --> F["6. BI & Quality\nR01–R30 & Report Studio\n/staff/reports, /admin/ihc-workplan"]
 ```
@@ -40,7 +42,7 @@ flowchart LR
 
 ## Slide 4: ABC Bank In-House Counseling (`IHC`) & Crisis Helpline
 - **IHC Workspace (`/admin/ihc-workplan`, `/professional/ihc`):** Switchable `SOAP <-> 5Ps` formulation, `MMDDYYYY+Initials+MMDDYYYY` client codes, `XXX / 4,000` reach counter, and 1-click `R14`–`R21` turnkey reports.
-- **Anonymous Helpline (`/helpline`, `/staff/helpline-desk`):** Zero-PII `ANON-xxxx` sessions with `L1`–`L4` triage, automatic 15-minute post-`L1` responder cooldown, and curated self-reading guides (`/learn`).
+- **Anonymous Helpline (`/helpline`, `/staff/helpline-desk`):** Entitlement-gated access with a corporate passcode or blinded member token, then zero-PII `ANON-xxxx` sessions with `L1`–`L4` triage, automatic 15-minute post-`L1` responder cooldown, and curated self-reading guides (`/learn`).
 
 ![ABC Bank 2026 Institutional Workplan showing R14–R21 links and Withheld for privacy suppression](../assets/screenshots/abc-bank-ihc-workplan.png)
 

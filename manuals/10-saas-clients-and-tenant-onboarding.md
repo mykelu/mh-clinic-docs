@@ -1,6 +1,6 @@
 # Manual 10: SaaS Clients, Multi-Tenancy & Brand Onboarding
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Developer Deck](../decks/02-engineering-and-developer-deck.md) · [Executive Deck](../decks/01-executive-introduction-deck.md) · [Admin Guide](../personas/01-company-and-branch-administrator.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Developer Deck](../decks/02-engineering-and-developer-deck.md) · [Executive Deck](../decks/01-executive-introduction-deck.md) · [Admin Guide](../personas/01-company-and-branch-administrator.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -10,11 +10,11 @@ MH-Clinic operates as a **multi-tenant, white-label SaaS platform** where indepe
 
 | Layer | Purpose | Key Routes / APIs |
 | :--- | :--- | :--- |
-| **Platform Tenant Console** | Provision and manage SaaS client organizations & entitlements | `/platform/clients`, `/api/platform` |
+| **Platform Tenant Console** | Provision and manage SaaS client organizations & entitlements | `/admin/organization-structure`, `/admin/configuration/subscription`, `/admin/company-admins`, `/api/platform/company-admins` |
 | **Brand Launch Wizard** | Guided setup for a new clinic brand, branches, and defaults | `/admin/brands/new-wizard`, `/api/admin/brand-launch` |
-| **Brand Portals & Themes** | White-label portal theming, logos, and PDF document headers | `/admin/brand-portals`, `/admin/brand-portals/preview`, `/api/public/brand-logo/[brand]` |
+| **Brand Portals & Themes** | White-label portal theming, logos, and PDF document headers | `/admin/brand-portals`, `/admin/brand-portals/preview/[companyId]/[brandId]`, `/api/public/brand-logo/[brand]` |
 | **Brand Programs** | Configure clinical programs & operating modes per tenant | `/admin/brand-programs`, `/api/admin/brand-programs` |
-| **Public Tenant Sites** | Branded public landing pages & self-service entrypoints | `/sites/[company]`, `/client/[brand]` |
+| **Public Tenant Sites** | Branded public landing pages & self-service entrypoints | `/sites/[company]/[target]`, `/client/[brand]` |
 
 ---
 
@@ -31,30 +31,30 @@ Each SaaS client tenant is provisioned with explicit **feature entitlements** an
 | **`in_house_non_billable`** | Institutional / EAP program (e.g., `ABC Bank IHC`) | **Zero clinic billing**; isolated from Accounting/SOA | `IHC Today`, `SOAP <-> 5Ps`, 27 Subtopics, $k \ge 5$ Sponsor Portal |
 
 ### Entitlement-Gated Add-Ons
-- **`helpline` (`WP-31`):** Enables `/helpline` zero-PII crisis desk & `/staff/helpline-desk` responder console.
+- **`helpline` (`WP-31`):** Enables the entitlement-gated `/helpline` zero-PII crisis desk (corporate passcode or blinded member token) and the `/staff/helpline-desk` responder console.
 - **`learning_hub` (`WP-31`):** Enables `/learn` public psychoeducation hub & `/admin/learning-hub` CMS.
 - **`ai_coordinator` (`WP-32`):** Enables `AG-UI 1.0` Virtual Care Coordinator & dual-consent Telehealth Ambient Scribe.
 - **`semantic_discovery` (`WP-21`):** **OFF by default**; optional non-PHI discovery toggle per tenant.
 
 ---
 
-## 3. Onboarding a New SaaS Client (`/platform/clients` → `/admin/brands/new-wizard`)
+## 3. Onboarding a New SaaS Client (`/admin/organization-structure` → `/admin/brands/new-wizard`)
 
 ```mermaid
 flowchart LR
-    A["1. Provision Tenant<br/>(/platform/clients)"] --> B["2. Set Entitlements &<br/>Operating Mode (WP-20)"]
+    A["1. Provision Tenant<br/>(/admin/organization-structure)"] --> B["2. Set Entitlements &<br/>Operating Mode (WP-20)"]
     B --> C["3. Run Brand Launch Wizard<br/>(/admin/brands/new-wizard)"]
     C --> D["4. Configure Portal Theme<br/>& Document Headers"]
-    D --> E["5. Preview & Go-Live<br/>(/sites/[company])"]
+    D --> E["5. Preview & Go-Live<br/>(/sites/[company]/[target])"]
 ```
 
-1. **Tenant Provisioning (`/platform/clients`):**
+1. **Tenant Provisioning (`/admin/organization-structure`):**
    - Create the SaaS client record, assign `company_id`, set operating mode (`billable_clinic`, `hmo_network`, or `in_house_non_billable`), and toggle entitled modules.
 2. **Brand Launch Wizard (`/admin/brands/new-wizard`):**
    - Guided setup for initial branches, operating hours, service catalog templates, and initial `COMPANY_ADMIN` / `BRANCH_ADMIN` invitation.
 3. **White-Label Portal & Document Headers (`/admin/brand-portals`):**
    - Upload tenant logo (`/api/public/brand-logo/[brand]`), configure colors/typography (`theme-editor`), and customize official PDF headers (`document-header-editor`) for `RA 6675` `eRx`, QR `MedCerts`, and Invoices.
-   - Verify rendering in **`/admin/brand-portals/preview`** before publishing to `/sites/[company]`.
+   - Verify rendering in **`/admin/brand-portals/preview/[companyId]/[brandId]`** before publishing to `/sites/[company]/[target]`.
 4. **Program & Policy Activation (`/admin/brand-programs`):**
    - Enable specialty tracks (`MD`, `RPsy`, `RPm`, `RND`, `CMA`, `IHC`), 6-layer booking policies, and $k$-anonymity ($k \ge 5$) sponsor reporting rules.
 

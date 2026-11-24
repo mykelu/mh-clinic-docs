@@ -1,6 +1,6 @@
 # Persona Guide 02: Front Desk Coordinator
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -10,7 +10,7 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/schedule`, `/schedule/waitlist`, `/patients`, `/patients/new`, `/check-in`, `/billing/pos` |
+| **Primary Workspaces** | `/staff/appointments`, `/staff/waitlist`, `/staff/clients`, `/staff/clients`, `/staff/appointments`, `/staff/payments` |
 | **Core Work Packages** | `WP-03` Scheduling & 8-Gate Engine, `WP-05` Aventus HMO Workflow, `WP-06` Self-Pay & Senior/PWD, `WP-17` Waitlist Backfill |
 | **MFA & Session Policy** | Mandatory MFA; 15-minute idle timeout at shared reception workstations |
 | **Data Visibility** | Demographics, appointments, billing/HMO status, consent status; **no access** to clinical SOAP notes or sensitive psychotherapy details |
@@ -20,8 +20,8 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 ## 2. Core Workflows
 
 ### 2.1 Booking an Appointment Through the 8-Gate Engine
-1. Open **`/schedule`** and click **New Appointment**.
-2. Select **Patient** (or create a synthetic/new intake record at `/patients/new` with Consent to Care + RA 10173 Privacy Notice).
+1. Open **`/staff/appointments`** and click **New Appointment**.
+2. Select **Patient** (or create a synthetic/new intake record at `/staff/clients` with Consent to Care + RA 10173 Privacy Notice).
 3. Choose **Branch**, **Service SKU**, **Clinician**, and **Modality** (`IN_PERSON` or `TELEHEALTH`).
 4. The **8-Gate Simulator** validates:
    1. Branch operating hours
@@ -35,7 +35,7 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 5. Confirm booking; the system dispatches appointment confirmation and telehealth link (if virtual).
 
 ### 2.2 Managing Waitlist & Same-Day Backfill (`WP-17`)
-1. When a patient cancels, open **`/schedule/waitlist`**.
+1. When a patient cancels, open **`/staff/waitlist`**.
 2. Filter ranked waitlist candidates matching **Service SKU**, **Clinician/Specialty**, and **Modality**.
 3. Click **Offer Slot** to send an automated time-bounded backfill offer.
 4. Once accepted, the slot converts to `CONFIRMED` without manual double-entry.
