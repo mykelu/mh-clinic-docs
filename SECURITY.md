@@ -5,3 +5,7 @@ If you believe you have found a security vulnerability in MH-Clinic, please repo
 Use synthetic data only when you need to illustrate a report.
 
 Until a dedicated reporting address is published for this repository, use GitHub's private vulnerability reporting if it is enabled, or contact the repository owner through the private channel they publish for security reports.
+
+## Privacy and Data Protection Officer
+
+Privacy and data-protection questions or requests may be sent to the Data Protection Officer at **dpo@cml-intl.com**.
