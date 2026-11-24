@@ -67,4 +67,4 @@ Not yet in this public knowledge base.
 
 ---
 
-[Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [Glossary](GLOSSARY.md)
+← Previous: [Getting Started](GETTING_STARTED.md) · [Knowledge Base Home](README.md) · Next: [Glossary](GLOSSARY.md) →

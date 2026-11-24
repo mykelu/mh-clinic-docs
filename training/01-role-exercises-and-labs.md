@@ -15,16 +15,16 @@
 
 | Lab | Target Persona | Primary Modules Exercised | Est. Time |
 | :--- | :--- | :--- | :--- |
-| **Lab 01** | [Company & Branch Administrator](../personas/01-company-and-branch-administrator.md) | `WP-01` MFA, `WP-02` Branch, `WP-22` Audit, `WP-23` Reports | 20 min |
-| **Lab 02** | [Front Desk Coordinator](../personas/02-front-desk-coordinator.md) | `WP-03` 8-Gate Engine, `WP-05` Aventus HMO, `WP-17` Waitlist | 25 min |
-| **Lab 03** | [Psychiatrist & Prescriber](../personas/03-psychiatrist-and-prescriber.md) | `WP-08` SOAP/3, `WP-09` C-SSRS, `WP-10` RA 6675 eRx, `WP-11` MedCert | 25 min |
-| **Lab 04** | [Psychologist & Psychometrician](../personas/04-psychologist-and-psychometrician.md) | `WP-07` Dual RPm+RPsy, `WP-12` 68 DSM-5-TR Measures | 25 min |
-| **Lab 05** | [Counselor & IHC Specialist](../personas/05-counselor-and-ihc-specialist.md) | `WP-26` IHC Today, `MMDDYYYY+Initials+MMDDYYYY`, `SOAP <-> 5Ps` | 20 min |
-| **Lab 06** | [Specialty Clinicians (Neuro/RND/CMA)](../personas/06-specialty-clinicians-neuro-rnd-cma.md) | `WP-27` Specialty Tracks, `WP-28` 6-Pillar Lifestyle Rx | 20 min |
-| **Lab 07** | [Case Manager & Safety Responder](../personas/07-case-manager-and-safety-responder.md) | `WP-18` Safety Queue, `WP-31` Helpline `L1`–`L4` + Cooldown | 20 min |
-| **Lab 08** | [HMO Billing & Finance Officer](../personas/08-hmo-billing-and-finance-officer.md) | `WP-05` HMO Claim, `WP-06` Senior/PWD 20% + VAT-Exempt | 20 min |
-| **Lab 09** | [Client, Patient & Guardian](../personas/09-client-patient-and-guardian.md) | `WP-14` Client Portal, `WP-15` Telehealth, `WP-31` `/learn` | 15 min |
-| **Lab 10** | [Sponsor & HR Viewer](../personas/10-sponsor-and-hr-viewer.md) | `WP-20` Sponsor Dashboard, `WP-23` $k$-Anonymity ($k \ge 5$) | 15 min |
+| **Lab 01** | [Company & Branch Administrator](../personas/01-company-and-branch-administrator.md) | `WP-01` MFA, Branch, `WP-20` Audit, `WP-30` Reports | 20 min |
+| **Lab 02** | [Front Desk Coordinator](../personas/02-front-desk-coordinator.md) | `WP-12` 8-Gate Engine, `WP-15` Aventus HMO, `WP-27` Waitlist | 25 min |
+| **Lab 03** | [Psychiatrist & Prescriber](../personas/03-psychiatrist-and-prescriber.md) | `WP-21` SOAP/3, `WP-22` C-SSRS, `WP-23` RA 6675 eRx, `WP-27` MedCert | 25 min |
+| **Lab 04** | [Psychologist & Psychometrician](../personas/04-psychologist-and-psychometrician.md) | `WP-24` Dual RPm+RPsy, `WP-24` 68 DSM-5-TR Measures | 25 min |
+| **Lab 05** | [Counselor & IHC Specialist](../personas/05-counselor-and-ihc-specialist.md) | `WP-29` IHC Today, `MMDDYYYY+Initials+MMDDYYYY`, `SOAP <-> 5Ps` | 20 min |
+| **Lab 06** | [Specialty Clinicians (Neuro/RND/CMA)](../personas/06-specialty-clinicians-neuro-rnd-cma.md) | `WP-28` Specialty Tracks, `WP-26` 6-Pillar Lifestyle Rx | 20 min |
+| **Lab 07** | [Case Manager & Safety Responder](../personas/07-case-manager-and-safety-responder.md) | `WP-22` Safety Queue, `WP-31` Helpline `L1`–`L4` + Cooldown | 20 min |
+| **Lab 08** | [HMO Billing & Finance Officer](../personas/08-hmo-billing-and-finance-officer.md) | `WP-15` HMO Claim, `WP-25` Senior/PWD 20% + VAT-Exempt | 20 min |
+| **Lab 09** | [Client, Patient & Guardian](../personas/09-client-patient-and-guardian.md) | `WP-18` Client Portal, `WP-32` Telehealth, `WP-31` `/learn` | 15 min |
+| **Lab 10** | [Sponsor & HR Viewer](../personas/10-sponsor-and-hr-viewer.md) | `WP-16` Sponsor Dashboard, `WP-30` $k$-Anonymity ($k \ge 5$) | 15 min |
 
 ---
 
@@ -42,7 +42,7 @@
 ## Lab 02: Front Desk — 8-Gate Booking, Waitlist Backfill & Aventus HMO
 1. **8-Gate Validation:** Open `/staff/appointments`, attempt to book a `PSYCHIATRIST` SKU with an `RPm` clinician; verify **Gate 4 (Credential Match)** blocks the booking. Switch to `md.demo@example.test` and confirm booking.
 2. **7-Step Aventus HMO Intake:** Create a synthetic HMO visit with Member ID `AVT-DEMO-001`, LOA `LOA-2026-991`, and mark **HMO Verified**.
-3. **Waitlist Backfill (`WP-17`):** Cancel an existing afternoon slot and use `/staff/waitlist` to send a backfill offer to a waiting synthetic patient.
+3. **Waitlist Backfill (`WP-27`):** Cancel an existing afternoon slot and use `/staff/waitlist` to send a backfill offer to a waiting synthetic patient.
 4. **Pass Criteria:** Credential mismatch blocked cleanly; HMO visit reaches `CHECKED_IN` with LOA attached; waitlist offer converts to `CONFIRMED`.
 
 > Visual reference: [Missing booking hours](../manuals/02-scheduling-and-hmo-operations.md#when-the-booking-panel-shows-no-published-hours), [HMO slot hold](../manuals/02-scheduling-and-hmo-operations.md#holding-an-initial-hmo-consultation-time), and [HMO availability retry](../manuals/02-scheduling-and-hmo-operations.md#when-an-hmo-availability-lookup-returns-empty-or-fails).
@@ -83,10 +83,10 @@
 ---
 
 ## Lab 06: Specialty Clinicians — Neuro/RND/CMA & 6-Pillar Lifestyle Rx
-1. **Vitals Capture (`CMA`):** Record synthetic BP, Weight, Height, and Waist Circumference in `/staff/appointments`.
+1. **Acupuncture Session (`CMA`):** Open a synthetic visit's acupuncture chart (`/professional/appointments/[appointmentId]/acupuncture-chart`), select a `NADA` protocol, and balance the needle-count safety lock.
 2. **Nutrition Care (`RND`):** Document an `ADIME` note in `/professional/appointments/[appointmentId]/nutrition-chart`.
 3. **6-Pillar Lifestyle Rx (`RND` / `MD`):** Configure goals across all 6 Lifestyle Pillars and publish to `/client/[brand]/lifestyle-rx`.
-4. **Pass Criteria:** Metabolic baseline appears in clinician timeline and Lifestyle Rx cards appear in the Client Portal.
+4. **Pass Criteria:** The acupuncture chart completes only after the needle count balances, and Lifestyle Rx cards appear in the Client Portal.
 
 > Visual reference: [Specialty clinical governance & protocol review](../manuals/04-assessments-and-specialty-tracks.md#specialty-clinical-governance--protocol-review).
 
@@ -103,8 +103,8 @@
 ---
 
 ## Lab 08: HMO Billing & Finance — Senior/PWD Discount & Aventus Claim
-1. **Senior/PWD Calculation (`WP-06`):** In `/staff/payments`, apply a synthetic Senior Citizen ID (`SC-DEMO-2026`) to a ₱2,000 consultation. Verify **12% VAT removal** and **20% discount** calculation.
-2. **Aventus Claim Assembly (`WP-05`):** In `/admin/hmo-payer-review`, verify the signed encounter from Lab 02/03 has all 7 Aventus checklist items green and submit to the claim batch.
+1. **Senior/PWD Calculation (`WP-25`):** In `/staff/payments`, apply a synthetic Senior Citizen ID (`SC-DEMO-2026`) to a ₱2,000 consultation. Verify **12% VAT removal** and **20% discount** calculation.
+2. **Aventus Claim Assembly (`WP-15`):** In `/admin/hmo-payer-review`, verify the signed encounter from Lab 02/03 has all 7 Aventus checklist items green and submit to the claim batch.
 3. **Aging Report:** Open `/staff/reports` and run `R12` (HMO AR Aging).
 4. **Pass Criteria:** Receipt reflects exact statutory tax/discount math; HMO claim transitions to `SUBMITTED`.
 

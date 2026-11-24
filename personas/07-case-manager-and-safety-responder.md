@@ -13,8 +13,8 @@ The **Case Manager & Safety Responder** (`CASE_MANAGER` / `SAFETY_RESPONDER`) ov
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/staff/risk-triage`, `/professional/safety-followup`, `/professional/risk-alerts`, `/staff/helpline-desk`, `/case-manager/episodes`, `/staff/waitlist` |
-| **Core Work Packages** | `WP-09` C-SSRS & Safety Plans, `WP-18` Case Management & Outreach, `WP-26` MDT Hub, `WP-31` Anonymous Helpline |
-| **SLA Targets** | `L4` Crisis Escalation: immediate acknowledgment; `High` C-SSRS No-Show: outreach within 2 hours |
+| **Core Work Packages** | `WP-22` C-SSRS & Safety Plans, `WP-29` Case Management, Outreach & MDT Hub, `WP-31` Anonymous Helpline |
+| **SLA Targets** | `L1` (Imminent Life Safety) escalation: immediate acknowledgment; `High` C-SSRS No-Show: outreach within 2 hours |
 | **Data Visibility** | Safety flags, care plans, outreach logs, and `ANON-xxxx` helpline sessions (pseudonymous until explicit consent-to-identify) |
 
 ---
@@ -23,7 +23,7 @@ The **Case Manager & Safety Responder** (`CASE_MANAGER` / `SAFETY_RESPONDER`) ov
 
 ### 2.1 High-Risk Safety Queue (`/staff/risk-triage`)
 1. Monitor active alerts triggered by:
-   - **`C-SSRS` Moderate/High** scores (`WP-09`)
+   - **`C-SSRS` Moderate/High** scores (`WP-22`)
    - **Missed appointments** for flagged high-risk clients
    - **Helpline `L3` / `L4` escalations** (`WP-31`)
 2. Open the client's **6-Step Safety Plan** and confirm emergency contact / guardian notification rules.
@@ -34,17 +34,17 @@ The **Case Manager & Safety Responder** (`CASE_MANAGER` / `SAFETY_RESPONDER`) ov
 ```mermaid
 flowchart LR
     A["Caller Connects<br/>(ANON-xxxx)"] --> B["Triage Level<br/>L1 / L2 / L3 / L4"]
-    B -->|L1-L2| C["Supportive Listening &<br/>/learn Self-Help Links"]
-    B -->|L3| D["Warm Referral to<br/>Intake / Clinic Slot"]
-    B -->|L4 Imminent Risk| E["National Hotline Deflection<br/>& Crisis Protocol"]
-    C --> F["15-Min Cooldown<br/>& Structured Wrap-Up"]
+    B -->|L1 Imminent Risk| E["Emergency Escalation<br/>& Crisis Protocol"]
+    B -->|L2| D["Warm Referral to<br/>Intake / Clinic Slot"]
+    B -->|L3-L4| C["Supportive Listening &<br/>/learn Self-Help Links"]
+    E --> F["15-Min Post-L1 Cooldown<br/>& Structured Wrap-Up"]
 ```
 
 1. Accept incoming anonymous sessions tagged with ephemeral `ANON-xxxx` IDs (zero PII stored by default).
-2. Classify acuity **`L1` (Low)** through **`L4` (Imminent Crisis)**.
-3. For **`L4`**, follow the **National Hotline Deflection** and emergency response protocol immediately.
+2. Classify acuity from **`L1` (Imminent Life Safety)** through **`L4` (informational or self-guided)**.
+3. For **`L1`**, follow the emergency escalation and crisis protocol immediately.
 4. Only convert `ANON-xxxx` to a clinic intake record if the caller **explicitly opts in** to warm referral.
-5. Respect the mandatory **15-minute post-crisis cooldown** between high-acuity responder sessions to prevent responder burnout.
+5. Respect the mandatory **15-minute post-`L1` cooldown** between high-acuity responder sessions to prevent responder burnout.
 
 ### 2.3 Multidisciplinary Team (`MDT`) Coordination (`/case-manager/episodes`)
 - Coordinate warm handoffs across `MD` (Psychiatry/Neurology), `RPsy` (Psychotherapy), `IHC` (Counseling), and `RND` (Nutrition).

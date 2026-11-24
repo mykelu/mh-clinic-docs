@@ -15,7 +15,7 @@ MH-Clinic includes built-in **front-of-funnel inquiry management, clinician matc
 | **Inquiry & Lead Queue** | `/staff/inquiries` | `FRONT_DESK` / `COORDINATOR` |
 | **Professional Matching** | `/staff/professional-matching` | `FRONT_DESK` / `CASE_MANAGER` |
 | **Outreach & Follow-Up Queue** | `/staff/outreach` | `FRONT_DESK` / `CASE_MANAGER` |
-| **Waitlist Backfill (`WP-17`)** | `/staff/waitlist` | `FRONT_DESK` |
+| **Waitlist Backfill (`WP-27`)** | `/staff/waitlist` | `FRONT_DESK` |
 | **Corporate Events & Group Intake** | `/staff/corporate-events` | `COORDINATOR` / `IHC_SPECIALIST` |
 | **AI Virtual Care Coordinator (`WP-32`)** | `/staff/ai-coordinator` | `COORDINATOR` / `STAFF` |
 
@@ -55,7 +55,7 @@ flowchart LR
 
 The **Outreach** workspace consolidates outbound follow-up tasks across operational and clinical teams:
 - **Intake & No-Show Recovery:** Re-engages prospective clients who dropped off before completing consent or missed an initial consultation.
-- **High-Risk Safety Outreach (`WP-18`):** Prioritizes outreach requests for clients with `Moderate`/`High` `C-SSRS` flags, logging every attempt (`PHONE`, `SMS`, `PORTAL`) with SLA timestamps.
+- **High-Risk Safety Outreach (`WP-22`):** Prioritizes outreach requests for clients with `Moderate`/`High` `C-SSRS` flags, logging every attempt (`PHONE`, `SMS`, `PORTAL`) with SLA timestamps.
 - **Open Requests (`/staff/outreach`):** Surfaces unassigned or overdue follow-up items for shift handover.
 
 ---

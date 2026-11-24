@@ -6,6 +6,16 @@
 
 Dates are in Philippine Time (PHT).
 
+## 25 November 2026: standards, wiki and consistency sweep
+
+- Added [Documentation Standards](STANDARDS.md) (`MHD-REF-07`), binding for people and AI agents, plus agent entry points (`AGENTS.md`, `CLAUDE.md`, `.cursor/rules/docs.mdc`, `.github/copilot-instructions.md`), a pull request template with a documentation checklist, and optional local lint and link-check configurations.
+- Reconciled `WP-` numbers in the persona guides, training labs, onboarding checklist and manuals with the Master PRD numbering (`WP-01`–`WP-32`); removed codes that had no matching work package.
+- Removed duplicate route rows in Persona Guides 02, 05, 06 and 08.
+- Aligned Persona Guide 06 and Lab 06 with the Certified Medical Acupuncturist (`CMA`) role and its acupuncture screens.
+- Added Previous / Next footers to every root page.
+- Corrected the helpline acuity order in Persona Guide 07 to match the platform (`L1` is imminent life safety, `L4` is informational).
+- Prepared the [project wiki](https://github.com/mykelu/mh-clinic-docs/wiki) (19 pages plus sidebar and footer): home page, getting started, one page per role, a role-based FAQ and troubleshooting page, glossary, features overview, training index, security and privacy contacts, and a changelog.
+
 ## 25 November 2026: navigation, accessibility and onboarding
 
 - Added [Getting Started](GETTING_STARTED.md) with reading paths by role and time available.
@@ -24,3 +34,7 @@ Dates are in Philippine Time (PHT).
 ## 24 November 2026: initial publication
 
 - Published the manuals, persona guides, training labs, decks, synthetic screenshots and architecture diagrams.
+
+---
+
+← Previous: [Document Register](DOCUMENT_REGISTER.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md)

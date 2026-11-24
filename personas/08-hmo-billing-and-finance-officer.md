@@ -12,23 +12,23 @@ The **HMO Billing & Finance Officer** (`BILLING` / `FINANCE`) manages point-of-s
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/staff/payments`, `/staff/payments`, `/admin/hmo-payer-review`, `/staff/reports/ar-payout-reconciliation`, `/staff/reports` |
-| **Core Work Packages** | `WP-05` Aventus HMO Workflow, `WP-06` Self-Pay & Senior/PWD, `WP-19` Revenue & AR Reconciliation, `WP-23` Financial Reports |
+| **Primary Workspaces** | `/staff/payments`, `/admin/hmo-payer-review`, `/staff/reports/ar-payout-reconciliation`, `/staff/reports` |
+| **Core Work Packages** | `WP-15` Aventus HMO Workflow, `WP-25` Self-Pay, Senior/PWD, Revenue & AR Reconciliation, `WP-30` Financial Reports |
 | **Data Visibility** | Invoices, LOAs, `ICD-10` billing codes (when consented for HMO), payments, refunds; **no access** to psychotherapy narrative notes |
 
 ---
 
 ## 2. Core Workflows
 
-### 2.1 Self-Pay Checkout & Statutory Discounts (`WP-06`)
+### 2.1 Self-Pay Checkout & Statutory Discounts (`WP-25`)
 1. Open **`/staff/payments`** for completed encounters.
-2. Verify line items against the Branch Service Catalog (`WP-04`).
+2. Verify line items against the Branch Service Catalog.
 3. When a valid **Senior Citizen (`RA 9994`)** or **PWD (`RA 10754`)** ID is verified:
    - System automatically strips **12% VAT** (VAT-exempt) and applies the **20% statutory discount** on eligible services/medications.
    - Audit log records the ID reference and cashier approval.
 4. Accept payment (`CASH`, `CARD`, `GCASH/MAYA`, `BANK_TRANSFER`) and issue official receipt.
 
-### 2.2 Aventus HMO Claim Assembly & Submission (`WP-05`)
+### 2.2 Aventus HMO Claim Assembly & Submission (`WP-15`)
 1. Filter **`/admin/hmo-payer-review`** for encounters marked `SIGNED` by the clinician.
 2. Confirm all **7 Aventus HMO steps** are complete:
    - Valid Member ID & active policy

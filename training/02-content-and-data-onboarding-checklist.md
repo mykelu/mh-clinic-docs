@@ -8,7 +8,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 
 ---
 
-## 1. Security, Identity & Compliance Baseline (`WP-01`, `WP-22`)
+## 1. Security, Identity & Compliance Baseline (`WP-01`, `WP-20`)
 
 ![6-Layer Policy Resolution Engine and Philippine Regulatory Controls](../assets/visuals/six-layer-policy-hierarchy.svg)
 
@@ -20,11 +20,11 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 
 ---
 
-## 2. Clinical Catalog, Assessments & Formulary (`WP-04`, `WP-10`, `WP-12`)
+## 2. Clinical Catalog, Assessments & Formulary (`WP-21`, `WP-23`, `WP-24`)
 - [ ] **Service SKUs & Pricing:** All consultation, evaluation, nutrition, and neurology SKUs mapped to branches and clinician credential gates.
 - [ ] **Senior/PWD Rules:** `RA 9994` / `RA 10754` 20% discount + VAT-exempt flags verified on eligible SKUs.
-- [ ] **DSM-5-TR Catalog (`WP-12`):** All **68 DSM-5-TR Section III measures** verified active and categorized in `/staff/assessments/dsm5tr`.
-- [ ] **Starter Formulary (`WP-10`):** Clinic-approved `RA 6675` generic formulary regimens reviewed by Medical Director.
+- [ ] **DSM-5-TR Catalog (`WP-24`):** All **68 DSM-5-TR Section III measures** verified active and categorized in `/staff/assessments/dsm5tr`.
+- [ ] **Starter Formulary (`WP-23`):** Clinic-approved `RA 6675` generic formulary regimens reviewed by Medical Director.
 
 ![Formulary configuration screen showing the 1-Click Load Philippine Psychiatric Starter Formulary (17 items) action](../assets/screenshots/admin-formulary-starter.png)
 
@@ -38,7 +38,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 - [ ] **Default-Off Confirmed:** Verify semantic search / discovery indexing is **OFF by default** unless explicitly enabled for a tenant.
 - [ ] **PHI Exclusion:** If enabled for non-PHI catalog/learning search, confirm zero patient chart fields are indexed.
 
-### `WP-23`: Turnkey Reports (`R01`–`R30`) & Report Studio
+### `WP-30`: Turnkey Reports (`R01`–`R30`) & Report Studio
 - [ ] **Turnkey Smoke Test:** Run sample queries across `R01`–`R30` in `/staff/reports` ([Manual 06](../manuals/06-reporting-and-analytics-guide.md)).
 - [ ] **$k$-Anonymity Guard ($k \ge 5$):** Confirm small-cell suppression is active on all sponsor/HR exports (`R14`–`R21`, `R23`).
 
@@ -46,7 +46,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 - [ ] **Assignment-to-Review Walkthrough:** Verify `RPm` → `RPsy` assignment, scoring packet submission, and co-signature UX passes usability check ([Manual 04](../manuals/04-assessments-and-specialty-tracks.md)).
 - [ ] **Queue Notifications:** Confirm `RPsy` reviewers receive pending co-signature alerts promptly.
 
-### `WP-26`: ABC Bank In-House Counseling (`IHC`) OS
+### `WP-29`: ABC Bank In-House Counseling (`IHC`) OS
 - [ ] **Roster & `.ics` Import Test:** Validate sample `.ics` and roster CSV import in `/admin/ihc-roster` and `/admin/ihc-calendar-import`.
 - [ ] **Case Key Format:** Confirm `MMDDYYYY+Initials+MMDDYYYY` generation matches organizational SOP.
 - [ ] **27 Subtopics & `SOAP <-> 5Ps`:** Verify all 27 IHC subtopics and `MDT` referral routing are active ([Manual 05](../manuals/05-ihc-and-case-management.md)).

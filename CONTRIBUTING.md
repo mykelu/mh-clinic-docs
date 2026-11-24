@@ -4,6 +4,8 @@
 >
 > **Doc ID:** `MHD-HOW-03` · **Type:** How-to guide · **Audience:** Documentation contributors · **Revised:** 25 November 2026
 
+The full, binding rule set for people and AI agents is [STANDARDS.md](STANDARDS.md); agents start at [AGENTS.md](AGENTS.md).
+
 ## Non-negotiable rules
 
 1. **Synthetic data only.** Use `@example.test` addresses, invented names and invented identifiers. Never include real patient information, real licence numbers, live HMO member IDs, credentials, internal hostnames or personal mailboxes.
@@ -43,3 +45,7 @@ Decks also have an **Agenda** section before Slide 1 and a **Summary & Next Step
 1. Branch from `main` and open a pull request.
 2. Update the [Document Register](DOCUMENT_REGISTER.md) and [CHANGELOG.md](CHANGELOG.md).
 3. Check links and alt text before you request review.
+
+---
+
+← Previous: [Security](SECURITY.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Documentation Standards](STANDARDS.md) →

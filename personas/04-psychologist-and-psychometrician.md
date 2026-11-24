@@ -13,19 +13,19 @@ This guide covers the **Registered Psychologist (`RPsy`)** and **Registered Psyc
 | Dimension | `RPm` (Psychometrician) | `RPsy` (Psychologist) |
 | :--- | :--- | :--- |
 | **Primary Workspaces** | `/staff/assessments/dsm5tr`, `/staff/assessments`, `/professional/assessments`, `/professional/evaluations` | `/professional/appointments/[appointmentId]/notes`, `/professional/assessments`, `/professional/evaluations` |
-| **Core Work Packages** | `WP-07` Dual RPm+RPsy Evals, `WP-12` 68 DSM-5-TR Measures | `WP-07` Dual RPm+RPsy Evals, `WP-08` SOAP/3, `WP-12` 68 DSM-5-TR Measures |
+| **Core Work Packages** | `WP-24` Dual RPm+RPsy Evals & 68 DSM-5-TR Measures | `WP-24` Dual RPm+RPsy Evals & 68 DSM-5-TR Measures, `WP-21` SOAP/3 |
 | **Signing Authority** | Administer & score measures; submit **Provisional Scoring Packet** | Psychotherapy notes, diagnostic interpretation, **Co-Sign & Release Final Evaluation** |
 
 ---
 
 ## 2. Core Workflows
 
-### 2.1 Administering & Scoring the 68 DSM-5-TR Section III Measures (`WP-12`)
+### 2.1 Administering & Scoring the 68 DSM-5-TR Section III Measures (`WP-24`)
 1. Open **`/staff/assessments/dsm5tr`** to browse all **68 standardized DSM-5-TR Section III measures** organized by domain (Cross-Cutting Level 1 & 2, Severity Measures, Disability/WHODAS, Personality PID-5, Pediatric/Guardian).
 2. Assign an assessment from **`/staff/assessments`** as **Self-Administered** (completed on the client portal at `/client/[brand]`) or **Clinician-Administered** during the session.
 3. Upon completion, MH-Clinic auto-computes raw scores, severity bands, and longitudinal trend deltas.
 
-### 2.2 Dual `RPm` + `RPsy` Psychological Evaluation Workflow (`WP-07`)
+### 2.2 Dual `RPm` + `RPsy` Psychological Evaluation Workflow (`WP-24`)
 
 ```mermaid
 sequenceDiagram

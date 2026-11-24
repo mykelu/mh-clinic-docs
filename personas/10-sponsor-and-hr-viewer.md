@@ -13,7 +13,7 @@ The **Corporate Sponsor & HR Viewer** (`SPONSOR_VIEWER` / `HR_VIEWER`) represent
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/sponsor-access/[company]/[brand]`, `/staff/reports` (Sponsor-scoped `R21`–`R25`) |
-| **Core Work Packages** | `WP-20` Sponsor & HR Aggregate Portal, `WP-23` Report Studio ($k$-Anonymity), `WP-26` IHC Aggregate Themes |
+| **Core Work Packages** | `WP-16` Sponsor & HR Aggregate Portal, `WP-30` Report Studio ($k$-Anonymity), `WP-29` IHC Aggregate Themes |
 | **Privacy Guarantee** | **Zero PHI**; **Minimum Cell Size $k \ge 5$** enforced at query and export layers |
 
 ---

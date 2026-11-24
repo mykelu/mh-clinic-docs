@@ -77,3 +77,7 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 | **RA 6675 (PH Generics Act) & DDB S2** | Generic-first `eRx` + controlled substance safeguards | [Manual 03](manuals/03-clinical-workflows-and-prescribing.md) · [Psychiatrist Guide](personas/03-psychiatrist-and-prescriber.md) |
 | **RA 10029 (PH Psychology Act)** | Dual `RPm` + `RPsy` PRC/PTR signatures & feedback lock | [Manual 04](manuals/04-assessments-and-specialty-tracks.md) · [Psychologist Guide](personas/04-psychologist-and-psychometrician.md) |
 | **RA 9994 / RA 10754 (Senior & PWD)** | 20% discount + 12% VAT exemption calculator | [Manual 02](manuals/02-scheduling-and-hmo-operations.md) · [Finance Guide](personas/08-hmo-billing-and-finance-officer.md) |
+
+---
+
+← Previous: [Glossary](GLOSSARY.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Visual Guide](VISUAL_GUIDE.md) →

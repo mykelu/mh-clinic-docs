@@ -13,7 +13,7 @@ The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses 
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/client-access/[brand]`, `/client/[brand]`, `/client/[brand]/appointments/[appointmentId]/prepare`, `/client/[brand]/certificate-verifications`, `/client/[brand]/evaluation-reports`, `/client/[brand]/lifestyle-rx`, `/telehealth/[appointmentId]`, `/learn`, `/helpline` |
-| **Core Work Packages** | `WP-14` Client Portal, `WP-15` Telehealth, `WP-12` Pre-Visit Assessments, `WP-28` Lifestyle Rx, `WP-31` Helpline & `/learn` |
+| **Core Work Packages** | `WP-18` Client Portal, `WP-32` Telehealth, `WP-24` Pre-Visit Assessments, `WP-26` Lifestyle Rx, `WP-31` Helpline & `/learn` |
 | **Privacy Rights** | Full `RA 10173` consent controls, proxy/guardian linkage for minors or incapacitated adults, zero clinician-only note leakage |
 
 ---

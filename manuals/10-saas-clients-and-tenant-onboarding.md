@@ -36,7 +36,7 @@ Each SaaS client tenant is provisioned with explicit **feature entitlements** an
 - **`helpline` (`WP-31`):** Enables the entitlement-gated `/helpline` zero-PII crisis desk (corporate passcode or blinded member token) and the `/staff/helpline-desk` responder console.
 - **`learning_hub` (`WP-31`):** Enables `/learn` public psychoeducation hub & `/admin/learning-hub` CMS.
 - **`ai_coordinator` (`WP-32`):** Enables `AG-UI 1.0` Virtual Care Coordinator & dual-consent Telehealth Ambient Scribe.
-- **`semantic_discovery` (`WP-21`):** **OFF by default**; optional non-PHI discovery toggle per tenant.
+- **`semantic_discovery`:** **OFF by default**; optional non-PHI discovery toggle per tenant.
 
 ---
 

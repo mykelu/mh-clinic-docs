@@ -8,12 +8,12 @@
 
 ## 1. Role Summary & Scope
 
-The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SPECIALIST`) delivers employee/organizational counseling, crisis triage, psychoeducation, and structured **ABC Bank In-House Counseling (`IHC`) OS** case workflows (`WP-26`), bridging clinical `SOAP` documentation with the **5Ps Biopsychosocial Formulation**.
+The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SPECIALIST`) delivers employee/organizational counseling, crisis triage, psychoeducation, and structured **ABC Bank In-House Counseling (`IHC`) OS** case workflows (`WP-29`), bridging clinical `SOAP` documentation with the **5Ps Biopsychosocial Formulation**.
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/professional/ihc`, `/professional/ihc`, `/professional/appointments/[appointmentId]/notes`, `/case-manager/episodes`, `/professional/appointments/[appointmentId]/notes` |
-| **Core Work Packages** | `WP-26` ABC Bank IHC OS, `WP-09` C-SSRS & Safety Plans, `WP-20` Sponsor Aggregate Reporting |
+| **Primary Workspaces** | `/professional/ihc`, `/professional/appointments/[appointmentId]/notes`, `/case-manager/episodes` |
+| **Core Work Packages** | `WP-29` ABC Bank IHC OS, `WP-22` C-SSRS & Safety Plans, `WP-16` Sponsor Aggregate Reporting |
 | **Case Identifier Standard** | `MMDDYYYY+Initials+MMDDYYYY` (session date + client initials + DOB) |
 | **Data Visibility** | Full IHC caseload; **zero individual PHI** is ever exposed to HR or corporate sponsors (`k >= 5` aggregate only) |
 

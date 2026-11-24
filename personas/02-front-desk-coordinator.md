@@ -12,8 +12,8 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/staff/appointments`, `/staff/waitlist`, `/staff/clients`, `/staff/clients`, `/staff/appointments`, `/staff/payments` |
-| **Core Work Packages** | `WP-03` Scheduling & 8-Gate Engine, `WP-05` Aventus HMO Workflow, `WP-06` Self-Pay & Senior/PWD, `WP-17` Waitlist Backfill |
+| **Primary Workspaces** | `/staff/appointments`, `/staff/waitlist`, `/staff/clients`, `/staff/payments` |
+| **Core Work Packages** | `WP-12` Scheduling & 8-Gate Engine, `WP-15` Aventus HMO Workflow, `WP-25` Self-Pay & Senior/PWD, `WP-27` Waitlist Backfill |
 | **MFA & Session Policy** | Mandatory MFA; 15-minute idle timeout at shared reception workstations |
 | **Data Visibility** | Demographics, appointments, billing/HMO status, consent status; **no access** to clinical SOAP notes or sensitive psychotherapy details |
 
@@ -36,13 +36,13 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
    8. Age / guardian consent requirement
 5. Confirm booking; the system dispatches appointment confirmation and telehealth link (if virtual).
 
-### 2.2 Managing Waitlist & Same-Day Backfill (`WP-17`)
+### 2.2 Managing Waitlist & Same-Day Backfill (`WP-27`)
 1. When a patient cancels, open **`/staff/waitlist`**.
 2. Filter ranked waitlist candidates matching **Service SKU**, **Clinician/Specialty**, and **Modality**.
 3. Click **Offer Slot** to send an automated time-bounded backfill offer.
 4. Once accepted, the slot converts to `CONFIRMED` without manual double-entry.
 
-### 2.3 Executing the 7-Step Aventus HMO Intake (`WP-05`)
+### 2.3 Executing the 7-Step Aventus HMO Intake (`WP-15`)
 1. Verify **Member ID** and **Active Coverage** against Aventus eligibility rules.
 2. Check **Consultation Cap / Benefit Limit** for Mental Health or Specialty visits.
 3. Capture **LOA (Letter of Authorization)** reference number and expiration date.

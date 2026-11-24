@@ -29,3 +29,7 @@ We aim for this knowledge base to be usable with screen readers, keyboard naviga
 - [ ] No information is conveyed by colour alone.
 - [ ] Tables have a header row.
 - [ ] New SVGs include `role="img"`, `<title>` and `<desc>`.
+
+---
+
+← Previous: [Visual Guide](VISUAL_GUIDE.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Security](SECURITY.md) →

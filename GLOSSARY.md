@@ -63,3 +63,7 @@ Terms used across the manuals, persona guides, training labs, and decks. Route p
 | **Synthetic data** | Invented training records such as `patient.demo@example.test` or `ANON-9042`. Never use real patient or live credential data here. |
 | **Telehealth room** | Appointment-scoped session at `/telehealth/[appointmentId]`. Clients also prepare from `/client/[brand]/appointments/[appointmentId]/prepare`. |
 | **WP-01–WP-32** | Work packages delivered across six waves. See the [Master Index](INDEX.md). |
+
+---
+
+← Previous: [FAQ](FAQ.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · Next: [Master Index](INDEX.md) →

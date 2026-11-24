@@ -27,7 +27,7 @@ Staff standard operating procedures live in the internal operator documentation.
 - [Security](SECURITY.md)
 - [Master Index](INDEX.md)
 - [Visual Guide](VISUAL_GUIDE.md)
-- [Document Register](DOCUMENT_REGISTER.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Accessibility](ACCESSIBILITY.md)
+- [Document Register](DOCUMENT_REGISTER.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Standards](STANDARDS.md) · [Accessibility](ACCESSIBILITY.md)
 - [Platform Architecture Overview](#platform-architecture-overview)
 - [Visual Highlights](#visual-highlights-synthetic-training-captures)
 
@@ -108,3 +108,7 @@ flowchart LR
 | ![DSM-5-TR Catalog](assets/screenshots/assessments-dsm5tr-catalog.png) | ![ABC Bank IHC Workplan](assets/screenshots/abc-bank-ihc-workplan.png) |
 
 Browse all **59 synthetic screenshots** and **8 architecture diagrams** in the [**Visual Guide**](VISUAL_GUIDE.md).
+
+---
+
+[FAQ](FAQ.md) · [Documentation Standards](STANDARDS.md) · Next: [Getting Started](GETTING_STARTED.md) →

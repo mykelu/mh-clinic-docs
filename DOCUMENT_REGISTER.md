@@ -43,6 +43,11 @@ This is the master list of documents in this public knowledge base. IDs use the 
 | `MHD-REF-04` | Accessibility Statement and Checklist | [`ACCESSIBILITY.md`](ACCESSIBILITY.md) | Reference | 2026-11-25 |
 | `MHD-REF-05` | Document Register | [`DOCUMENT_REGISTER.md`](DOCUMENT_REGISTER.md) | Reference | 2026-11-25 |
 | `MHD-REF-06` | Changelog | [`CHANGELOG.md`](CHANGELOG.md) | Reference | 2026-11-25 |
+| `MHD-REF-07` | Documentation Standards (for every contributor and AI agent) | [`STANDARDS.md`](STANDARDS.md) | Reference | 2026-11-25 |
 | `MHD-TRN-01` | Training Labs 01: Role-Based Exercises & Hands-On Labs | [`training/01-role-exercises-and-labs.md`](training/01-role-exercises-and-labs.md) | Tutorial | 2026-11-25 |
 | `MHD-TRN-02` | Training Checklist 02: Content & Data Onboarding (Go-Live Readiness) | [`training/02-content-and-data-onboarding-checklist.md`](training/02-content-and-data-onboarding-checklist.md) | How-to guide | 2026-11-25 |
 | `MHD-TRN-03` | Training 03: Company & Branch Administrator Curriculum | [`training/03-admin-training-curriculum.md`](training/03-admin-training-curriculum.md) | Tutorial | 2026-11-25 |
+
+---
+
+← Previous: [Documentation Standards](STANDARDS.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Changelog](CHANGELOG.md) →
