@@ -14,7 +14,7 @@ Dates are in Philippine Time (PHT).
 - Aligned Persona Guide 06 and Lab 06 with the Certified Medical Acupuncturist (`CMA`) role and its acupuncture screens.
 - Added Previous / Next footers to every root page.
 - Corrected the helpline acuity order in Persona Guide 07 to match the platform (`L1` is imminent life safety, `L4` is informational).
-- Prepared the [project wiki](https://github.com/mykelu/mh-clinic-docs/wiki) (19 pages plus sidebar and footer): home page, getting started, one page per role, a role-based FAQ and troubleshooting page, glossary, features overview, training index, security and privacy contacts, and a changelog.
+- Published the [project wiki](https://github.com/mykelu/mh-clinic-docs/wiki) (19 pages plus sidebar and footer; wiki commit `8165b05`): home page, getting started, one page per role, a role-based FAQ and troubleshooting page, glossary, features overview, training index, security and privacy contacts, and a changelog.
 
 ## 25 November 2026: navigation, accessibility and onboarding
 
