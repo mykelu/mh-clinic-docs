@@ -1,6 +1,8 @@
 # Manual 10: SaaS Clients, Multi-Tenancy & Brand Onboarding
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Developer Deck](../decks/02-engineering-and-developer-deck.md) · [Executive Deck](../decks/01-executive-introduction-deck.md) · [Admin Guide](../personas/01-company-and-branch-administrator.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-MAN-10` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -34,7 +36,7 @@ Each SaaS client tenant is provisioned with explicit **feature entitlements** an
 - **`helpline` (`WP-31`):** Enables the entitlement-gated `/helpline` zero-PII crisis desk (corporate passcode or blinded member token) and the `/staff/helpline-desk` responder console.
 - **`learning_hub` (`WP-31`):** Enables `/learn` public psychoeducation hub & `/admin/learning-hub` CMS.
 - **`ai_coordinator` (`WP-32`):** Enables `AG-UI 1.0` Virtual Care Coordinator & dual-consent Telehealth Ambient Scribe.
-- **`semantic_discovery` (`WP-21`):** **OFF by default**; optional non-PHI discovery toggle per tenant.
+- **`semantic_discovery`:** **OFF by default**; optional non-PHI discovery toggle per tenant.
 
 ---
 
@@ -94,3 +96,7 @@ flowchart LR
 - **Database Isolation:** Every tenant-scoped table enforces PostgreSQL `RLS` keyed to `company_id`; cross-tenant queries are blocked at the database layer.
 - **Separate Audit & Export Scopes:** `/admin/audit` and `/admin/compliance-exports` are strictly scoped to the active tenant (`RA 10173`).
 - **Pre-Launch Verification:** Complete the [Content & Data Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md) and [Admin Training Curriculum](../training/03-admin-training-curriculum.md) before enabling live patient traffic for any new SaaS client.
+
+---
+
+← Previous: [Manual 09: CRM, Inquiries, Outreach & Corporate Events](09-crm-inquiries-and-outreach.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 11: System Configurations & Technical Reference](11-configurations-and-reference.md) →

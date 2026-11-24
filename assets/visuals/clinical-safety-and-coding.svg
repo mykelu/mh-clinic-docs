@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 470" width="1080" height="470" role="img" aria-label="MH-Clinic Clinical Documentation, Coding, Prescribing and Specialty Care Map">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 470" width="1080" height="470" role="img" aria-label="MH-Clinic Clinical Documentation, Coding, Prescribing and Specialty Care Map" aria-labelledby="title desc">
+  <title id="title">Clinical Documentation, Safety Planning, RA 6675 Prescribing, and Specialty Tracks Overview</title>
+  <desc id="desc">Synthetic MH-Clinic diagram: Clinical Documentation, Safety Planning, RA 6675 Prescribing, and Specialty Tracks Overview. Full description in the surrounding document text.</desc>
   <defs>
     <style>
       .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }

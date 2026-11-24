@@ -1,9 +1,21 @@
 # MH-Clinic: Engineering & Developer Architecture Deck
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-DCK-02` · **Type:** Explanation · **Audience:** Executives, sponsors, engineers or clinical leads (see title) · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 > **Audience:** Software Engineers, Database Architects, Security Auditors, and DevOps/QA Engineers
 > **Stack:** Next.js App Router (TypeScript + Zod) · PostgreSQL 15/16 (`SECURITY DEFINER` + RLS) · Node.js Workers · Biome · Playwright
+
+---
+
+## Agenda
+
+1. Core architectural tenets
+2. End-to-end request lifecycle
+3. Key codebase directories
+4. Privacy, k-anonymity and migration portability
+5. Verification and CI gates
 
 ---
 
@@ -74,3 +86,22 @@ sequenceDiagram
 2. **Unit & Build:** `npm test` & `npm run build --prefix apps/web`.
 3. **Database & Inventory:** `python3 tools/check_migration_portability.py` & `python3 tools/audit_persona_coverage.py --check`.
 4. **Full Containerized Wave Gate:** `sh scripts/verify-master-wave.sh` (disposable PostgreSQL 16 + Accounting + CRM + Playwright multi-profile browser suite).
+
+---
+
+## Summary & Next Steps
+
+**Key takeaways**
+
+- Authorization lives in PostgreSQL (RLS + SECURITY DEFINER RPCs), not only in the UI.
+- Every sensitive write is revision-checked (CAS) and audited.
+- Verification combines static checks, unit tests, migration portability and a containerized wave gate.
+
+**Next steps**
+
+- Read [Manual 11: Configurations & Reference](../manuals/11-configurations-and-reference.md).
+- Report vulnerabilities privately per [SECURITY.md](../SECURITY.md).
+
+---
+
+← Previous: [MH-Clinic: Executive Introduction Deck](01-executive-introduction-deck.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [MH-Clinic: Clinical & Operations User Walkthrough Deck](03-clinical-and-operations-user-deck.md) →

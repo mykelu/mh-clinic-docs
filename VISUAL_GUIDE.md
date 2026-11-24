@@ -1,6 +1,8 @@
 # MH-Clinic Visual Guide
 
 > **Navigation:** [Knowledge Base Home](README.md) · [Master Index](INDEX.md) · [Glossary](GLOSSARY.md)
+>
+> **Doc ID:** `MHD-HOW-01` · **Type:** How-to guide · **Revised:** 25 November 2026
 
 Use this guide to find a screenshot or architecture diagram at the point where you need to choose an action, explain a workflow, or confirm a result. Each link opens the illustrated step in its manual or persona guide, with a short explanation of what to look for. All screenshots come from synthetic training exercises and contain zero real patient PHI, live credentials, or private infrastructure secrets.
 
@@ -93,3 +95,7 @@ Practice these workflows in the [role-based labs](training/01-role-exercises-and
 | :--- | :--- |
 | [Native Telehealth & Dual-Consent Scribe](manuals/07-helpline-learning-hub-and-ai-coordinator.md#4-native-telehealth-room--ambient-clinical-scribe-telehealthappointmentid) | Live synthetic WebRTC telehealth room showing dual-consent toggle and `unverified_ai_draft` banner. |
 | [Dual-Signatory Evaluation Release (`RA 10029`)](manuals/04-assessments-and-specialty-tracks.md#2-measurement-based-care-wp-17--dual-signatory-rpm--rpsy-suite-wp-24) | Synthetic dual-signed (`RPm` + `RPsy`) report unlock state after attesting `Feedback Session Completed`. |
+
+---
+
+← Previous: [Master Index](INDEX.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Accessibility](ACCESSIBILITY.md) →

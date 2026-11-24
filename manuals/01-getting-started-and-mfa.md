@@ -1,6 +1,8 @@
 # Manual 01: Getting Started, Authentication & Mandatory MFA
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Admin Curriculum](../training/03-admin-training-curriculum.md)
+>
+> **Doc ID:** `MHD-MAN-01` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ## 1. Sign-In Paths
 - **Staff & Clinician Sign-In (`/sign-in` & `/staff-password`):**
@@ -50,3 +52,7 @@ Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordin
 ![Connected workspaces screen stating that no destinations are available for the current Clinic access](../assets/screenshots/connected-workspaces-empty.png)
 
 *Synthetic operator-training capture, November 2026. If you expect a connected workspace, ask your Clinic administrator to verify your role and access to that destination. Signing in alone does not grant access.*
+
+---
+
+[Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 02: Scheduling, Waitlist & 7-Step Aventus HMO Operations](02-scheduling-and-hmo-operations.md) →

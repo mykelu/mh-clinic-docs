@@ -1,6 +1,8 @@
 # Manual 08: Accounting, Invoicing & Journal Mapping
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [BI & Reports](06-reporting-and-analytics-guide.md) · [Finance Persona Guide](../personas/08-hmo-billing-and-finance-officer.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-MAN-08` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -103,3 +105,7 @@ These captures show the separate Accounting workspace, not the Clinic payer desk
 ![Accounting Transactions and reports screen showing guided transaction entry alongside a PHP cash flow report](../assets/screenshots/accounting-cash-flow.png)
 
 *Synthetic operator-training capture, November 2026. Confirm the book, date window, and branch filter when reviewing operating cash movement and ending balances.*
+
+---
+
+← Previous: [Manual 07: Anonymous Helpline, Learning Hub & AI Virtual Coordinator (`WP-31` & `WP-32`)](07-helpline-learning-hub-and-ai-coordinator.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 09: CRM, Inquiries, Outreach & Corporate Events](09-crm-inquiries-and-outreach.md) →

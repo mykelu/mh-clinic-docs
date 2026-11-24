@@ -1,8 +1,20 @@
 # MH-Clinic: Clinical & Operations User Walkthrough Deck
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Operations Manuals](../manuals/02-scheduling-and-hmo-operations.md)
+>
+> **Doc ID:** `MHD-DCK-03` · **Type:** Explanation · **Audience:** Executives, sponsors, engineers or clinical leads (see title) · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 > **Audience:** Coordinators, Psychiatrists, Psychologists, Psychometricians, Counselors, Specialty Clinicians, and Billing Officers
+
+---
+
+## Agenda
+
+1. The unified patient and operational journey
+2. Front desk and HMO operations
+3. Clinician encounter workspace
+4. In-house counseling and crisis helpline
+5. Reporting and analytics
 
 ---
 
@@ -60,3 +72,22 @@ flowchart LR
 ![Internal Report Explorer displaying scoped inquiry counts, chart bars, UTC timestamp, and CSV/print exports](../assets/screenshots/report-explorer-inquiries.png)
 
 *Synthetic operations-training capture, November 2026.*
+
+---
+
+## Summary & Next Steps
+
+**Key takeaways**
+
+- One journey connects inquiry, booking, intake, documentation, billing and reporting.
+- Each role sees only what it needs; clinical notes stay with clinicians.
+- Reports and dashboards are role-scoped and k-anonymous where aggregated.
+
+**Next steps**
+
+- Start your role path in [Getting Started](../GETTING_STARTED.md).
+- Practise with the [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
+
+---
+
+← Previous: [MH-Clinic: Engineering & Developer Architecture Deck](02-engineering-and-developer-deck.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md)

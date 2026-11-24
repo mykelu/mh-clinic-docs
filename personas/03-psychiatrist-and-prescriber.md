@@ -1,6 +1,8 @@
 # Persona Guide 03: Psychiatrist & Prescriber
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Clinical Workflows & Prescribing](../manuals/03-clinical-workflows-and-prescribing.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-03` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -11,7 +13,7 @@ The **Psychiatrist & Prescriber** (`PSYCHIATRIST` / `MD`) conducts psychiatric e
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/professional/encounters`, `/professional/appointments/[appointmentId]/notes`, `/professional/clients/[clientId]/documents/[documentId]/print`, `/telehealth/[appointmentId]` |
-| **Core Work Packages** | `WP-08` SOAP/3 & 14-Domain MSE, `WP-09` C-SSRS & Safety Plans, `WP-10` RA 6675 eRx & Formulary, `WP-11` QR MedCerts, `WP-32` Ambient Scribe |
+| **Core Work Packages** | `WP-21` SOAP/3 & 14-Domain MSE, `WP-22` C-SSRS & Safety Plans, `WP-23` RA 6675 eRx & Formulary, `WP-27` QR MedCerts, `WP-32` Ambient Scribe |
 | **Credential Gate** | Active **PRC License** + **PTR** (and **S2** when prescribing regulated psychotropics) |
 | **Data Visibility** | Full clinical chart for assigned patients; cross-disciplinary MDT notes (`RPsy`, `RPm`, `RND`, `CMA`) |
 
@@ -29,20 +31,20 @@ flowchart TD
     F --> G["7. Sign & Lock Encounter"]
 ```
 
-### 2.1 Clinical Documentation (`WP-08`)
+### 2.1 Clinical Documentation (`WP-21`)
 1. Open the encounter from **`/professional/encounters`**.
 2. Review pre-visit **DSM-5-TR** / **PHQ-9** / **GAD-7** scores and prior medication history.
 3. Document **Subjective**, **Objective** (including the structured **14-Domain Mental Status Exam**), **Assessment** (`ICD-10-CM` / `ICD-11` primary + secondary codes), and **Plan**.
 4. For telehealth visits, optionally enable **`WP-32` Ambient Scribe** with explicit patient consent; always review and edit the generated draft before signing.
 
-### 2.2 Suicide Risk Screening & Safety Planning (`WP-09`)
+### 2.2 Suicide Risk Screening & Safety Planning (`WP-22`)
 - Complete **`C-SSRS`** screening on every initial psychiatric intake and whenever clinical risk indicators change.
 - If risk is **Moderate** or **High**:
   1. Complete the structured **6-Step Stanley-Brown Safety Plan** inside the encounter.
   2. Flag the chart for **Case Manager / Safety Responder** follow-up (`WP-18`).
   3. Document crisis contacts and next-check-in interval before closing the encounter.
 
-### 2.3 RA 6675 Electronic Prescribing (`WP-10`)
+### 2.3 RA 6675 Electronic Prescribing (`WP-23`)
 MH-Clinic enforces the **Generics Act of 1988 (`RA 6675`)** on every prescription:
 1. Open the **eRx Drawer** inside `/professional/appointments/[appointmentId]/notes`.
 2. Select from the **1-Click Starter Formulary** (pre-configured common psychiatric regimens with standard titrations) or search the generic drug catalog.
@@ -50,7 +52,7 @@ MH-Clinic enforces the **Generics Act of 1988 (`RA 6675`)** on every prescriptio
 4. Check automated **Drug-Allergy** and **Duplicate Therapy** alerts.
 5. Sign with your verified **PRC / PTR / S2** credential block to generate a tamper-evident PDF/QR prescription.
 
-### 2.4 QR-Verifiable Medical Certificates (`WP-11`)
+### 2.4 QR-Verifiable Medical Certificates (`WP-27`)
 1. From `/professional/appointments/[appointmentId]/notes`, click **Issue MedCert**.
 2. Choose template (`FIT_TO_WORK`, `FIT_TO_STUDY`, `MEDICAL_LEAVE`, `CLINICAL_SUMMARY`).
 3. Confirm diagnosis disclosure preference (masked vs. explicit per patient RA 10173 consent).
@@ -86,3 +88,7 @@ MH-Clinic enforces the **Generics Act of 1988 (`RA 6675`)** on every prescriptio
 ## 5. Practice & Verification
 - Complete **Lab 03** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full details in [Manual 03: Clinical Workflows & Prescribing](../manuals/03-clinical-workflows-and-prescribing.md).
+
+---
+
+← Previous: [Persona Guide 02: Front Desk Coordinator](02-front-desk-coordinator.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 04: Psychologist & Psychometrician](04-psychologist-and-psychometrician.md) →

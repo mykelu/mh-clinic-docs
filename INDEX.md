@@ -1,5 +1,7 @@
 # MH-Clinic Knowledge Base Index (`A–Z` & Route Map)
 
+> **Doc ID:** `MHD-REF-02` · **Type:** Reference · **Revised:** 25 November 2026
+
 This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **turnkey report (`R01`–`R30`)**, and **compliance control** to its manual and persona guide.
 
 > **Navigation:** [Knowledge Base Home](README.md) · [Glossary](GLOSSARY.md) · [Visual Guide](VISUAL_GUIDE.md)
@@ -7,6 +9,17 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 ---
 
 [Visual Guide](VISUAL_GUIDE.md): Find screenshots by task. [Glossary](GLOSSARY.md) defines the shared vocabulary used in the manuals and labs.
+
+## Start Here
+
+| Document | Purpose |
+| :--- | :--- |
+| [Getting Started](GETTING_STARTED.md) | Reading paths by role and time available |
+| [FAQ](FAQ.md) | Common questions about the platform, access, clinical work, billing and training |
+| [Document Register](DOCUMENT_REGISTER.md) | Every document with its ID and type |
+| [Accessibility](ACCESSIBILITY.md) | Accessibility statement and checklist |
+| [Contributing](CONTRIBUTING.md) | Style guide and rules for changes |
+| [Changelog](CHANGELOG.md) | What changed and when |
 
 ## 1. Work Package Index (`WP-01` – `WP-32`)
 
@@ -64,3 +77,7 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 | **RA 6675 (PH Generics Act) & DDB S2** | Generic-first `eRx` + controlled substance safeguards | [Manual 03](manuals/03-clinical-workflows-and-prescribing.md) · [Psychiatrist Guide](personas/03-psychiatrist-and-prescriber.md) |
 | **RA 10029 (PH Psychology Act)** | Dual `RPm` + `RPsy` PRC/PTR signatures & feedback lock | [Manual 04](manuals/04-assessments-and-specialty-tracks.md) · [Psychologist Guide](personas/04-psychologist-and-psychometrician.md) |
 | **RA 9994 / RA 10754 (Senior & PWD)** | 20% discount + 12% VAT exemption calculator | [Manual 02](manuals/02-scheduling-and-hmo-operations.md) · [Finance Guide](personas/08-hmo-billing-and-finance-officer.md) |
+
+---
+
+← Previous: [Glossary](GLOSSARY.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Visual Guide](VISUAL_GUIDE.md) →

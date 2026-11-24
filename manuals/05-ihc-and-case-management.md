@@ -1,6 +1,8 @@
 # Manual 05: ABC Bank In-House Counseling (`IHC`) & MDT Case Management (`WP-29`)
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Counselor Guide](../personas/05-counselor-and-ihc-specialist.md)
+>
+> **Doc ID:** `MHD-MAN-05` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ## 1. Zero-Billing Institutional Mode
 Brands configured with `billing.operating_mode = 'in_house_non_billable'` (such as ABC Bank IHC) operate completely outside Accounting/SOA billing:
@@ -53,3 +55,7 @@ Brands configured with `billing.operating_mode = 'in_house_non_billable'` (such 
 ![Case episodes workspace scoped to MindWell.PH showing the brand selector, follow-up queue in Philippine time, care-gap summary link, and New case episode button](../assets/screenshots/case-manager-episodes.png)
 
 *Synthetic case-manager training capture, November 2026. Case episodes are explicitly brand-scoped and display follow-up windows in Philippine time.*
+
+---
+
+← Previous: [Manual 04: Psychological Assessments (`DSM-5-TR`), `Lifestyle Rx` & Specialty Tracks](04-assessments-and-specialty-tracks.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 06: BI Dashboards, `R01`–`R30` Turnkey Reports & Report Studio (`WP-30`)](06-reporting-and-analytics-guide.md) →

@@ -1,6 +1,8 @@
 # Persona Guide 10: Corporate Sponsor & HR Viewer
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Reporting & Analytics](../manuals/06-reporting-and-analytics-guide.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-10` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -11,7 +13,7 @@ The **Corporate Sponsor & HR Viewer** (`SPONSOR_VIEWER` / `HR_VIEWER`) represent
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/sponsor-access/[company]/[brand]`, `/staff/reports` (Sponsor-scoped `R21`–`R25`) |
-| **Core Work Packages** | `WP-20` Sponsor & HR Aggregate Portal, `WP-23` Report Studio ($k$-Anonymity), `WP-26` IHC Aggregate Themes |
+| **Core Work Packages** | `WP-16` Sponsor & HR Aggregate Portal, `WP-30` Report Studio ($k$-Anonymity), `WP-29` IHC Aggregate Themes |
 | **Privacy Guarantee** | **Zero PHI**; **Minimum Cell Size $k \ge 5$** enforced at query and export layers |
 
 ---
@@ -58,3 +60,7 @@ The **Corporate Sponsor & HR Viewer** (`SPONSOR_VIEWER` / `HR_VIEWER`) represent
 ## 5. Practice & Verification
 - Complete **Lab 10** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review $k$-anonymity rules in [Manual 06: Reporting & Analytics Guide](../manuals/06-reporting-and-analytics-guide.md).
+
+---
+
+← Previous: [Persona Guide 09: Client, Patient & Guardian](09-client-patient-and-guardian.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md)

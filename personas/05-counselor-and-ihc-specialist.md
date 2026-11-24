@@ -1,17 +1,19 @@
 # Persona Guide 05: Counselor & IHC Specialist
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-05` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
 ## 1. Role Summary & Scope
 
-The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SPECIALIST`) delivers employee/organizational counseling, crisis triage, psychoeducation, and structured **ABC Bank In-House Counseling (`IHC`) OS** case workflows (`WP-26`), bridging clinical `SOAP` documentation with the **5Ps Biopsychosocial Formulation**.
+The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SPECIALIST`) delivers employee/organizational counseling, crisis triage, psychoeducation, and structured **ABC Bank In-House Counseling (`IHC`) OS** case workflows (`WP-29`), bridging clinical `SOAP` documentation with the **5Ps Biopsychosocial Formulation**.
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/professional/ihc`, `/professional/ihc`, `/professional/appointments/[appointmentId]/notes`, `/case-manager/episodes`, `/professional/appointments/[appointmentId]/notes` |
-| **Core Work Packages** | `WP-26` ABC Bank IHC OS, `WP-09` C-SSRS & Safety Plans, `WP-20` Sponsor Aggregate Reporting |
+| **Primary Workspaces** | `/professional/ihc`, `/professional/appointments/[appointmentId]/notes`, `/case-manager/episodes` |
+| **Core Work Packages** | `WP-29` ABC Bank IHC OS, `WP-22` C-SSRS & Safety Plans, `WP-16` Sponsor Aggregate Reporting |
 | **Case Identifier Standard** | `MMDDYYYY+Initials+MMDDYYYY` (session date + client initials + DOB) |
 | **Data Visibility** | Full IHC caseload; **zero individual PHI** is ever exposed to HR or corporate sponsors (`k >= 5` aggregate only) |
 
@@ -58,3 +60,7 @@ The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SP
 ## 5. Practice & Verification
 - Complete **Lab 05** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full IHC specifications in [Manual 05: ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md).
+
+---
+
+← Previous: [Persona Guide 04: Psychologist & Psychometrician](04-psychologist-and-psychometrician.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 06: Specialty Clinicians (Neurologist, RND & CMA)](06-specialty-clinicians-neuro-rnd-cma.md) →

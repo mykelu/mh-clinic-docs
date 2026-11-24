@@ -1,6 +1,8 @@
 # Persona Guide 04: Psychologist & Psychometrician
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-04` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -11,19 +13,19 @@ This guide covers the **Registered Psychologist (`RPsy`)** and **Registered Psyc
 | Dimension | `RPm` (Psychometrician) | `RPsy` (Psychologist) |
 | :--- | :--- | :--- |
 | **Primary Workspaces** | `/staff/assessments/dsm5tr`, `/staff/assessments`, `/professional/assessments`, `/professional/evaluations` | `/professional/appointments/[appointmentId]/notes`, `/professional/assessments`, `/professional/evaluations` |
-| **Core Work Packages** | `WP-07` Dual RPm+RPsy Evals, `WP-12` 68 DSM-5-TR Measures | `WP-07` Dual RPm+RPsy Evals, `WP-08` SOAP/3, `WP-12` 68 DSM-5-TR Measures |
+| **Core Work Packages** | `WP-24` Dual RPm+RPsy Evals & 68 DSM-5-TR Measures | `WP-24` Dual RPm+RPsy Evals & 68 DSM-5-TR Measures, `WP-21` SOAP/3 |
 | **Signing Authority** | Administer & score measures; submit **Provisional Scoring Packet** | Psychotherapy notes, diagnostic interpretation, **Co-Sign & Release Final Evaluation** |
 
 ---
 
 ## 2. Core Workflows
 
-### 2.1 Administering & Scoring the 68 DSM-5-TR Section III Measures (`WP-12`)
+### 2.1 Administering & Scoring the 68 DSM-5-TR Section III Measures (`WP-24`)
 1. Open **`/staff/assessments/dsm5tr`** to browse all **68 standardized DSM-5-TR Section III measures** organized by domain (Cross-Cutting Level 1 & 2, Severity Measures, Disability/WHODAS, Personality PID-5, Pediatric/Guardian).
 2. Assign an assessment from **`/staff/assessments`** as **Self-Administered** (completed on the client portal at `/client/[brand]`) or **Clinician-Administered** during the session.
 3. Upon completion, MH-Clinic auto-computes raw scores, severity bands, and longitudinal trend deltas.
 
-### 2.2 Dual `RPm` + `RPsy` Psychological Evaluation Workflow (`WP-07`)
+### 2.2 Dual `RPm` + `RPsy` Psychological Evaluation Workflow (`WP-24`)
 
 ```mermaid
 sequenceDiagram
@@ -76,3 +78,7 @@ sequenceDiagram
 ## 5. Practice & Verification
 - Complete **Lab 04** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full assessment catalog details in [Manual 04: Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md).
+
+---
+
+← Previous: [Persona Guide 03: Psychiatrist & Prescriber](03-psychiatrist-and-prescriber.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 05: Counselor & IHC Specialist](05-counselor-and-ihc-specialist.md) →

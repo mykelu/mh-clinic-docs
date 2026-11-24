@@ -1,6 +1,8 @@
 # Manual 09: CRM, Inquiries, Outreach & Corporate Events
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [Front-Desk Guide](../personas/02-front-desk-coordinator.md) · [Case Manager Guide](../personas/07-case-manager-and-safety-responder.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-MAN-09` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -13,7 +15,7 @@ MH-Clinic includes built-in **front-of-funnel inquiry management, clinician matc
 | **Inquiry & Lead Queue** | `/staff/inquiries` | `FRONT_DESK` / `COORDINATOR` |
 | **Professional Matching** | `/staff/professional-matching` | `FRONT_DESK` / `CASE_MANAGER` |
 | **Outreach & Follow-Up Queue** | `/staff/outreach` | `FRONT_DESK` / `CASE_MANAGER` |
-| **Waitlist Backfill (`WP-17`)** | `/staff/waitlist` | `FRONT_DESK` |
+| **Waitlist Backfill (`WP-27`)** | `/staff/waitlist` | `FRONT_DESK` |
 | **Corporate Events & Group Intake** | `/staff/corporate-events` | `COORDINATOR` / `IHC_SPECIALIST` |
 | **AI Virtual Care Coordinator (`WP-32`)** | `/staff/ai-coordinator` | `COORDINATOR` / `STAFF` |
 
@@ -53,7 +55,7 @@ flowchart LR
 
 The **Outreach** workspace consolidates outbound follow-up tasks across operational and clinical teams:
 - **Intake & No-Show Recovery:** Re-engages prospective clients who dropped off before completing consent or missed an initial consultation.
-- **High-Risk Safety Outreach (`WP-18`):** Prioritizes outreach requests for clients with `Moderate`/`High` `C-SSRS` flags, logging every attempt (`PHONE`, `SMS`, `PORTAL`) with SLA timestamps.
+- **High-Risk Safety Outreach (`WP-22`):** Prioritizes outreach requests for clients with `Moderate`/`High` `C-SSRS` flags, logging every attempt (`PHONE`, `SMS`, `PORTAL`) with SLA timestamps.
 - **Open Requests (`/staff/outreach`):** Surfaces unassigned or overdue follow-up items for shift handover.
 
 ---
@@ -76,3 +78,7 @@ Used for wellness talks, screening drives, and sponsored organizational events:
 ## 5. Privacy & Compliance Guardrails (`RA 10173`)
 - **Minimal Intake Data:** Inquiry records store contact and scheduling preferences only — **never** full clinical histories before informed consent is signed.
 - **Zero-PII Helpline Separation:** Anonymous `/helpline` callers (`ANON-xxxx`) are **never** pushed into `/staff/inquiries` unless the caller explicitly opts in to a warm clinic referral.
+
+---
+
+← Previous: [Manual 08: Accounting, Invoicing & Journal Mapping](08-accounting-invoicing-and-payouts.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 10: SaaS Clients, Multi-Tenancy & Brand Onboarding](10-saas-clients-and-tenant-onboarding.md) →

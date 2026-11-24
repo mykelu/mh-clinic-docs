@@ -1,6 +1,8 @@
 # Persona Guide 01: Company & Branch Administrator
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Getting Started & MFA](../manuals/01-getting-started-and-mfa.md) · [Reporting & Analytics](../manuals/06-reporting-and-analytics-guide.md) · [Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-01` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -11,7 +13,7 @@ The **Company & Branch Administrator** (`ADMIN` / `BRANCH_ADMIN`) governs tenant
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/admin`, `/admin/staff-invitations`, `/admin/team-access`, `/admin/professional-credential-validity`, `/admin/locations`, `/admin/rooms`, `/admin/services`, `/admin/audit`, `/staff/reports`, `/admin/reports-studio` |
-| **Core Work Packages** | `WP-01` Auth & RBAC, `WP-02` Multi-Branch Org, `WP-04` Catalog & Pricing, `WP-22` Audit & RA 10173, `WP-23` Report Studio |
+| **Core Work Packages** | `WP-01` Sign-in & MFA, `WP-14` Admin Hubs & Setup Wizard, `WP-20` Audit & Compliance Export, `WP-30` Report Studio |
 | **MFA & Session Policy** | Mandatory TOTP or Passkey MFA (`WP-01`); 15-minute idle lock; 12-hour absolute session |
 | **Data Visibility** | Full tenant or branch-scoped administrative configuration; masked clinical notes unless explicitly granted `break_glass` with audit justification |
 
@@ -33,11 +35,11 @@ flowchart LR
    - Confirm zero unauthorized cross-branch queries.
 2. **Staff Provisioning & PRC License Validity**
    - Approve invitations at `/admin/staff-invitations` and confirm role grants at `/admin/team-access`.
-   - Verify active `PRC` / `PTR` / `S2` numbers at `/admin/professional-credential-validity` for prescribing MDs (`WP-10`) and `RPsy` / `RPm` registrations (`WP-07`).
+   - Verify active `PRC` / `PTR` / `S2` numbers at `/admin/professional-credential-validity` for prescribing MDs (`WP-23`) and `RPsy` / `RPm` registrations (`WP-24`).
 
 ### Weekly Governance
 1. **Service Catalog & Tariff Updates (`/admin/services`)**
-   - Maintain consultation SKU pricing, HMO package mappings (`WP-05`), and Senior Citizen / PWD (`RA 9994` / `RA 10754`) 20% discount + VAT-exempt rules.
+   - Maintain consultation SKU pricing, HMO package mappings (`WP-15`), and Senior Citizen / PWD (`RA 9994` / `RA 10754`) 20% discount + VAT-exempt rules.
 2. **Executive KPI Review (`/staff/reports`)**
    - Run `R01`–`R05` (Utilization, No-Show Rate, Clinician Load) and `R11`–`R15` (Revenue, HMO Aging, Discount Mix).
    - Verify `WP-23` $k$-anonymity thresholds ($k \ge 5$) remain enforced on all sponsor-facing and HR exports.
@@ -101,3 +103,7 @@ flowchart LR
 - Complete the full [Company & Branch Administrator Training Curriculum](../training/03-admin-training-curriculum.md).
 - Complete **Lab 01** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Verify go-live readiness using the [Content & Data Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md).
+
+---
+
+[Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 02: Front Desk Coordinator](02-front-desk-coordinator.md) →

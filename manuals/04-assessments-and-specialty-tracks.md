@@ -1,6 +1,8 @@
 # Manual 04: Psychological Assessments (`DSM-5-TR`), `Lifestyle Rx` & Specialty Tracks
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Psychologist Guide](../personas/04-psychologist-and-psychometrician.md)
+>
+> **Doc ID:** `MHD-MAN-04` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ## 1. APA `DSM-5-TR` Section III Standard Assessment Catalog (`/staff/assessments/dsm5tr`)
 MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with APA `DSM-5-TR` Online Assessment Measures:
@@ -66,3 +68,7 @@ MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with 
 ![Review acupuncture protocols workspace requiring verification of source and intended use before making a signed protocol available in charts](../assets/screenshots/specialty-acupuncture-protocols.png)
 
 *Synthetic clinician-training captures, November 2026. Specialty protocols and medication-nutrient rules require explicit clinical authority and brand assignment before becoming available inside active charts.*
+
+---
+
+← Previous: [Manual 03: Clinical Workflows, 14-Domain MSE, `eRx` & Certificates](03-clinical-workflows-and-prescribing.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 05: ABC Bank In-House Counseling (`IHC`) & MDT Case Management (`WP-29`)](05-ihc-and-case-management.md) →

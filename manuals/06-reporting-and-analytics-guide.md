@@ -1,6 +1,8 @@
 # Manual 06: BI Dashboards, `R01`–`R30` Turnkey Reports & Report Studio (`WP-30`)
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Reporting Persona Guides](../personas/01-company-and-branch-administrator.md)
+>
+> **Doc ID:** `MHD-MAN-06` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ![BI Dashboards, R01–R30 Turnkey Report Suite, Report Studio, and Database-Enforced k-Anonymity Map](../assets/visuals/bi-30-reports-map.svg)
 
@@ -84,3 +86,7 @@ Allows company administrators to build saved appointment recipes, apply privacy-
 ![Printable Current inquiries report view matching the MindWell.PH scope, UTC timestamp, chart bars, and total](../assets/screenshots/report-scoped-print.png)
 
 *Synthetic operations-training capture, November 2026. Print views mirror the exact brand scope, UTC timestamp, and totals shown in Report Explorer.*
+
+---
+
+← Previous: [Manual 05: ABC Bank In-House Counseling (`IHC`) & MDT Case Management (`WP-29`)](05-ihc-and-case-management.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 07: Anonymous Helpline, Learning Hub & AI Virtual Coordinator (`WP-31` & `WP-32`)](07-helpline-learning-hub-and-ai-coordinator.md) →

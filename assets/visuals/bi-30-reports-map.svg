@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" width="1080" height="460" role="img" aria-label="MH-Clinic 30 Turnkey Reports Map and k-Anonymity Governance">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" width="1080" height="460" role="img" aria-label="MH-Clinic 30 Turnkey Reports Map and k-Anonymity Governance" aria-labelledby="title desc">
+  <title id="title">BI Dashboards, R01–R30 Turnkey Report Suite, Report Studio, and Database-Enforced k-Anonymity Map</title>
+  <desc id="desc">Synthetic MH-Clinic diagram: BI Dashboards, R01–R30 Turnkey Report Suite, Report Studio, and Database-Enforced k-Anonymity Map. Full description in the surrounding document text.</desc>
   <defs>
     <style>
       .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }

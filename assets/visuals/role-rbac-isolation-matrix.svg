@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 450" width="1080" height="450" role="img" aria-label="MH-Clinic Role-Based Access Control and Clinical Privacy Isolation Matrix">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 450" width="1080" height="450" role="img" aria-label="MH-Clinic Role-Based Access Control and Clinical Privacy Isolation Matrix" aria-labelledby="title desc">
+  <title id="title">Role-Based Access Control, MFA, and Clinical Privacy Isolation Matrix across all MH-Clinic personas</title>
+  <desc id="desc">Synthetic MH-Clinic diagram: Role-Based Access Control, MFA, and Clinical Privacy Isolation Matrix across all MH-Clinic personas. Full description in the surrounding document text.</desc>
   <defs>
     <style>
       .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }

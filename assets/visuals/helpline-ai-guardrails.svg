@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 480" width="1080" height="480" role="img" aria-label="Helpline Zero-PII and AG-UI AI Coordinator Guardrails">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 480" width="1080" height="480" role="img" aria-label="Helpline Zero-PII and AG-UI AI Coordinator Guardrails" aria-labelledby="title desc">
+  <title id="title">WP-31 Zero-PII Anonymous Helpline and WP-32 AG-UI AI Coordinator Safety Guardrails</title>
+  <desc id="desc">Synthetic MH-Clinic diagram: WP-31 Zero-PII Anonymous Helpline and WP-32 AG-UI AI Coordinator Safety Guardrails. Full description in the surrounding document text.</desc>
   <defs>
     <style>
       .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }

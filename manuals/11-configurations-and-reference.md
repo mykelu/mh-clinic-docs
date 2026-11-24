@@ -1,6 +1,8 @@
 # Manual 11: System Configurations & Technical Reference
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Developer Deck](../decks/02-engineering-and-developer-deck.md) · [Admin Training](../training/03-admin-training-curriculum.md) · [Go-Live Checklist](../training/02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-MAN-11` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -103,3 +105,7 @@ flowchart LR
 - **$k$-Anonymity ($k \ge 5$):** Automated suppression of any aggregate report cell representing fewer than 5 individuals.
 - **`MDT` Hub:** Multidisciplinary Team coordination workspace connecting `MD`, `RPsy`, `RPm`, `IHC`, `RND`, and `CMA`.
 - **`SOA` / `SI`:** Statement of Account and Sales Invoice generated during HMO/sponsor billing cutoffs.
+
+---
+
+← Previous: [Manual 10: SaaS Clients, Multi-Tenancy & Brand Onboarding](10-saas-clients-and-tenant-onboarding.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md)

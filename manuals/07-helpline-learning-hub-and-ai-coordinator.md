@@ -1,6 +1,8 @@
 # Manual 07: Anonymous Helpline, Learning Hub & AI Virtual Coordinator (`WP-31` & `WP-32`)
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Client Guide](../personas/09-client-patient-and-guardian.md)
+>
+> **Doc ID:** `MHD-MAN-07` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ![WP-31 Zero-PII Anonymous Helpline and WP-32 AG-UI AI Coordinator Safety Guardrails](../assets/visuals/helpline-ai-guardrails.svg)
 
@@ -51,3 +53,7 @@
 ## 4. Native Telehealth Room & Ambient Clinical Scribe (`/telehealth/[appointmentId]`)
 - Logs participant join/leave timestamps for HMO/IHC duration audits.
 - **Dual-Consent Lock:** Ambient scribing is blocked by PostgreSQL (`CHECK (ambient_draft_status = 'none' OR dual_scribe_consent = true)`) unless both clinician and client explicitly consent, and outputs are watermarked `unverified_ai_draft` until signed by the clinician.
+
+---
+
+← Previous: [Manual 06: BI Dashboards, `R01`–`R30` Turnkey Reports & Report Studio (`WP-30`)](06-reporting-and-analytics-guide.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 08: Accounting, Invoicing & Journal Mapping](08-accounting-invoicing-and-payouts.md) →

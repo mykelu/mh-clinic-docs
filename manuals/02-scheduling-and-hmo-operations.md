@@ -1,6 +1,8 @@
 # Manual 02: Scheduling, Waitlist & 7-Step Aventus HMO Operations
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Coordinator Guide](../personas/02-front-desk-coordinator.md)
+>
+> **Doc ID:** `MHD-MAN-02` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ![8-Gate Booking Simulator and 7-Step Aventus HMO Referral-to-Settlement Lifecycle](../assets/visuals/eight-gate-booking-flow.svg)
 
@@ -71,3 +73,7 @@ Administrators can promote draft planned hours to bookable calendar capacity in 
 ## 4. Self-Pay Memberships, Bundles & Senior/PWD Statutory Discounts (`WP-25`)
 - `/staff/clients/[clientId]/memberships` manages recurring memberships and prepaid care bundles (deferred revenue rollforward in `R27`).
 - **PH Senior Citizen (`RA 9994`) & PWD (`RA 10754`):** Built-in statutory calculator applies **20% discount + 12% VAT exemption** with verified ID evidence at checkout.
+
+---
+
+← Previous: [Manual 01: Getting Started, Authentication & Mandatory MFA](01-getting-started-and-mfa.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 03: Clinical Workflows, 14-Domain MSE, `eRx` & Certificates](03-clinical-workflows-and-prescribing.md) →

@@ -1,0 +1,14 @@
+---
+description: Public showcase documentation standard for mh-clinic-docs
+globs: ["**/*.md", "assets/**"]
+alwaysApply: true
+---
+
+Follow `AGENTS.md` and `STANDARDS.md` (MHD-REF-07).
+
+- Page = H1 + `> **Navigation:**` line + `> **Doc ID:**` line (ID, Type, Audience, Revised, synthetic-data note) + ordered headings + Previous/Next footer.
+- Same PR: update `DOCUMENT_REGISTER.md` and `CHANGELOG.md`.
+- Showcase tone is allowed, but never invent routes, `WP-` numbers, roles or counts.
+- Synthetic data only; no secrets, PII, internal hosts, personal mailboxes or unverified hotline numbers. DPO: `dpo@cml-intl.com`.
+- Alt text and dated synthetic captions on images; SVGs need `<title>`/`<desc>`.
+- Never approve or merge; only the Product Owner approves.

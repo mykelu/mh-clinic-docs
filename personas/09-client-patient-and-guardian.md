@@ -1,6 +1,8 @@
 # Persona Guide 09: Client, Patient & Guardian
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Getting Started & MFA](../manuals/01-getting-started-and-mfa.md) · [Helpline & Learning Hub](../manuals/07-helpline-learning-hub-and-ai-coordinator.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-09` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -11,7 +13,7 @@ The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses 
 | Dimension | Details |
 | :--- | :--- |
 | **Primary Workspaces** | `/client-access/[brand]`, `/client/[brand]`, `/client/[brand]/appointments/[appointmentId]/prepare`, `/client/[brand]/certificate-verifications`, `/client/[brand]/evaluation-reports`, `/client/[brand]/lifestyle-rx`, `/telehealth/[appointmentId]`, `/learn`, `/helpline` |
-| **Core Work Packages** | `WP-14` Client Portal, `WP-15` Telehealth, `WP-12` Pre-Visit Assessments, `WP-28` Lifestyle Rx, `WP-31` Helpline & `/learn` |
+| **Core Work Packages** | `WP-18` Client Portal, `WP-32` Telehealth, `WP-24` Pre-Visit Assessments, `WP-26` Lifestyle Rx, `WP-31` Helpline & `/learn` |
 | **Privacy Rights** | Full `RA 10173` consent controls, proxy/guardian linkage for minors or incapacitated adults, zero clinician-only note leakage |
 
 ---
@@ -64,3 +66,7 @@ The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses 
 ## 4. Practice & Verification
 - Complete **Lab 09** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review portal and helpline details in [Manual 07: Helpline, Learning Hub & AI Coordinator](../manuals/07-helpline-learning-hub-and-ai-coordinator.md).
+
+---
+
+← Previous: [Persona Guide 08: HMO Billing & Finance Officer](08-hmo-billing-and-finance-officer.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 10: Corporate Sponsor & HR Viewer](10-sponsor-and-hr-viewer.md) →

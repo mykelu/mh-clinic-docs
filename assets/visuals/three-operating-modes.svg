@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 430" width="1080" height="430" role="img" aria-label="MH-Clinic Three Operating Modes Architecture">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 430" width="1080" height="430" role="img" aria-label="MH-Clinic Three Operating Modes Architecture" aria-labelledby="title desc">
+  <title id="title">Three Clinical Operating Modes Under One Governed Platform: Self-Pay, HMO Network, and Non-Billable IHC</title>
+  <desc id="desc">Synthetic MH-Clinic diagram: Three Clinical Operating Modes Under One Governed Platform: Self-Pay, HMO Network, and Non-Billable IHC. Full description in the surrounding document text.</desc>
   <defs>
     <style>
       .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
