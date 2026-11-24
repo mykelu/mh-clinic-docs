@@ -1,6 +1,8 @@
 # MH-Clinic Visual Guide
 
 > **Navigation:** [Knowledge Base Home](README.md) · [Master Index](INDEX.md) · [Glossary](GLOSSARY.md)
+>
+> **Doc ID:** `MHD-HOW-01` · **Type:** How-to guide · **Revised:** 25 November 2026
 
 Use this guide to find a screenshot or architecture diagram at the point where you need to choose an action, explain a workflow, or confirm a result. Each link opens the illustrated step in its manual or persona guide, with a short explanation of what to look for. All screenshots come from synthetic training exercises and contain zero real patient PHI, live credentials, or private infrastructure secrets.
 

@@ -1,6 +1,8 @@
 # Persona Guide 01: Company & Branch Administrator
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Getting Started & MFA](../manuals/01-getting-started-and-mfa.md) · [Reporting & Analytics](../manuals/06-reporting-and-analytics-guide.md) · [Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-01` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -101,3 +103,7 @@ flowchart LR
 - Complete the full [Company & Branch Administrator Training Curriculum](../training/03-admin-training-curriculum.md).
 - Complete **Lab 01** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Verify go-live readiness using the [Content & Data Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md).
+
+---
+
+[Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 02: Front Desk Coordinator](02-front-desk-coordinator.md) →

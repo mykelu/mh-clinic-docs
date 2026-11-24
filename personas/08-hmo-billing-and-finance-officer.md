@@ -1,6 +1,8 @@
 # Persona Guide 08: HMO Billing & Finance Officer
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md) · [Reporting & Analytics](../manuals/06-reporting-and-analytics-guide.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-08` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -66,3 +68,7 @@ The **HMO Billing & Finance Officer** (`BILLING` / `FINANCE`) manages point-of-s
 ## 4. Practice & Verification
 - Complete **Lab 08** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full billing rules in [Manual 02: Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md) and [Manual 08: Accounting, Invoicing & Journal Mapping](../manuals/08-accounting-invoicing-and-payouts.md).
+
+---
+
+← Previous: [Persona Guide 07: Case Manager & Safety Responder](07-case-manager-and-safety-responder.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 09: Client, Patient & Guardian](09-client-patient-and-guardian.md) →

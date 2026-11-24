@@ -1,9 +1,21 @@
 # MH-Clinic: Executive Introduction Deck
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-DCK-01` · **Type:** Explanation · **Audience:** Executives, sponsors, engineers or clinical leads (see title) · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 > **Audience:** Clinic Owners, Medical Directors, Corporate Sponsors, and Institutional Partners
 > **Scope:** Complete 6-Wave Platform (`WP-01` through `WP-32`)
+
+---
+
+## Agenda
+
+1. What MH-Clinic is
+2. Three operating modes under one roof
+3. Clinical depth and safety guardrails
+4. Wave 5 commercial add-ons
+5. Governance and readiness
 
 ---
 
@@ -60,3 +72,23 @@
 ![Task-oriented Administrator Home workspace showing readiness setup tasks across managed clinic brands](../assets/screenshots/admin-home-dashboard.png)
 
 *Synthetic administrator-training capture, November 2026.*
+
+---
+
+## Summary & Next Steps
+
+**Key takeaways**
+
+- One governed platform runs self-pay, HMO and in-house counseling brands side by side.
+- Clinical safety (C-SSRS, safety plans, generic-first eRx) and privacy (database-enforced roles, k-anonymity) are built in.
+- Add-ons such as the helpline, learning hub and AI coordinator extend the platform without weakening the clinical boundary.
+
+**Next steps**
+
+- Explore your role in the [Persona Guides](../README.md#3-role-based-persona-guides-personas).
+- See the screens in the [Visual Guide](../VISUAL_GUIDE.md).
+- Common questions: [FAQ](../FAQ.md).
+
+---
+
+[Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [MH-Clinic: Engineering & Developer Architecture Deck](02-engineering-and-developer-deck.md) →

@@ -1,5 +1,7 @@
 # MH-Clinic Knowledge Base Index (`A–Z` & Route Map)
 
+> **Doc ID:** `MHD-REF-02` · **Type:** Reference · **Revised:** 25 November 2026
+
 This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **turnkey report (`R01`–`R30`)**, and **compliance control** to its manual and persona guide.
 
 > **Navigation:** [Knowledge Base Home](README.md) · [Glossary](GLOSSARY.md) · [Visual Guide](VISUAL_GUIDE.md)
@@ -7,6 +9,17 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 ---
 
 [Visual Guide](VISUAL_GUIDE.md): Find screenshots by task. [Glossary](GLOSSARY.md) defines the shared vocabulary used in the manuals and labs.
+
+## Start Here
+
+| Document | Purpose |
+| :--- | :--- |
+| [Getting Started](GETTING_STARTED.md) | Reading paths by role and time available |
+| [FAQ](FAQ.md) | Common questions about the platform, access, clinical work, billing and training |
+| [Document Register](DOCUMENT_REGISTER.md) | Every document with its ID and type |
+| [Accessibility](ACCESSIBILITY.md) | Accessibility statement and checklist |
+| [Contributing](CONTRIBUTING.md) | Style guide and rules for changes |
+| [Changelog](CHANGELOG.md) | What changed and when |
 
 ## 1. Work Package Index (`WP-01` – `WP-32`)
 

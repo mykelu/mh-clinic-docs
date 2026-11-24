@@ -1,6 +1,8 @@
 # Persona Guide 05: Counselor & IHC Specialist
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-05` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -58,3 +60,7 @@ The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SP
 ## 5. Practice & Verification
 - Complete **Lab 05** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full IHC specifications in [Manual 05: ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md).
+
+---
+
+← Previous: [Persona Guide 04: Psychologist & Psychometrician](04-psychologist-and-psychometrician.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 06: Specialty Clinicians (Neurologist, RND & CMA)](06-specialty-clinicians-neuro-rnd-cma.md) →

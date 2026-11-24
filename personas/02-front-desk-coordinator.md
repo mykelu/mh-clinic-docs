@@ -1,6 +1,8 @@
 # Persona Guide 02: Front Desk Coordinator
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-02` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -88,3 +90,7 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 ## 5. Practice & Verification
 - Complete **Lab 02** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full scheduling rules in [Manual 02: Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md).
+
+---
+
+← Previous: [Persona Guide 01: Company & Branch Administrator](01-company-and-branch-administrator.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 03: Psychiatrist & Prescriber](03-psychiatrist-and-prescriber.md) →

@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" width="1080" height="460" role="img" aria-label="6-Layer Policy Resolution Hierarchy and Philippine Regulatory Compliance">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" width="1080" height="460" role="img" aria-label="6-Layer Policy Resolution Hierarchy and Philippine Regulatory Compliance" aria-labelledby="title desc">
+  <title id="title">6-Layer Policy Resolution Engine and Embedded Philippine Regulatory Controls</title>
+  <desc id="desc">Synthetic MH-Clinic diagram: 6-Layer Policy Resolution Engine and Embedded Philippine Regulatory Controls. Full description in the surrounding document text.</desc>
   <defs>
     <style>
       .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }

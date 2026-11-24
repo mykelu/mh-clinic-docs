@@ -1,6 +1,8 @@
 # Persona Guide 06: Specialty Clinicians (Neurologist, RND & CMA)
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-06` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -60,3 +62,7 @@ MH-Clinic supports integrated **whole-person behavioral health** through three s
 ## 4. Practice & Verification
 - Complete **Lab 06** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full specialty track workflows in [Manual 04: Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md).
+
+---
+
+← Previous: [Persona Guide 05: Counselor & IHC Specialist](05-counselor-and-ihc-specialist.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 07: Case Manager & Safety Responder](07-case-manager-and-safety-responder.md) →

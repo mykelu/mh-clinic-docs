@@ -1,6 +1,8 @@
 # Glossary
 
 > **Navigation:** [Knowledge Base Home](README.md) · [Master Index](INDEX.md) · [Visual Guide](VISUAL_GUIDE.md)
+>
+> **Doc ID:** `MHD-REF-01` · **Type:** Reference · **Revised:** 25 November 2026
 
 Terms used across the manuals, persona guides, training labs, and decks. Route paths match the application on `mh-clinic` `main` (`cf52f970`).
 
@@ -17,7 +19,7 @@ Terms used across the manuals, persona guides, training labs, and decks. Route p
 | **Brand portal** | White-label public site at `/sites/[company]/[target]`. Clients sign in at `/client-access/[brand]` and work in `/client/[brand]`. |
 | **C-SSRS** | Columbia-Suicide Severity Rating Scale. Positive screens feed `/staff/risk-triage` and `/professional/safety-followup`. |
 | **CAS / `expectedRevision`** | Compare-and-swap revision token used to prevent conflicting clinical writes. |
-| **CMA** | Clinic medical assistant / acupuncture track in the specialty manuals. |
+| **CMA** | Certified Medical Acupuncturist — the acupuncture specialty track (`WP-28`) in the specialty manuals. |
 
 ## D–I
 

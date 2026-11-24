@@ -1,5 +1,7 @@
 # Security
 
+> **Doc ID:** `MHD-POL-01` · **Type:** Reference · **Revised:** 25 November 2026
+
 If you believe you have found a security vulnerability in MH-Clinic, please report it privately. Do not open a public GitHub issue, and do not include real patient information, live credentials, or production secrets in any report.
 
 Use synthetic data only when you need to illustrate a report.

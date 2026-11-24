@@ -1,6 +1,8 @@
 # Manual 09: CRM, Inquiries, Outreach & Corporate Events
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Scheduling & HMO Operations](02-scheduling-and-hmo-operations.md) · [Front-Desk Guide](../personas/02-front-desk-coordinator.md) · [Case Manager Guide](../personas/07-case-manager-and-safety-responder.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-MAN-09` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -76,3 +78,7 @@ Used for wellness talks, screening drives, and sponsored organizational events:
 ## 5. Privacy & Compliance Guardrails (`RA 10173`)
 - **Minimal Intake Data:** Inquiry records store contact and scheduling preferences only — **never** full clinical histories before informed consent is signed.
 - **Zero-PII Helpline Separation:** Anonymous `/helpline` callers (`ANON-xxxx`) are **never** pushed into `/staff/inquiries` unless the caller explicitly opts in to a warm clinic referral.
+
+---
+
+← Previous: [Manual 08: Accounting, Invoicing & Journal Mapping](08-accounting-invoicing-and-payouts.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 10: SaaS Clients, Multi-Tenancy & Brand Onboarding](10-saas-clients-and-tenant-onboarding.md) →

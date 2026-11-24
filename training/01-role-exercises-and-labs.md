@@ -1,6 +1,8 @@
 # Training Labs 01: Role-Based Exercises & Hands-On Labs
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Visual Guide](../VISUAL_GUIDE.md) · [Content & Data Onboarding Checklist](02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-TRN-01` · **Type:** Tutorial · **Audience:** Learners and facilitators · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 > [!CAUTION]
 > **Synthetic Data Only:** All labs below must be executed in a staging/training tenant using **synthetic personas** (e.g., `patient.demo@example.test`, `ANON-9042`). Never enter real patient names, real PRC/S2 numbers, or live HMO member IDs in training environments.
@@ -129,3 +131,7 @@
 4. **Pass Criteria:** Aggregate `R21`–`R25` metrics render cleanly with zero individual PHI exposure.
 
 > Visual reference: [Database-enforced $k$-anonymity (`R16`)](../manuals/06-reporting-and-analytics-guide.md#database-enforced-k-anonymity-in-institutional-reporting-r16) and [Scoped Report Studio](../manuals/06-reporting-and-analytics-guide.md#scoped-report-studio-workspace-mindwellph).
+
+---
+
+[Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Training Checklist 02: Content & Data Onboarding (Go-Live Readiness)](02-content-and-data-onboarding-checklist.md) →

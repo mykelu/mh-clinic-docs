@@ -1,6 +1,8 @@
 # Persona Guide 03: Psychiatrist & Prescriber
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Clinical Workflows & Prescribing](../manuals/03-clinical-workflows-and-prescribing.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-03` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -86,3 +88,7 @@ MH-Clinic enforces the **Generics Act of 1988 (`RA 6675`)** on every prescriptio
 ## 5. Practice & Verification
 - Complete **Lab 03** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full details in [Manual 03: Clinical Workflows & Prescribing](../manuals/03-clinical-workflows-and-prescribing.md).
+
+---
+
+← Previous: [Persona Guide 02: Front Desk Coordinator](02-front-desk-coordinator.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 04: Psychologist & Psychometrician](04-psychologist-and-psychometrician.md) →

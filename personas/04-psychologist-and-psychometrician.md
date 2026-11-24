@@ -1,6 +1,8 @@
 # Persona Guide 04: Psychologist & Psychometrician
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-PER-04` · **Type:** How-to guide · **Audience:** The named role · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ---
 
@@ -76,3 +78,7 @@ sequenceDiagram
 ## 5. Practice & Verification
 - Complete **Lab 04** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full assessment catalog details in [Manual 04: Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md).
+
+---
+
+← Previous: [Persona Guide 03: Psychiatrist & Prescriber](03-psychiatrist-and-prescriber.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Persona Guide 05: Counselor & IHC Specialist](05-counselor-and-ihc-specialist.md) →

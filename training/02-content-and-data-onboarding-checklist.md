@@ -1,6 +1,8 @@
 # Training Checklist 02: Content & Data Onboarding (Go-Live Readiness)
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Role Exercises & Labs](01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-TRN-02` · **Type:** How-to guide · **Audience:** Learners and facilitators · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 Use this checklist before promoting a new clinic branch, corporate sponsor program, or clinical catalog to production. It covers core platform readiness plus the specialized data/content work packages (**`WP-21`**, **`WP-23`**, **`WP-24`**, **`WP-26`**, **`WP-29`**, **`WP-31`**).
 
@@ -75,3 +77,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 | **Chief Psychologist (`RPsy`)** | | | `[ ] Approved` |
 | **Data Protection Officer (`DPO`)** | | | `[ ] Approved` |
 | **Billing & HMO Lead** | | | `[ ] Approved` |
+
+---
+
+← Previous: [Training Labs 01: Role-Based Exercises & Hands-On Labs](01-role-exercises-and-labs.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Training 03: Company & Branch Administrator Curriculum](03-admin-training-curriculum.md) →

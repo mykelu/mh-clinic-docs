@@ -1,6 +1,8 @@
 # Manual 03: Clinical Workflows, 14-Domain MSE, `eRx` & Certificates
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Psychiatrist Guide](../personas/03-psychiatrist-and-prescriber.md)
+>
+> **Doc ID:** `MHD-MAN-03` · **Type:** Reference · **Audience:** All roles; see the persona guides for task paths · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 ![Clinical Documentation, Safety Planning, RA 6675 Prescribing, and Specialty Tracks Overview](../assets/visuals/clinical-safety-and-coding.svg)
 
@@ -61,3 +63,7 @@
 ![Document workspace showing a synthetic consultation certificate saved as Draft, revision 1](../assets/screenshots/certificate-draft-saved.png)
 
 *Synthetic clinician-training capture, November 2026. After saving, reopen the record and check the title, status and revision. An unsigned draft is not an issued certificate.*
+
+---
+
+← Previous: [Manual 02: Scheduling, Waitlist & 7-Step Aventus HMO Operations](02-scheduling-and-hmo-operations.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md) · Next: [Manual 04: Psychological Assessments (`DSM-5-TR`), `Lifestyle Rx` & Specialty Tracks](04-assessments-and-specialty-tracks.md) →

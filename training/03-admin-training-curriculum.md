@@ -1,6 +1,8 @@
 # Training 03: Company & Branch Administrator Curriculum
 
 > **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Admin Persona Guide](../personas/01-company-and-branch-administrator.md) · [Role Exercises & Labs](01-role-exercises-and-labs.md) · [Go-Live Checklist](02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
+>
+> **Doc ID:** `MHD-TRN-03` · **Type:** Tutorial · **Audience:** Learners and facilitators · **Revised:** 25 November 2026 · All examples use synthetic data.
 
 > [!IMPORTANT]
 > **Training Environment Rule:** Perform all exercises in a staging or training tenant using **synthetic data only** (e.g., `admin.demo@example.test`, `clinician.demo@example.test`, `PRC 0000001`). Never enter real clinician license numbers, real patient PHI, or live HMO credentials.
@@ -152,3 +154,7 @@ To pass Admin Certification, complete the following without supervisor intervent
 3. Confirm an Aventus HMO visit passes all 8 scheduling gates and maps cleanly to an invoice draft in `/admin/hmo-payer-review`.
 4. Locate all configuration actions in `/admin/audit` and verify $k \ge 5$ suppression in `/staff/reports`.
 5. Sign off all readiness items in the [Content & Data Onboarding Checklist](02-content-and-data-onboarding-checklist.md).
+
+---
+
+← Previous: [Training Checklist 02: Content & Data Onboarding (Go-Live Readiness)](02-content-and-data-onboarding-checklist.md) · [Knowledge Base Home](../README.md) · [Getting Started](../GETTING_STARTED.md) · [FAQ](../FAQ.md)

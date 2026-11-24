@@ -1,5 +1,7 @@
 # MH-Clinic Knowledge Base, Training Manuals & Architecture Decks
 
+> **Doc ID:** `MHD-HOM-01` · **Type:** Reference · **Audience:** Everyone · **Revised:** 25 November 2026
+
 Welcome to the official public documentation, knowledge base, role-based training manuals, and presentation decks for **MH-Clinic** — an enterprise mental health, integrative medicine, and institutional counseling (`IHC`) scheduling, clinical documentation, billing, and BI platform.
 
 > [!NOTE]
@@ -7,10 +9,15 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 
 Staff standard operating procedures live in the internal operator documentation.
 
+> [!TIP]
+> **New here?** Start with [**Getting Started**](GETTING_STARTED.md) to find your path by role, or read the [**FAQ**](FAQ.md).
+
 ---
 
 ## Contents
 
+- [Getting Started](GETTING_STARTED.md)
+- [FAQ](FAQ.md)
 - [Quick Navigation](#quick-navigation)
   - [Presentation Decks](#1-presentation-decks-decks)
   - [System Manuals](#2-comprehensive-system-manuals-manuals)
@@ -20,6 +27,7 @@ Staff standard operating procedures live in the internal operator documentation.
 - [Security](SECURITY.md)
 - [Master Index](INDEX.md)
 - [Visual Guide](VISUAL_GUIDE.md)
+- [Document Register](DOCUMENT_REGISTER.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Accessibility](ACCESSIBILITY.md)
 - [Platform Architecture Overview](#platform-architecture-overview)
 - [Visual Highlights](#visual-highlights-synthetic-training-captures)
 
