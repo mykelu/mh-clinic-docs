@@ -1,6 +1,6 @@
 # Manual 11: System Configurations & Technical Reference
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Developer Deck](../decks/02-engineering-and-developer-deck.md) · [Admin Training](../training/03-admin-training-curriculum.md) · [Go-Live Checklist](../training/02-content-and-data-onboarding-checklist.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Developer Deck](../decks/02-engineering-and-developer-deck.md) · [Admin Training](../training/03-admin-training-curriculum.md) · [Go-Live Checklist](../training/02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -71,7 +71,7 @@ flowchart LR
 | Identifier | Format / Mechanism | Where Used |
 | :--- | :--- | :--- |
 | **Anonymous Helpline ID** | `ANON-xxxx` (ephemeral, zero-PII) | `/helpline`, `/staff/helpline-desk` (`WP-31`) |
-| **ABC Bank IHC Case Key** | `MMDDYYYY+Initials+MMDDYYYY` | `/ihc/today`, `/admin/ihc-roster` (`WP-26`) |
+| **ABC Bank IHC Case Key** | `MMDDYYYY+Initials+MMDDYYYY` | `/professional/ihc`, `/admin/ihc-roster` (`WP-26`) |
 | **Concurrency Token** | `expectedRevision` (Optimistic CAS) | Appointment, encounter, and policy mutations |
 | **Verification Token** | Cryptographic QR URL (`/verify/document/[token]`) | `RA 6675` `eRx` and `MedCert` / `Fit-to-Work` |
 

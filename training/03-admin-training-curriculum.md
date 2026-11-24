@@ -1,6 +1,6 @@
 # Training 03: Company & Branch Administrator Curriculum
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Admin Persona Guide](../personas/01-company-and-branch-administrator.md) · [Role Exercises & Labs](01-role-exercises-and-labs.md) · [Go-Live Checklist](02-content-and-data-onboarding-checklist.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Admin Persona Guide](../personas/01-company-and-branch-administrator.md) · [Role Exercises & Labs](01-role-exercises-and-labs.md) · [Go-Live Checklist](02-content-and-data-onboarding-checklist.md) · [Glossary](../GLOSSARY.md)
 
 > [!IMPORTANT]
 > **Training Environment Rule:** Perform all exercises in a staging or training tenant using **synthetic data only** (e.g., `admin.demo@example.test`, `clinician.demo@example.test`, `PRC 0000001`). Never enter real clinician license numbers, real patient PHI, or live HMO credentials.
@@ -20,7 +20,7 @@
 | **Module 3** | Service Catalog, HMO Contracts, Accounting & Refunds | `/admin/services`, `/admin/hmo-contracts`, `/admin/hmo-payer-review`, `/admin/cancellation-refunds` | 30 min |
 | **Module 4** | Clinical Governance, Supervision & Assessment Controls | `/admin/supervision`, `/admin/clinical-note-approvers`, `/admin/encounter-policies`, `/admin/assessments` | 25 min |
 | **Module 5** | RA 10173 Privacy, Audit Logs, Exports & Report Studio | `/admin/audit`, `/admin/compliance-exports`, `/admin/reports-studio`, `/staff/reports` | 25 min |
-| **Module 6** | Brand Portals, IHC Setup, Learning Hub & Helpline | `/admin/brands`, `/admin/ihc-workplan`, `/admin/learning-hub`, `/admin/risk-response` | 20 min |
+| **Module 6** | Brand Portals, IHC Setup, Learning Hub & Helpline | `/admin/brand-portals`, `/admin/ihc-workplan`, `/admin/learning-hub`, `/admin/risk-response` | 20 min |
 | **Capstone** | End-to-End Branch Launch Simulation | All `/admin/*` | 25 min |
 
 ---
@@ -33,7 +33,7 @@
 - Enforce **PRC / PTR / S2** credential validity gates for clinicians.
 
 ### Hands-On Steps
-1. **MFA & Idle Lock:** Sign in as `admin.demo@example.test`, complete TOTP or Passkey enrollment at `/mfa`, and verify the 15-minute idle lock policy.
+1. **MFA & Idle Lock:** Sign in as `admin.demo@example.test`, complete TOTP or Passkey enrollment at `/mfa/setup`, and verify the 15-minute idle lock policy.
 2. **Invite Staff (`/admin/staff-invitations`):**
    - Invite `md.demo@example.test` with role `PSYCHIATRIST` and assign a single branch.
    - Invite `rpm.demo@example.test` with role `PSYCHOMETRICIAN` and `rpsy.demo@example.test` with role `PSYCHOLOGIST`.
@@ -53,7 +53,7 @@
 
 ### Learning Objectives
 - Configure multi-branch hierarchy, physical/telehealth rooms, and equipment.
-- Configure the **6-Layer Policy Engine** and verify slot generation with the **8-Gate Simulator**.
+- Configure the **6-Layer Policy Engine** and verify slot generation with the **8-Gate Simulator** at `/admin/configuration#booking-simulator`.
 
 ### Hands-On Steps
 1. **Branch Setup (`/admin/locations`):** Create a synthetic branch (`Training Annex — Makati`) with timezone `Asia/Manila` and operating hours `08:00–18:00`.
@@ -61,7 +61,7 @@
 3. **Professional Schedules (`/admin/professional-schedules`):** Assign `md.demo@example.test` to `Consult Room 1` (Mon–Wed) and `Telehealth Pod A` (Thu–Fri).
 4. **Booking Policies (`/admin/booking-policies`, `/admin/service-channel-policies`):**
    - Set buffer/turnover minutes, cancellation windows, and allowed modalities (`IN_PERSON` / `TELEHEALTH`).
-5. **8-Gate Verification:** Open `/schedule` and verify slots only appear where all 8 gates (hours, shift, room, credential match, buffer, double-book guard, HMO branch eligibility, age/consent) pass.
+5. **8-Gate Verification:** Open `/staff/appointments` and verify slots only appear where all 8 gates (hours, shift, room, credential match, buffer, double-book guard, HMO branch eligibility, age/consent) pass.
 
 ![Policy registry showing 6-layer inheritance, effective value, inherited value, and required change reason](../assets/screenshots/config-policy-registry.png)
 
@@ -131,7 +131,7 @@
 - Configure multi-brand portals, ABC Bank IHC non-billable operating mode, `/learn` content, and `WP-31` safety routing.
 
 ### Hands-On Steps
-1. **Brands & Landing Pages (`/admin/brands`, `/admin/brands/new-wizard`, `/admin/brand-portals`, `/admin/landing-pages`):**
+1. **Brands & Landing Pages (`/admin/brand-portals`, `/admin/brands/new-wizard`, `/admin/landing-pages`):**
    - Inspect brand-specific operating mode (`billable_clinic` vs. `in_house_non_billable` for ABC Bank IHC).
 2. **IHC Setup (`/admin/ihc-workplan`, `/admin/ihc-roster`, `/admin/ihc-calendar-import`):**
    - Review roster import format and `.ics` calendar sync rules.

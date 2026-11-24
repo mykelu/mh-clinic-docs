@@ -1,6 +1,6 @@
 # Persona Guide 10: Corporate Sponsor & HR Viewer
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Reporting & Analytics](../manuals/06-reporting-and-analytics-guide.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Reporting & Analytics](../manuals/06-reporting-and-analytics-guide.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -10,7 +10,7 @@ The **Corporate Sponsor & HR Viewer** (`SPONSOR_VIEWER` / `HR_VIEWER`) represent
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/sponsor/dashboard`, `/reports` (Sponsor-scoped `R21`–`R25`) |
+| **Primary Workspaces** | `/sponsor-access/[company]/[brand]`, `/staff/reports` (Sponsor-scoped `R21`–`R25`) |
 | **Core Work Packages** | `WP-20` Sponsor & HR Aggregate Portal, `WP-23` Report Studio ($k$-Anonymity), `WP-26` IHC Aggregate Themes |
 | **Privacy Guarantee** | **Zero PHI**; **Minimum Cell Size $k \ge 5$** enforced at query and export layers |
 
@@ -30,13 +30,13 @@ The **Corporate Sponsor & HR Viewer** (`SPONSOR_VIEWER` / `HR_VIEWER`) represent
 
 ## 3. Core Workflows
 
-### 3.1 Reviewing Program Utilization & Well-Being Trends (`/sponsor/dashboard`)
+### 3.1 Reviewing Program Utilization & Well-Being Trends (`/sponsor-access/[company]/[brand]`)
 1. Sign in with mandatory MFA (`WP-01`).
 2. Review monthly/quarterly **Utilization Rate**, **Modality Split** (In-Person vs. Telehealth vs. IHC), and **Wait-Time SLAs**.
 3. Inspect anonymized **Subtopic Trend Charts** (`WP-26` 27 subtopics) to guide organizational wellness initiatives (e.g., manager burnout workshops).
 
 ### 3.2 Downloading Board-Ready Aggregate Reports (`R21`–`R25`)
-1. Open **`/reports`** and select any Sponsor-eligible report (`R21`–`R25`).
+1. Open **`/staff/reports`** and select any Sponsor-eligible report (`R21`–`R25`).
 2. Export CSV or PDF; any demographic or department slice with fewer than **5 individuals** is automatically suppressed or rolled up into `Other / Suppressed` to satisfy **RA 10173**.
 
 ---

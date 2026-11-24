@@ -1,5 +1,7 @@
 # Manual 05: ABC Bank In-House Counseling (`IHC`) & MDT Case Management (`WP-29`)
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Counselor Guide](../personas/05-counselor-and-ihc-specialist.md)
+
 ## 1. Zero-Billing Institutional Mode
 Brands configured with `billing.operating_mode = 'in_house_non_billable'` (such as ABC Bank IHC) operate completely outside Accounting/SOA billing:
 - Appointments show **No client charge**.

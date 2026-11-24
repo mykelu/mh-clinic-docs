@@ -1,6 +1,6 @@
 # Persona Guide 07: Case Manager & Safety Responder
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Helpline & AI Coordinator](../manuals/07-helpline-learning-hub-and-ai-coordinator.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Helpline & AI Coordinator](../manuals/07-helpline-learning-hub-and-ai-coordinator.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -10,7 +10,7 @@ The **Case Manager & Safety Responder** (`CASE_MANAGER` / `SAFETY_RESPONDER`) ov
 
 | Dimension | Details |
 | :--- | :--- |
-| **Primary Workspaces** | `/cases`, `/cases/safety`, `/helpline/console`, `/ihc/mdt`, `/schedule/waitlist` |
+| **Primary Workspaces** | `/staff/risk-triage`, `/professional/safety-followup`, `/professional/risk-alerts`, `/staff/helpline-desk`, `/case-manager/episodes`, `/staff/waitlist` |
 | **Core Work Packages** | `WP-09` C-SSRS & Safety Plans, `WP-18` Case Management & Outreach, `WP-26` MDT Hub, `WP-31` Anonymous Helpline |
 | **SLA Targets** | `L4` Crisis Escalation: immediate acknowledgment; `High` C-SSRS No-Show: outreach within 2 hours |
 | **Data Visibility** | Safety flags, care plans, outreach logs, and `ANON-xxxx` helpline sessions (pseudonymous until explicit consent-to-identify) |
@@ -19,7 +19,7 @@ The **Case Manager & Safety Responder** (`CASE_MANAGER` / `SAFETY_RESPONDER`) ov
 
 ## 2. Core Workflows
 
-### 2.1 High-Risk Safety Queue (`/cases/safety`)
+### 2.1 High-Risk Safety Queue (`/staff/risk-triage`)
 1. Monitor active alerts triggered by:
    - **`C-SSRS` Moderate/High** scores (`WP-09`)
    - **Missed appointments** for flagged high-risk clients
@@ -44,7 +44,7 @@ flowchart LR
 4. Only convert `ANON-xxxx` to a clinic intake record if the caller **explicitly opts in** to warm referral.
 5. Respect the mandatory **15-minute post-crisis cooldown** between high-acuity responder sessions to prevent responder burnout.
 
-### 2.3 Multidisciplinary Team (`MDT`) Coordination (`/ihc/mdt`)
+### 2.3 Multidisciplinary Team (`MDT`) Coordination (`/case-manager/episodes`)
 - Coordinate warm handoffs across `MD` (Psychiatry/Neurology), `RPsy` (Psychotherapy), `IHC` (Counseling), and `RND` (Nutrition).
 - Track referral acceptance, shared goals, and barrier resolution (transport, HMO LOA delays, medication adherence).
 

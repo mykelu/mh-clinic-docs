@@ -1,5 +1,7 @@
 # Manual 03: Clinical Workflows, 14-Domain MSE, `eRx` & Certificates
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Psychiatrist Guide](../personas/03-psychiatrist-and-prescriber.md)
+
 ![Clinical Documentation, Safety Planning, RA 6675 Prescribing, and Specialty Tracks Overview](../assets/visuals/clinical-safety-and-coding.svg)
 
 ## 1. Versioned `MHCLINIC-SOAP/3` & `SOAP <-> 5Ps` Notes

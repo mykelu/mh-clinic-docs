@@ -1,6 +1,8 @@
 # MH-Clinic: Engineering & Developer Architecture Deck
 
-> **Audience:** Software Engineers, Database Architects, Security Auditors, and DevOps/QA Engineers  
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md)
+
+> **Audience:** Software Engineers, Database Architects, Security Auditors, and DevOps/QA Engineers
 > **Stack:** Next.js App Router (TypeScript + Zod) · PostgreSQL 15/16 (`SECURITY DEFINER` + RLS) · Node.js Workers · Biome · Playwright
 
 ---

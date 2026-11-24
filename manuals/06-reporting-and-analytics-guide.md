@@ -1,5 +1,7 @@
 # Manual 06: BI Dashboards, `R01`–`R30` Turnkey Reports & Report Studio (`WP-30`)
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Reporting Persona Guides](../personas/01-company-and-branch-administrator.md)
+
 ![BI Dashboards, R01–R30 Turnkey Report Suite, Report Studio, and Database-Enforced k-Anonymity Map](../assets/visuals/bi-30-reports-map.svg)
 
 ## 1. Privacy & Governance Rules
@@ -23,15 +25,15 @@
 | **R04** | Third-Next-Available-Slot (`TNAS`) Access Benchmark | `/staff/reports/access-benchmark` |
 | **R05** | Scheduling Lifecycle & Outcomes | `/staff/reports/scheduling` |
 
-### Clinical Governance & Specialty Outcomes (`/staff/reports` & `/professional`)
+### Clinical Governance & Specialty Outcomes (`/staff/reports`, `/case-manager/episodes`, `/professional/evaluations`)
 | Code | Report | Route |
 | :--- | :--- | :--- |
 | **R06** | Safety & Suicide Risk Registry + Follow-Up SLA | `/staff/reports/safety-risk-registry` |
 | **R07** | Psychotropic Metabolic / `QTc` / `AIMS` / `ANC` Compliance | `/staff/reports/psychotropic-monitoring` |
 | **R08** | Unsigned Note & Supervision Co-Sign Aging | `/staff/reports/unsigned-notes-supervision` |
-| **R09** | Case Management Care-Gap Review | `/professional/case-management` |
+| **R09** | Case Management Care-Gap Review | `/case-manager/episodes` |
 | **R10** | 6-Pillar `Lifestyle Rx` Trajectory | `/staff/reports/lifestyle-rx-trajectory` |
-| **R11** | Nutrition Weight-Recorded Trajectory | `/professional/nutrition` |
+| **R11** | Nutrition Weight-Recorded Trajectory | `/professional/nutrition-weight-changes` |
 | **R12** | Evaluation Turnaround Time | `/professional/evaluations/turnaround` |
 | **R13** | Neurology Seizure & Migraine Frequency | `/staff/reports/neurology-frequency` |
 
@@ -51,7 +53,7 @@
 | Code | Report | Route |
 | :--- | :--- | :--- |
 | **R22** | HMO LOA-to-Encounter Conversion | `/staff/reports/hmo-loa-conversion` |
-| **R23** | Sponsor Monthly Reporting & Quota | `/admin/workflows/sponsor-reports` |
+| **R23** | Sponsor Monthly Reporting & Quota | `/sponsor-access/[company]/[brand]` |
 | **R24** | Report Studio Definitions & Preview | `/admin/reports-studio` |
 | **R25** | Monthly Tiered Volume Contract Utilization (`1–20`, `21–30`, `31+`) | `/staff/reports/tiered-volume-utilization` |
 | **R26** | Linked Inquiry Acquisition Funnel | `/staff/reports/acquisition` |

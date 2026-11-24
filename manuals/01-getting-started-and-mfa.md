@@ -1,9 +1,11 @@
 # Manual 01: Getting Started, Authentication & Mandatory MFA
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Admin Curriculum](../training/03-admin-training-curriculum.md)
+
 ## 1. Sign-In Paths
 - **Staff & Clinician Sign-In (`/sign-in` & `/staff-password`):**
   - Supports verified Google Workspace SSO and invitation-based staff email/password login.
-  - Account creation is separate from role activation: an administrator must grant active `staff_access` for a specific company/brand, and clinicians must complete 6-gate readiness (`/professional` setup) before becoming bookable.
+  - Account creation is separate from role activation: an administrator must grant active `staff_access` for a specific company/brand, and clinicians must complete 6-gate readiness after `/professional-invite` and confirm bookable hours at `/professional/schedule` before becoming bookable.
 - **Client & Guardian Sign-In (`/client-access/[brand]`):**
   - Adult clients use Google SSO or clinic-issued one-time claim links.
   - Minors/dependents access care through an enrolled, verified guardian (`/staff/guardian-enrollment`).

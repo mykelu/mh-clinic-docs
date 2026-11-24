@@ -1,5 +1,7 @@
 # Manual 02: Scheduling, Waitlist & 7-Step Aventus HMO Operations
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Coordinator Guide](../personas/02-front-desk-coordinator.md)
+
 ![8-Gate Booking Simulator and 7-Step Aventus HMO Referral-to-Settlement Lifecycle](../assets/visuals/eight-gate-booking-flow.svg)
 
 ## 1. 8-Gate Booking Simulator & Planned Hours (`WP-12`)
@@ -13,7 +15,7 @@ Before confirming any appointment, the **8-Gate Booking Simulator** evaluates:
 7. Booking notice & cutoff windows (`24h` default, policy-driven)
 8. Payer / referral / bundle / statutory eligibility
 
-Administrators can promote draft planned hours to bookable calendar capacity in 1 click from `/admin/configuration/schedules`, and test sample booking matches under `/admin/workflows`.
+Administrators can promote draft planned hours to bookable calendar capacity in 1 click from `/admin/professional-schedules`, run the **8-Gate Booking Simulator** at `/admin/configuration#booking-simulator`, and test sample booking matches under `/admin/workflows`.
 
 ### Testing a care pathway and booking match
 
@@ -45,7 +47,7 @@ Administrators can promote draft planned hours to bookable calendar capacity in 
 1. **Referral Capture (`/staff/hmo-requests`):** Paste the 8-field Aventus referral slip; system validates LOA number, validity window, and covered service.
 2. **Slot Hold & Clinic Confirmation:** Link the referral to a calendar slot and confirm attendance.
 3. **10-Column Inventory Ledger:** Tracks referral $\rightarrow$ LOA $\rightarrow$ encounter $\rightarrow$ closeout status (`R22` HMO LOA-to-Encounter Conversion).
-4. **LOA Amendment Loop:** Request/record payer-approved schedule or clinician changes without losing audit lineage (`/staff/hmo-rescheduling`).
+4. **LOA Amendment Loop:** Request/record payer-approved schedule or clinician changes without losing audit lineage (`/staff/hmo-requests`).
 5. **Encounter & Clinical Output:** Clinician attests `served` and completes `SOAP` + `MedCert`/`eRx`; HMO staff see completion booleans only.
 6. **Branded `SOA` & `Sales Invoice` (`/hmo/statements`):** Generates 100% Brand-Identity-driven `Statement of Account` (privacy-safe client initials) and `Sales Invoice` with **10% Withholding Tax (`WTax`)** and `Net Payable`.
 7. **Settlement & `BIR 2307`:** Record AUB deposit slip + `BIR Form 2307` certificate; feeds `R25` Tiered Volume (`1–20`, `21–30`, `31+`) and `R28` AR Aging.

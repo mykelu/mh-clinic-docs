@@ -1,5 +1,7 @@
 # Manual 04: Psychological Assessments (`DSM-5-TR`), `Lifestyle Rx` & Specialty Tracks
 
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Glossary](../GLOSSARY.md) · [Psychologist Guide](../personas/04-psychologist-and-psychometrician.md)
+
 ## 1. APA `DSM-5-TR` Section III Standard Assessment Catalog (`/staff/assessments/dsm5tr`)
 MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with APA `DSM-5-TR` Online Assessment Measures:
 

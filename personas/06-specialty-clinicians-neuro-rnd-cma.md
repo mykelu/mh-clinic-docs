@@ -1,6 +1,6 @@
 # Persona Guide 06: Specialty Clinicians (Neurologist, RND & CMA)
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
 
 ---
 
@@ -13,9 +13,9 @@ MH-Clinic supports integrated **whole-person behavioral health** through three s
 
 | Track | Primary Workspaces | Core Work Packages | Signing & Ordering Scope |
 | :--- | :--- | :--- | :--- |
-| **Neurology (`MD`)** | `/encounters/[id]`, `/specialty/neuro`, `/erx` | `WP-08`, `WP-10`, `WP-27` | Neuro exam, `ICD-10-CM` diagnoses, `RA 6675` eRx, diagnostic orders |
-| **Nutrition (`RND`)** | `/encounters/[id]`, `/specialty/nutrition`, `/lifestyle` | `WP-27`, `WP-28` | Nutrition Care Process (`ADIME`), Lifestyle Rx nutrition pillar |
-| **Medical Assistant (`CMA`)** | `/check-in`, `/specialty/vitals`, `/monitoring` | `WP-27`, `WP-28` | Vitals, BMI/waist circumference, lab-due reminders, lifestyle check-ins |
+| **Neurology (`MD`)** | `/professional/appointments/[appointmentId]/notes`, `/professional/appointments/[appointmentId]/neurology-chart` | `WP-08`, `WP-10`, `WP-27` | Neuro exam, `ICD-10-CM` diagnoses, `RA 6675` eRx, diagnostic orders |
+| **Nutrition (`RND`)** | `/professional/appointments/[appointmentId]/notes`, `/professional/appointments/[appointmentId]/nutrition-chart`, `/client/[brand]/lifestyle-rx` | `WP-27`, `WP-28` | Nutrition Care Process (`ADIME`), Lifestyle Rx nutrition pillar |
+| **Medical Assistant (`CMA`)** | `/staff/appointments`, `/staff/appointments`, `/professional/nutrition-weight-changes` | `WP-27`, `WP-28` | Vitals, BMI/waist circumference, lab-due reminders, lifestyle check-ins |
 
 ---
 
@@ -24,7 +24,7 @@ MH-Clinic supports integrated **whole-person behavioral health** through three s
 ### 2.1 Medical Assistant (`CMA`) Pre-Visit & Metabolic Monitoring
 1. Capture **Vitals & Anthropometrics** (BP, HR, Weight, Height, BMI, Waist Circumference) before `MD` or `RND` sees the patient.
 2. Flag abnormal metabolic baselines (e.g., weight gain $> 5\%$ on atypical antipsychotics) for the prescribing `MD` and `RND`.
-3. Log **Lifestyle Monitoring** adherence streaks (sleep, movement, nutrition, hydration) in `/monitoring`.
+3. Log **Lifestyle Monitoring** adherence streaks (sleep, movement, nutrition, hydration) in `/professional/nutrition-weight-changes`.
 
 ### 2.2 Registered Nutritionist-Dietitian (`RND`) & 6-Pillar Lifestyle Rx (`WP-28`)
 1. Document structured **ADIME** (*Assessment, Diagnosis, Intervention, Monitoring/Evaluation*) notes.
@@ -35,7 +35,7 @@ MH-Clinic supports integrated **whole-person behavioral health** through three s
    - **Pillar 4:** Stress Regulation & Mindfulness
    - **Pillar 5:** Substance & Stimulant Moderation
    - **Pillar 6:** Social Connection & Purpose
-3. Publish patient-friendly action cards to the Client Portal (`/portal/lifestyle`).
+3. Publish patient-friendly action cards to the Client Portal (`/client/[brand]/lifestyle-rx`).
 
 ### 2.3 Neurologist (`MD`) Specialty Consultation (`WP-27`)
 1. Review psychiatric referral question (e.g., ruling out organic etiology, seizure comorbidity, cognitive decline).

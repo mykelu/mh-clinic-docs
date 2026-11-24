@@ -1,6 +1,6 @@
 # Training Checklist 02: Content & Data Onboarding (Go-Live Readiness)
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Role Exercises & Labs](01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [Role Exercises & Labs](01-role-exercises-and-labs.md) · [Glossary](../GLOSSARY.md)
 
 Use this checklist before promoting a new clinic branch, corporate sponsor program, or clinical catalog to production. It covers core platform readiness plus the specialized data/content work packages (**`WP-21`**, **`WP-23`**, **`WP-24`**, **`WP-26`**, **`WP-29`**, **`WP-31`**).
 
@@ -13,7 +13,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 - [ ] **MFA Enforced:** All staff accounts have TOTP or Passkey MFA enrolled; zero shared logins exist.
 - [ ] **Idle Timeouts:** Reception/shared kiosks configured to 15-minute idle lock.
 - [ ] **RA 10173 Privacy Notice & Consent:** Digital consent templates reviewed and published for all active branches.
-- [ ] **PRC / PTR / S2 Verification:** All prescribing MDs and `RPsy`/`RPm` clinicians have valid license numbers and future expiration dates entered in `/admin/users`.
+- [ ] **PRC / PTR / S2 Verification:** All prescribing MDs and `RPsy`/`RPm` clinicians have valid license numbers and future expiration dates entered in `/admin/professional-credential-validity`.
 - [ ] **Break-Glass Policy:** DPO email/alert recipient configured for `/admin/audit` emergency access notifications.
 
 ---
@@ -37,7 +37,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 - [ ] **PHI Exclusion:** If enabled for non-PHI catalog/learning search, confirm zero patient chart fields are indexed.
 
 ### `WP-23`: Turnkey Reports (`R01`–`R30`) & Report Studio
-- [ ] **Turnkey Smoke Test:** Run sample queries across `R01`–`R30` in `/reports` ([Manual 06](../manuals/06-reporting-and-analytics-guide.md)).
+- [ ] **Turnkey Smoke Test:** Run sample queries across `R01`–`R30` in `/staff/reports` ([Manual 06](../manuals/06-reporting-and-analytics-guide.md)).
 - [ ] **$k$-Anonymity Guard ($k \ge 5$):** Confirm small-cell suppression is active on all sponsor/HR exports (`R14`–`R21`, `R23`).
 
 ### `WP-24`: Dual-Role Usability & Assignment-to-Review
@@ -55,7 +55,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 - [ ] **Post-Import Checksums:** Validate record counts match source manifest 100%.
 
 ### `WP-31`: Anonymous Helpline & `/learn` Learning Hub
-- [ ] **Zero-PII Helpline Test:** Verify `/helpline` issues `ANON-xxxx` IDs without storing IP, cookies, or login PII.
+- [ ] **Helpline entitlement test:** At `/helpline`, confirm unentitled visitors see the national crisis deflection card, and that a synthetic corporate passcode or blinded member token opens an `ANON-xxxx` session without collecting a legal name, email, or phone number.
 - [ ] **L1–L4 & National Hotline Deflection:** Test unentitled deflection and `L1` escalation and confirm National Crisis Hotline deflection numbers are current and localized.
 - [ ] **15-Minute Cooldown:** Verify responder console enforces post-`L1` cooldown.
 - [ ] **`/learn` Content Review:** Confirm all published psychoeducation articles, grounding tools, and crisis links in `/learn` are clinically reviewed and bilingual-ready.
