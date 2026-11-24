@@ -58,13 +58,31 @@ MH-Clinic enforces the **Generics Act of 1988 (`RA 6675`)** on every prescriptio
 
 ---
 
-## 3. Guardrails & Compliance
+## 3. Visual Workspace Reference
+
+![Clinical Documentation, Safety Planning, RA 6675 Prescribing, and Specialty Tracks Overview](../assets/visuals/clinical-safety-and-coding.svg)
+
+![Professional attestation queue listing a consultation ready for review and completion attestation](../assets/screenshots/consultations-to-attest.png)
+
+*Synthetic clinician-training capture, November 2026. Record completion only after the consultation takes place.*
+
+![Formulary preparation screen showing the 1-Click Load Philippine Psychiatric Starter Formulary (17 items) action](../assets/screenshots/admin-formulary-starter.png)
+
+*Synthetic training capture, November 2026. Starter formulary entries require psychiatric clinical review before active prescribing.*
+
+![Document workspace showing a consultation certificate saved as Draft, revision 1](../assets/screenshots/certificate-draft-saved.png)
+
+*Synthetic clinician-training capture, November 2026. Unsigned drafts are clearly marked `Draft` and are not valid issued certificates.*
+
+---
+
+## 4. Guardrails & Compliance
 - **Unsigned Encounters:** Encounters remain in `DRAFT` until signed; unattested notes block final HMO claim submission.
 - **Controlled Substances:** S2 license number and validity date are checked at signing time for regulated medications.
 - **Addenda:** Once signed, notes are immutable; post-sign corrections must be entered as timestamped **Addenda**.
 
 ---
 
-## 4. Practice & Verification
+## 5. Practice & Verification
 - Complete **Lab 03** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full details in [Manual 03: Clinical Workflows & Prescribing](../manuals/03-clinical-workflows-and-prescribing.md).

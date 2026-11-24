@@ -41,6 +41,26 @@ The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses 
 
 ---
 
-## 3. Practice & Verification
+## 3. Visual Guide to Your Client Experience
+
+![Linked MindWell.PH client portal account dashboard showing verified mobile status, care checklist, and self-service links](../assets/screenshots/client-portal-dashboard.png)
+
+*Synthetic client-training capture, November 2026. Your brand portal shows only your own appointments, care checklist, evaluation reports, and lifestyle plans.*
+
+![Client portal assessment task form displaying sample question and Submit assessment button](../assets/screenshots/assessment-client-task.png)
+
+*Synthetic client-training capture, November 2026. Complete assigned questionnaires prior to your session so your clinician can review progress.*
+
+![Public Psychoeducation Library and Self-Reading Hub featuring CBT Thought Record, CBT-I Sleep Reset, and 5-4-3-2-1 Sensory Grounding](../assets/screenshots/learning-hub-public.png)
+
+*Synthetic public-access training capture, November 2026. Browse self-guided psychoeducation articles at `/learn` anytime without logging in.*
+
+![Entitlement-Gated Anonymous Helpline showing passcode gate and Immediate Public Crisis Support deflection numbers](../assets/screenshots/helpline-public-deflection.png)
+
+*Synthetic public-access training capture, November 2026. National crisis hotlines remain immediately visible whenever an unentitled visitor accesses `/helpline`.*
+
+---
+
+## 4. Practice & Verification
 - Complete **Lab 09** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review portal and helpline details in [Manual 07: Helpline, Learning Hub & AI Coordinator](../manuals/07-helpline-learning-hub-and-ai-coordinator.md).

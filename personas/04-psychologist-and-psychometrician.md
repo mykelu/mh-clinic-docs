@@ -51,12 +51,28 @@ sequenceDiagram
 
 ---
 
-## 3. Compliance Guardrails (`RA 10029`)
+## 3. Visual Workspace Reference
+
+![DSM-5-TR Standard Assessment Measures catalog displaying all 68 measures with category and population filters](../assets/screenshots/assessments-dsm5tr-catalog.png)
+
+*Synthetic clinician-training capture, November 2026. Browse all 68 standardized Section III measures across 7 categories before assigning self-report or clinician-rated batteries.*
+
+![Evaluation instrument approvals workspace showing governance check for approved edition, rights, and norm references](../assets/screenshots/professional-evaluations-suite.png)
+
+*Synthetic clinician-training capture, November 2026. Instruments must have recorded approval authority before use in formal `RPm` + `RPsy` evaluations.*
+
+![Client assessment submission receipt displaying Submitted for professional review](../assets/screenshots/assessment-client-submitted.png)
+
+*Synthetic training capture, November 2026. Submission confirms client receipt, not completed clinical review or evaluation release.*
+
+---
+
+## 4. Compliance Guardrails (`RA 10029`)
 - An `RPm` account **cannot** unilaterally sign and release a final psychological diagnosis or evaluation report; the system enforces `RPsy` co-signature.
 - Test stimuli and raw item-level proprietary protocols are never exported in plain client summaries unless explicitly authorized.
 
 ---
 
-## 4. Practice & Verification
+## 5. Practice & Verification
 - Complete **Lab 04** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full assessment catalog details in [Manual 04: Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md).

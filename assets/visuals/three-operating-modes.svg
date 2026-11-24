@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 430" width="1080" height="430" role="img" aria-label="MH-Clinic Three Operating Modes Architecture">
+  <defs>
+    <style>
+      .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #182420; }
+      .sub { font-size: 13px; fill: #4B5D56; }
+      .col-title { font-size: 16px; font-weight: 700; fill: #182420; }
+      .label { font-size: 10px; font-weight: 700; letter-spacing: 0.05em; }
+      .body { font-size: 11.5px; fill: #33413B; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; }
+    </style>
+    <filter id="cardShadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#182420" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="430" rx="16" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="1.5"/>
+  <text x="28" y="38" class="font title">Three Clinical Operating Modes Under One Governed Platform</text>
+  <text x="28" y="58" class="font sub">Configured via policy registry (billing.operating_mode) and WP-20 entitlements — zero hardcoded tenant branches</text>
+
+  <!-- Card 1: Direct Self-Pay -->
+  <g filter="url(#cardShadow)">
+    <rect x="28" y="80" width="326" height="322" rx="14" fill="#FFFFFF" stroke="#1F5C48" stroke-width="1.5"/>
+    <rect x="28" y="80" width="326" height="46" rx="14" fill="#1F5C48"/>
+    <rect x="28" y="110" width="326" height="16" fill="#1F5C48"/>
+    <text x="44" y="108" class="font" font-size="13.5" font-weight="700" fill="#FFFFFF">1. Direct Self-Pay &amp; Hybrid Clinic</text>
+
+    <rect x="44" y="138" width="150" height="22" rx="11" fill="#EBF4F0"/>
+    <text x="119" y="153" text-anchor="middle" class="font label" fill="#1F5C48">EXAMPLE: MINDWELL.PH</text>
+    <text x="204" y="153" class="font mono" fill="#4B5D56">billable_clinic</text>
+
+    <text x="44" y="186" class="font label" fill="#1F5C48">CORE WORKFLOW</text>
+    <text x="44" y="206" class="font body">• Public portal booking &amp; guardian enrollment</text>
+    <text x="44" y="226" class="font body">• Recurring memberships &amp; prepaid bundles</text>
+    <text x="44" y="246" class="font body">• Full SOAP/3, MSE, RA 6675 eRx, QR MedCert</text>
+    <text x="44" y="266" class="font body">• Senior (RA 9994) &amp; PWD (RA 10754) discounts</text>
+
+    <line x1="44" y1="286" x2="338" y2="286" stroke="#E5E7EB"/>
+    <text x="44" y="308" class="font label" fill="#1F5C48">BILLING &amp; REPORTING</text>
+    <text x="44" y="328" class="font body">• POS &amp; append-only payment evidence</text>
+    <text x="44" y="348" class="font body">• Deferred revenue rollforward (R27)</text>
+    <text x="44" y="368" class="font body">• Connected Accounting ERP reconciliation</text>
+    <text x="44" y="388" class="font mono" fill="#1F5C48">Routes: /client/[brand] · /staff/payments</text>
+  </g>
+
+  <!-- Card 2: Managed HMO -->
+  <g filter="url(#cardShadow)">
+    <rect x="377" y="80" width="326" height="322" rx="14" fill="#FFFFFF" stroke="#B45309" stroke-width="1.5"/>
+    <rect x="377" y="80" width="326" height="46" rx="14" fill="#B45309"/>
+    <rect x="377" y="110" width="326" height="16" fill="#B45309"/>
+    <text x="393" y="108" class="font" font-size="13.5" font-weight="700" fill="#FFFFFF">2. Managed HMO &amp; Corporate Network</text>
+
+    <rect x="393" y="138" width="134" height="22" rx="11" fill="#FEF3C7"/>
+    <text x="460" y="153" text-anchor="middle" class="font label" fill="#92400E">EXAMPLE: AVENTUS</text>
+    <text x="537" y="153" class="font mono" fill="#4B5D56">hmo_network</text>
+
+    <text x="393" y="186" class="font label" fill="#B45309">CORE WORKFLOW</text>
+    <text x="393" y="206" class="font body">• 7-step referral slip &amp; LOA validity check</text>
+    <text x="393" y="226" class="font body">• Temporary shared-calendar slot holds</text>
+    <text x="393" y="246" class="font body">• Audited replacement &amp; LOA amendment loop</text>
+    <text x="393" y="266" class="font body">• Clinician completion booleans (no note body)</text>
+
+    <line x1="393" y1="286" x2="687" y2="286" stroke="#E5E7EB"/>
+    <text x="393" y="308" class="font label" fill="#B45309">BILLING &amp; REPORTING</text>
+    <text x="393" y="328" class="font body">• Branded SOA &amp; Sales Invoice (10% WTax)</text>
+    <text x="393" y="348" class="font body">• BIR Form 2307 &amp; tiered volume pricing (R25)</text>
+    <text x="393" y="368" class="font body">• LOA conversion (R22) &amp; AR Aging (R28)</text>
+    <text x="393" y="388" class="font mono" fill="#B45309">Routes: /hmo · /admin/hmo-payer-review</text>
+  </g>
+
+  <!-- Card 3: Institutional IHC -->
+  <g filter="url(#cardShadow)">
+    <rect x="726" y="80" width="326" height="322" rx="14" fill="#FFFFFF" stroke="#3730A3" stroke-width="1.5"/>
+    <rect x="726" y="80" width="326" height="46" rx="14" fill="#3730A3"/>
+    <rect x="726" y="110" width="326" height="16" fill="#3730A3"/>
+    <text x="742" y="108" class="font" font-size="13.5" font-weight="700" fill="#FFFFFF">3. Institutional Non-Billable (IHC)</text>
+
+    <rect x="742" y="138" width="144" height="22" rx="11" fill="#EEF2FF"/>
+    <text x="814" y="153" text-anchor="middle" class="font label" fill="#3730A3">EXAMPLE: ABC BANK</text>
+    <text x="894" y="153" class="font mono" fill="#4B5D56">in_house_non_billable</text>
+
+    <text x="742" y="186" class="font label" fill="#3730A3">CORE WORKFLOW</text>
+    <text x="742" y="206" class="font body">• Zero client charge — isolated from billing</text>
+    <text x="742" y="226" class="font body">• MMDDYYYY+Initials+MMDDYYYY client codes</text>
+    <text x="742" y="246" class="font body">• De-identified roster (XXX / 4,000 reach)</text>
+    <text x="742" y="266" class="font body">• SOAP ↔ 5Ps formulation &amp; 27 subtopics</text>
+
+    <line x1="742" y1="286" x2="1036" y2="286" stroke="#E5E7EB"/>
+    <text x="742" y="308" class="font label" fill="#3730A3">GOVERNANCE &amp; REPORTING</text>
+    <text x="742" y="328" class="font body">• Turnkey ABC Bank IHC Suite (R14–R21)</text>
+    <text x="742" y="348" class="font body">• RFC 5545 .ics calendar sync (PII stripped)</text>
+    <text x="742" y="368" class="font body">• Database-enforced k ≥ 5 sponsor suppression</text>
+    <text x="742" y="388" class="font mono" fill="#3730A3">Routes: /admin/ihc-workplan · /professional/ihc</text>
+  </g>
+</svg>

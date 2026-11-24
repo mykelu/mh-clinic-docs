@@ -57,7 +57,25 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 
 ---
 
-## 3. Do's and Don'ts at Reception
+## 3. Visual Workspace Reference
+
+![8-Gate Booking Simulator and 7-Step Aventus HMO Workflow](../assets/visuals/eight-gate-booking-flow.svg)
+
+![Appointment detail panel displaying MindWell.PH brand, booking channel, inherited rules, and confirm, reschedule, and cancel actions](../assets/screenshots/appointment-details-panel.png)
+
+*Synthetic operator-training capture, November 2026. Check the brand, booking channel, and payment status before confirming or rescheduling.*
+
+![Guardian-assisted enrollment workspace separating child and parent or guardian details under MindWell.PH](../assets/screenshots/guardian-enrollment-form.png)
+
+*Synthetic operator-training capture, November 2026. Record child and guardian details separately and confirm safe contact before messaging.*
+
+![HMO payer consultation hold showing temporary Manila time slot, expiry, and Release selected time action](../assets/screenshots/hmo-initial-time-held.png)
+
+*Synthetic payer-training capture, November 2026. A held time remains provisional until confirmed by clinic staff.*
+
+---
+
+## 4. Do's and Don'ts at Reception
 
 | Do | Don't |
 | :--- | :--- |
@@ -67,6 +85,6 @@ The **Front Desk Coordinator** (`FRONT_DESK`) is the operational hub for patient
 
 ---
 
-## 4. Practice & Verification
+## 5. Practice & Verification
 - Complete **Lab 02** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full scheduling rules in [Manual 02: Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md).

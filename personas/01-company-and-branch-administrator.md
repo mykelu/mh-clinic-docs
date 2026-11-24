@@ -70,18 +70,34 @@ flowchart LR
 
 ---
 
-## 4. Guardrails & Escalation Matrix
+## 4. Visual Workspace Reference
+
+![Company setup administrator home showing common readiness tasks across all managed clinic brands](../assets/screenshots/admin-home-dashboard.png)
+
+*Synthetic administrator-training capture, November 2026. The task-oriented Administrator Home links directly to professional onboarding, service configuration, access grants, HMO review, and compliance audits.*
+
+![Policy registry showing 6-layer inheritance, effective value, inherited value, and audit reason requirement](../assets/screenshots/config-policy-registry.png)
+
+*Synthetic administrator-training capture, November 2026. Policy overrides track effective scope, revision, and required reason before review.*
+
+![Staff read-access audit showing metadata-only read receipts logged for operational and configuration screens](../assets/screenshots/admin-audit-log.png)
+
+*Synthetic administrator-training capture, November 2026. Read-access audits log actor, scope, and read type without exposing clinical note content.*
+
+---
+
+## 5. Guardrails & Escalation Matrix
 
 | Scenario | Required Action | Reference |
 | :--- | :--- | :--- |
 | Clinician PRC license expired | System blocks eRx/signing; suspend prescribing privileges until renewed | [Manual 03](../manuals/03-clinical-workflows-and-prescribing.md) |
 | Suspected unauthorized export | Revoke session tokens in `/admin/users`, export `/admin/audit` trail, notify DPO | [Manual 01](../manuals/01-getting-started-and-mfa.md) |
 | Report cell count $< 5$ for sponsor | Suppress small cells automatically via $k$-anonymity policy | [Manual 06](../manuals/06-reporting-and-analytics-guide.md) |
-| Helpline L4 crisis escalation | Coordinate with Case Manager & Safety Responder; do not alter raw helpline logs | [Manual 07](../manuals/07-helpline-learning-hub-and-ai-coordinator.md) |
+| Helpline L1 crisis escalation | Coordinate with Case Manager & Safety Responder; do not alter raw helpline logs | [Manual 07](../manuals/07-helpline-learning-hub-and-ai-coordinator.md) |
 
 ---
 
-## 5. Practice & Verification
+## 6. Practice & Verification
 - Complete the full [Company & Branch Administrator Training Curriculum](../training/03-admin-training-curriculum.md).
 - Complete **Lab 01** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Verify go-live readiness using the [Content & Data Onboarding Checklist](../training/02-content-and-data-onboarding-checklist.md).

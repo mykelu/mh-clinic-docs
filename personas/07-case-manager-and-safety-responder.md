@@ -50,6 +50,24 @@ flowchart LR
 
 ---
 
-## 3. Practice & Verification
+## 3. Visual Workspace Reference
+
+![WP-31 Zero-PII Anonymous Helpline and WP-32 AG-UI AI Coordinator Safety Guardrails](../assets/visuals/helpline-ai-guardrails.svg)
+
+![Case episodes workspace scoped to MindWell.PH showing follow-up queue in Philippine time and New case episode action](../assets/screenshots/case-manager-episodes.png)
+
+*Synthetic case-manager training capture, November 2026. Case episodes track longitudinal follow-up windows strictly within the authorized brand.*
+
+![L1–L4 Crisis Helpline Responder Desk listing brand-scoped endpoints and 15-minute post-L1 cooldown reminder](../assets/screenshots/staff-helpline-desk.png)
+
+*Synthetic responder-training capture, November 2026. Responder consoles keep caller aliases pseudonymous (`ANON-xxxx`) and enforce post-`L1` welfare cooldowns.*
+
+![Entitlement-Gated Anonymous Helpline showing Immediate Public Crisis Support deflection numbers](../assets/screenshots/helpline-public-deflection.png)
+
+*Synthetic public-access training capture, November 2026. Unentitled visitors immediately receive Philippine National Crisis Hotline deflection numbers.*
+
+---
+
+## 4. Practice & Verification
 - Complete **Lab 07** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full helpline & safety details in [Manual 07: Helpline, Learning Hub & AI Coordinator](../manuals/07-helpline-learning-hub-and-ai-coordinator.md).

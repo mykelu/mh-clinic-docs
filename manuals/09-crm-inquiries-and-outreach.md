@@ -37,6 +37,16 @@ flowchart LR
 3. **Conversion or Waitlist:**
    - Book directly through the **8-Gate Simulator** or place the prospect onto the ranked **Waitlist (`/staff/waitlist`)** for automated cancellation backfill.
 
+### Working the connected CRM lead pipeline and contact import
+
+![Connected CRM lead pipeline workspace showing follow-up queue, overdue indicator, stage configuration, and inactive lead-owner warning](../assets/screenshots/crm-lead-queue.png)
+
+*Synthetic operator-training capture, November 2026. Review overdue leads and reassign any inactive lead owner before saving stage or follow-up updates.*
+
+![Connected CRM contact CSV import preview showing column mapping with 1 ready row and 1 skipped existing-email row](../assets/screenshots/crm-contact-import-preview.png)
+
+*Synthetic operator-training capture, November 2026. Preview CSV contact imports first so duplicate workspace emails are skipped cleanly before importing ready rows.*
+
 ---
 
 ## 3. Proactive Outreach Queue (`/staff/outreach`)

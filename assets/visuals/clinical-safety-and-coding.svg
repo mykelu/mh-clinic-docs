@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 470" width="1080" height="470" role="img" aria-label="MH-Clinic Clinical Documentation, Coding, Prescribing and Specialty Care Map">
+  <defs>
+    <style>
+      .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #182420; }
+      .sub { font-size: 13px; fill: #4B5D56; }
+      .sec { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; }
+      .ct { font-size: 13.5px; font-weight: 700; fill: #182420; }
+      .cb { font-size: 11px; fill: #3E4F49; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9.8px; }
+    </style>
+    <filter id="sc" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#182420" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="470" rx="16" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="1.5"/>
+  <text x="28" y="38" class="font title">Clinical Documentation, Safety Planning, Prescribing &amp; Specialty Tracks</text>
+  <text x="28" y="58" class="font sub">Append-only versioned records · Optimistic CAS · Assigned-care PostgreSQL RLS (WP-21 to WP-28)</text>
+
+  <!-- Row 1: 3 Core Clinical Pillars -->
+  <g filter="url(#sc)">
+    <rect x="28" y="80" width="326" height="176" rx="12" fill="#FFFFFF" stroke="#1F5C48" stroke-width="1.4"/>
+    <rect x="44" y="94" width="144" height="22" rx="11" fill="#EBF4F0"/>
+    <text x="116" y="109" text-anchor="middle" class="font sec" fill="#1F5C48">WP-21 · CHARTING</text>
+    <text x="44" y="136" class="font ct">MHCLINIC-SOAP/3 &amp; 14-Domain MSE</text>
+    <text x="44" y="158" class="font cb">• Switchable SOAP ↔ 5Ps (IHC &amp; 27 subtopics)</text>
+    <text x="44" y="176" class="font cb">• 1-click Normal Baseline (WNL) MSE chips</text>
+    <text x="44" y="194" class="font cb">• 1,204 ICD-10-CM + 661 ICD-11 MMS codes</text>
+    <text x="44" y="212" class="font cb">• Scored MMSE (/30), MoCA (/30), Mini-Cog</text>
+    <text x="44" y="238" class="font mono" fill="#1F5C48">Signed = immutable · Edits via Addendum</text>
+  </g>
+
+  <g filter="url(#sc)">
+    <rect x="377" y="80" width="326" height="176" rx="12" fill="#FFFFFF" stroke="#BE123C" stroke-width="1.4"/>
+    <rect x="393" y="94" width="154" height="22" rx="11" fill="#FFE4E6"/>
+    <text x="470" y="109" text-anchor="middle" class="font sec" fill="#BE123C">WP-22 · RISK &amp; SAFETY</text>
+    <text x="393" y="136" class="font ct">C-SSRS &amp; 6-Step Safety Plan</text>
+    <text x="393" y="158" class="font cb">• Embedded C-SSRS suicide risk stratification</text>
+    <text x="393" y="176" class="font cb">• 6-Step Stanley-Brown Safety Plan workflow</text>
+    <text x="393" y="194" class="font cb">• Author-only safety follow-up SLA timers (R06)</text>
+    <text x="393" y="212" class="font cb">• Closed-loop Referral Out &amp; Case Mgmt alert</text>
+    <text x="393" y="238" class="font mono" fill="#BE123C">/professional/safety-followup · /case-manager</text>
+  </g>
+
+  <g filter="url(#sc)">
+    <rect x="726" y="80" width="326" height="176" rx="12" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.4"/>
+    <rect x="742" y="94" width="166" height="22" rx="11" fill="#CCFBF1"/>
+    <text x="825" y="109" text-anchor="middle" class="font sec" fill="#0F766E">WP-23 &amp; 27 · eRx / CERT</text>
+    <text x="742" y="136" class="font ct">RA 6675 eRx &amp; QR MedCerts</text>
+    <text x="742" y="158" class="font cb">• Generic Name (Brand) + 17-item PH Formulary</text>
+    <text x="742" y="176" class="font cb">• DDB S2 Yellow Rx license &amp; quantity gates</text>
+    <text x="742" y="194" class="font cb">• Psychotropic labs: BMI, HbA1c, QTc, AIMS, ANC</text>
+    <text x="742" y="212" class="font cb">• Signed MedCert/Fit-to-Work + Public QR check</text>
+    <text x="742" y="238" class="font mono" fill="#0F766E">/verify/document/[token] (Zero note exposure)</text>
+  </g>
+
+  <!-- Row 2: Assessments & Multidisciplinary Specialty Tracks -->
+  <text x="28" y="286" class="font sec" fill="#1F5C48">ASSESSMENTS (WP-17 / WP-24) &amp; INTEGRATIVE SPECIALTY TRACKS (WP-26 / WP-28)</text>
+
+  <g filter="url(#sc)">
+    <rect x="28" y="300" width="244" height="142" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <text x="44" y="324" class="font ct">68 DSM-5-TR &amp; RPm+RPsy</text>
+    <text x="44" y="346" class="font cb">• 7-category APA Section III catalog</text>
+    <text x="44" y="364" class="font cb">• Longitudinal PHQ-9 / GAD-7 MBC</text>
+    <text x="44" y="382" class="font cb">• Dual RPm + RPsy signatures (RA 10029)</text>
+    <text x="44" y="400" class="font cb">• Feedback-session release lock</text>
+    <text x="44" y="424" class="font mono" fill="#3730A3">/staff/assessments/dsm5tr</text>
+  </g>
+
+  <g filter="url(#sc)">
+    <rect x="288" y="300" width="244" height="142" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <text x="304" y="324" class="font ct">6-Pillar Lifestyle Rx</text>
+    <text x="304" y="346" class="font cb">• Nutrition, Movement, Sleep</text>
+    <text x="304" y="364" class="font cb">• Stress, Connection, Substances</text>
+    <text x="304" y="382" class="font cb">• Client weekly portal check-ins</text>
+    <text x="304" y="400" class="font cb">• Trajectory report (R10)</text>
+    <text x="304" y="424" class="font mono" fill="#1F5C48">/client/[brand]/lifestyle-rx</text>
+  </g>
+
+  <g filter="url(#sc)">
+    <rect x="548" y="300" width="244" height="142" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <text x="564" y="324" class="font ct">Neurologist (MD) &amp; RND</text>
+    <text x="564" y="346" class="font cb">• MD: Neuro exam, seizure &amp; migraine</text>
+    <text x="564" y="364" class="font cb">  diaries (R13) &amp; diagnostic uploads</text>
+    <text x="564" y="382" class="font cb">• RND: ADIME charting, drug-nutrient</text>
+    <text x="564" y="400" class="font cb">  rules &amp; weight trajectory (R11)</text>
+    <text x="564" y="424" class="font mono" fill="#0F766E">/professional/headache-instruments</text>
+  </g>
+
+  <g filter="url(#sc)">
+    <rect x="808" y="300" width="244" height="142" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <text x="824" y="324" class="font ct">Acupuncturist (CMA) &amp; MDT</text>
+    <text x="824" y="346" class="font cb">• CMA: NADA / body protocols</text>
+    <text x="824" y="364" class="font cb">• Mandatory needle-count safety lock</text>
+    <text x="824" y="382" class="font cb">• MDT Hub shared care plans</text>
+    <text x="824" y="400" class="font cb">• Care-gap reviews (R09)</text>
+    <text x="824" y="424" class="font mono" fill="#B45309">/professional/acupuncture-protocols</text>
+  </g>
+</svg>

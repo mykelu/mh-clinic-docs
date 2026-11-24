@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 450" width="1080" height="450" role="img" aria-label="MH-Clinic Role-Based Access Control and Clinical Privacy Isolation Matrix">
+  <defs>
+    <style>
+      .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #182420; }
+      .sub { font-size: 13px; fill: #4B5D56; }
+      .th { font-size: 11.5px; font-weight: 700; fill: #FFFFFF; }
+      .role { font-size: 12.5px; font-weight: 700; fill: #182420; }
+      .cell { font-size: 11.5px; font-weight: 600; }
+      .note { font-size: 11.5px; fill: #4B5D56; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="450" rx="16" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="1.5"/>
+  <text x="28" y="38" class="font title">Role-Based Access Control (RBAC), MFA &amp; Clinical Privacy Boundaries</text>
+  <text x="28" y="58" class="font sub">Enforced inside PostgreSQL SECURITY DEFINER RPCs — never solely by UI route hiding</text>
+
+  <!-- Table Header -->
+  <rect x="28" y="78" width="1024" height="36" rx="8" fill="#182420"/>
+  <text x="44" y="100" class="font th">PERSONA / ROLE</text>
+  <text x="280" y="100" class="font th">MFA / IDLE</text>
+  <text x="410" y="100" class="font th">SCHEDULING / OPS</text>
+  <text x="575" y="100" class="font th">CLINICAL NOTES / eRx</text>
+  <text x="765" y="100" class="font th">BILLING / HMO</text>
+  <text x="920" y="100" class="font th">BI / EXPORTS</text>
+
+  <!-- Row 1: Company / Branch Admin -->
+  <rect x="28" y="118" width="1024" height="40" rx="6" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="44" y="142" class="font role">Company / Branch Admin</text>
+  <text x="280" y="142" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
+  <text x="410" y="142" class="font cell" fill="#1F5C48">Full Config &amp; Setup</text>
+  <rect x="575" y="127" width="154" height="22" rx="11" fill="#FFE4E6"/><text x="652" y="142" text-anchor="middle" class="font cell" fill="#BE123C">403 (Break-Glass Only)</text>
+  <text x="765" y="142" class="font cell" fill="#1F5C48">Payer &amp; Contracts</text>
+  <text x="920" y="142" class="font cell" fill="#1F5C48">R01–R30 + Studio</text>
+
+  <!-- Row 2: Front-Desk Coordinator -->
+  <rect x="28" y="162" width="1024" height="40" rx="6" fill="#FAFAF8" stroke="#E5E7EB"/>
+  <text x="44" y="186" class="font role">Front-Desk Coordinator</text>
+  <text x="280" y="186" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
+  <text x="410" y="186" class="font cell" fill="#1F5C48">8-Gate, Waitlist, CRM</text>
+  <rect x="575" y="171" width="154" height="22" rx="11" fill="#FFE4E6"/><text x="652" y="186" text-anchor="middle" class="font cell" fill="#BE123C">403 (Status Booleans)</text>
+  <text x="765" y="186" class="font cell" fill="#1F5C48">POS &amp; HMO Intake</text>
+  <text x="920" y="186" class="font cell" fill="#0F766E">Ops Explorer</text>
+
+  <!-- Row 3: Clinicians (MD / RPsy / RPm / IHC / RND / CMA) -->
+  <rect x="28" y="206" width="1024" height="40" rx="6" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="44" y="230" class="font role">Clinicians &amp; Specialty Tracks</text>
+  <text x="280" y="230" class="font cell" fill="#0F766E">Verified · 30m</text>
+  <text x="410" y="230" class="font cell" fill="#0F766E">Own Schedule &amp; Attest</text>
+  <rect x="575" y="215" width="154" height="22" rx="11" fill="#EBF4F0"/><text x="652" y="230" text-anchor="middle" class="font cell" fill="#1F5C48">Assigned-Care Only</text>
+  <text x="765" y="230" class="font cell" fill="#64748B">View Quote Only</text>
+  <text x="920" y="230" class="font cell" fill="#0F766E">Clinical (R06–R13)</text>
+
+  <!-- Row 4: Case Manager & Safety Responder -->
+  <rect x="28" y="250" width="1024" height="40" rx="6" fill="#FAFAF8" stroke="#E5E7EB"/>
+  <text x="44" y="274" class="font role">Case Manager &amp; Helpline</text>
+  <text x="280" y="274" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
+  <text x="410" y="274" class="font cell" fill="#1F5C48">MDT &amp; L1–L4 Triage</text>
+  <rect x="575" y="259" width="154" height="22" rx="11" fill="#FEF3C7"/><text x="652" y="274" text-anchor="middle" class="font cell" fill="#92400E">Shared Plan / ANON</text>
+  <text x="765" y="274" class="font cell" fill="#64748B">None</text>
+  <text x="920" y="274" class="font cell" fill="#0F766E">Safety SLA (R06/09)</text>
+
+  <!-- Row 5: HMO Billing & Finance -->
+  <rect x="28" y="294" width="1024" height="40" rx="6" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="44" y="318" class="font role">HMO Billing &amp; Finance</text>
+  <text x="280" y="318" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
+  <text x="410" y="318" class="font cell" fill="#64748B">Read LOA / Holds</text>
+  <rect x="575" y="303" width="154" height="22" rx="11" fill="#FFE4E6"/><text x="652" y="318" text-anchor="middle" class="font cell" fill="#BE123C">403 Strictly Denied</text>
+  <text x="765" y="318" class="font cell" fill="#1F5C48">SOA, SI, BIR 2307</text>
+  <text x="920" y="318" class="font cell" fill="#1F5C48">R22, R25, R27, R28</text>
+
+  <!-- Row 6: Sponsor / HR Viewer -->
+  <rect x="28" y="338" width="1024" height="40" rx="6" fill="#FAFAF8" stroke="#E5E7EB"/>
+  <text x="44" y="362" class="font role">Sponsor / HR &amp; Oversight</text>
+  <text x="280" y="362" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
+  <text x="410" y="362" class="font cell" fill="#64748B">None</text>
+  <rect x="575" y="347" width="154" height="22" rx="11" fill="#FFE4E6"/><text x="652" y="362" text-anchor="middle" class="font cell" fill="#BE123C">403 Zero Individual PHI</text>
+  <text x="765" y="362" class="font cell" fill="#64748B">Sponsor Invoices</text>
+  <text x="920" y="362" class="font cell" fill="#3730A3">k ≥ 5 Aggregate Only</text>
+
+  <!-- Row 7: AI Virtual Care Coordinator -->
+  <rect x="28" y="382" width="1024" height="40" rx="6" fill="#EEF2FF" stroke="#C7D2FE"/>
+  <text x="44" y="406" class="font role" fill="#3730A3">AI Coordinator Agent (WP-32)</text>
+  <text x="280" y="406" class="font cell" fill="#3730A3">Per-Run Scoped</text>
+  <text x="410" y="406" class="font cell" fill="#3730A3">HITL Draft Proposals</text>
+  <rect x="575" y="391" width="154" height="22" rx="11" fill="#BE123C"/><text x="652" y="406" text-anchor="middle" class="font cell" fill="#FFFFFF">403 Hard RLS Wall</text>
+  <text x="765" y="406" class="font cell" fill="#64748B">None</text>
+  <text x="920" y="406" class="font cell" fill="#64748B">None (Crisis → L1)</text>
+
+  <text x="28" y="440" class="font note">Clients &amp; verified Guardians access only their own brand portal (/client/[brand]) — evaluations unlock only after Feedback Session Completed.</text>
+</svg>

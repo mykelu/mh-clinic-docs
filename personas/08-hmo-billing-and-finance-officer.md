@@ -47,6 +47,22 @@ The **HMO Billing & Finance Officer** (`BILLING` / `FINANCE`) manages point-of-s
 
 ---
 
-## 3. Practice & Verification
+## 3. Visual Workspace Reference
+
+![Accounting approval dialog showing the synthetic book, journal amount, reason field, and Approve journal action](../assets/screenshots/accounting-review-journal-approval.png)
+
+*Synthetic operator-training capture, November 2026. Approvers verify book, date, amount, and audit reason before approving a journal draft.*
+
+![Reconciliation and close workspace listing readiness checks and audited close and reopen history](../assets/screenshots/accounting-period-readiness.png)
+
+*Synthetic operator-training capture, November 2026. Confirm zero unposted journals and zero unmatched bank lines before closing the period.*
+
+![Accounting Transactions and reports screen showing guided transaction entry and PHP cash flow summary](../assets/screenshots/accounting-cash-flow.png)
+
+*Synthetic operator-training capture, November 2026. Verify book, date range, and branch scope before exporting financial summaries.*
+
+---
+
+## 4. Practice & Verification
 - Complete **Lab 08** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
-- Review full billing rules in [Manual 02: Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md).
+- Review full billing rules in [Manual 02: Scheduling & HMO Operations](../manuals/02-scheduling-and-hmo-operations.md) and [Manual 08: Accounting, Invoicing & Journal Mapping](../manuals/08-accounting-invoicing-and-payouts.md).

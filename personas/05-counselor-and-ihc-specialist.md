@@ -33,12 +33,28 @@ The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SP
 
 ---
 
-## 3. Confidentiality & Sponsor Reporting Boundary
-- Corporate sponsors and HR receive **only** de-identified aggregate trend reports (`R21`–`R25`) with **$k$-anonymity ($k \ge 5$)** enforced.
+## 3. Visual Workspace Reference
+
+![ABC Bank In-House Counseling IHC Today workspace displaying assigned client search, today's Manila schedule, and two-week session calendar](../assets/screenshots/abc-bank-ihc-today.png)
+
+*Synthetic counselor-training capture, November 2026. Counselors manage assigned non-billable institutional visits from `IHC Today`.*
+
+![ABC Bank 2026 Institutional Workplan displaying links to R14–R21 reports and Withheld for privacy small-cohort suppression](../assets/screenshots/abc-bank-ihc-workplan.png)
+
+*Synthetic administrator-training capture, November 2026. Annual deliverables feed `R14`–`R21` automatically while suppressing cells below the $k \ge 5$ privacy floor.*
+
+![Institutional roster workspace for ABC Bank showing employee population 4000 and de-identified sourceId CSV instructions](../assets/screenshots/abc-bank-ihc-roster.png)
+
+*Synthetic administrator-training capture, November 2026. Employee names and birth dates stay out of institutional roster files.*
+
+---
+
+## 4. Confidentiality & Sponsor Reporting Boundary
+- Corporate sponsors and HR receive **only** de-identified aggregate trend reports (`R14`–`R21`, `R23`) with **$k$-anonymity ($k \ge 5$)** enforced.
 - Counselors must **never** email raw session notes or individual attendance logs to HR unless a documented, client-signed `RA 10173` release or imminent life-safety duty-to-warn protocol applies.
 
 ---
 
-## 4. Practice & Verification
+## 5. Practice & Verification
 - Complete **Lab 05** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full IHC specifications in [Manual 05: ABC Bank IHC & Case Management](../manuals/05-abc-bank-ihc-and-case-management.md).

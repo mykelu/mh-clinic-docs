@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 510" width="1080" height="510" role="img" aria-label="8-Gate Booking Simulator and 7-Step Aventus HMO Workflow">
+  <defs>
+    <style>
+      .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #182420; }
+      .sub { font-size: 13px; fill: #4B5D56; }
+      .sec { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; }
+      .g-num { font-size: 11px; font-weight: 800; fill: #FFFFFF; }
+      .g-title { font-size: 13px; font-weight: 700; fill: #182420; }
+      .g-desc { font-size: 11.5px; fill: #4B5D56; }
+      .step-t { font-size: 12px; font-weight: 700; fill: #182420; }
+      .step-b { font-size: 11px; fill: #4B5D56; }
+    </style>
+    <marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#1F5C48"/>
+    </marker>
+    <marker id="arr-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#B45309"/>
+    </marker>
+    <filter id="sh" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#182420" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="510" rx="16" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="1.5"/>
+  <text x="28" y="38" class="font title">Scheduling Governance: 8-Gate Booking Simulator &amp; 7-Step HMO Flow</text>
+  <text x="28" y="58" class="font sub">Deterministic slot eligibility evaluation (WP-12) paired with audited Aventus HMO referral-to-remittance controls (WP-15)</text>
+
+  <!-- Section A: 8-Gate Simulator -->
+  <text x="28" y="88" class="font sec" fill="#1F5C48">PART A · 8-GATE BOOKING SIMULATOR (EVALUATED BEFORE EVERY HOLD OR CONFIRMATION)</text>
+
+  <!-- Row 1 of Gates (1-4) -->
+  <g filter="url(#sh)">
+    <rect x="28" y="100" width="242" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="50" cy="124" r="11" fill="#1F5C48"/><text x="50" y="128" text-anchor="middle" class="font g-num">1</text>
+    <text x="68" y="128" class="font g-title">Company &amp; Brand Scope</text>
+    <text x="42" y="152" class="font g-desc">Active tenant, brand &amp; mode rules</text>
+  </g>
+  <line x1="270" y1="136" x2="287" y2="136" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-g)"/>
+
+  <g filter="url(#sh)">
+    <rect x="290" y="100" width="242" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="312" cy="124" r="11" fill="#1F5C48"/><text x="312" y="128" text-anchor="middle" class="font g-num">2</text>
+    <text x="330" y="128" class="font g-title">Service &amp; Delivery Mode</text>
+    <text x="304" y="152" class="font g-desc">Active SKU · In-person vs. Teleconsult</text>
+  </g>
+  <line x1="532" y1="136" x2="549" y2="136" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-g)"/>
+
+  <g filter="url(#sh)">
+    <rect x="552" y="100" width="242" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="574" cy="124" r="11" fill="#1F5C48"/><text x="574" y="128" text-anchor="middle" class="font g-num">3</text>
+    <text x="592" y="128" class="font g-title">Room &amp; Equipment</text>
+    <text x="566" y="152" class="font g-desc">Location capacity + pre/post buffers</text>
+  </g>
+  <line x1="794" y1="136" x2="811" y2="136" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-g)"/>
+
+  <g filter="url(#sh)">
+    <rect x="814" y="100" width="238" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="836" cy="124" r="11" fill="#1F5C48"/><text x="836" y="128" text-anchor="middle" class="font g-num">4</text>
+    <text x="854" y="128" class="font g-title">Clinician 6/6 Readiness</text>
+    <text x="828" y="152" class="font g-desc">Verified license + brand assignment</text>
+  </g>
+
+  <!-- Row 2 of Gates (5-8) -->
+  <g filter="url(#sh)">
+    <rect x="28" y="188" width="242" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="50" cy="212" r="11" fill="#1F5C48"/><text x="50" y="216" text-anchor="middle" class="font g-num">5</text>
+    <text x="68" y="216" class="font g-title">Published Planned Hours</text>
+    <text x="42" y="240" class="font g-desc">Promoted bookable schedule blocks</text>
+  </g>
+  <line x1="270" y1="224" x2="287" y2="224" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-g)"/>
+
+  <g filter="url(#sh)">
+    <rect x="290" y="188" width="242" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="312" cy="212" r="11" fill="#1F5C48"/><text x="312" y="216" text-anchor="middle" class="font g-num">6</text>
+    <text x="330" y="216" class="font g-title">Time-Off &amp; Holidays</text>
+    <text x="304" y="240" class="font g-desc">Clinician leave &amp; clinic closures</text>
+  </g>
+  <line x1="532" y1="224" x2="549" y2="224" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-g)"/>
+
+  <g filter="url(#sh)">
+    <rect x="552" y="188" width="242" height="72" rx="10" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <circle cx="574" cy="212" r="11" fill="#1F5C48"/><text x="574" y="216" text-anchor="middle" class="font g-num">7</text>
+    <text x="592" y="216" class="font g-title">Notice &amp; Cutoff Rules</text>
+    <text x="566" y="240" class="font g-desc">Policy lead time (24h default) &amp; cutoff</text>
+  </g>
+  <line x1="794" y1="224" x2="811" y2="224" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-g)"/>
+
+  <g filter="url(#sh)">
+    <rect x="814" y="188" width="238" height="72" rx="10" fill="#EBF4F0" stroke="#1F5C48" stroke-width="1.5"/>
+    <circle cx="836" cy="212" r="11" fill="#1F5C48"/><text x="836" y="216" text-anchor="middle" class="font g-num">8</text>
+    <text x="854" y="216" class="font g-title">Payer &amp; Eligibility Pass</text>
+    <text x="828" y="240" class="font g-desc">LOA / bundle / Senior-PWD verified</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="28" y1="284" x2="1052" y2="284" stroke="#DFDDD4" stroke-dasharray="4 4"/>
+
+  <!-- Section B: 7-Step Aventus HMO Workflow -->
+  <text x="28" y="312" class="font sec" fill="#B45309">PART B · 7-STEP AVENTUS HMO REFERRAL-TO-SETTLEMENT LIFECYCLE (ZERO CLINICAL LEAKAGE)</text>
+
+  <g filter="url(#sh)">
+    <rect x="28" y="326" width="134" height="106" rx="10" fill="#FFFFFF" stroke="#F0D4A8"/>
+    <rect x="38" y="336" width="52" height="19" rx="9" fill="#FEF3C7"/>
+    <text x="64" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#92400E">STEP 1</text>
+    <text x="38" y="374" class="font step-t">Referral Slip</text>
+    <text x="38" y="392" class="font step-b">Capture 8 fields</text>
+    <text x="38" y="407" class="font step-b">&amp; LOA validity</text>
+  </g>
+  <line x1="162" y1="379" x2="173" y2="379" stroke="#B45309" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <g filter="url(#sh)">
+    <rect x="176" y="326" width="134" height="106" rx="10" fill="#FFFFFF" stroke="#F0D4A8"/>
+    <rect x="186" y="336" width="52" height="19" rx="9" fill="#FEF3C7"/>
+    <text x="212" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#92400E">STEP 2</text>
+    <text x="186" y="374" class="font step-t">Slot Hold</text>
+    <text x="186" y="392" class="font step-b">Shared-calendar</text>
+    <text x="186" y="407" class="font step-b">hold &amp; confirm</text>
+  </g>
+  <line x1="310" y1="379" x2="321" y2="379" stroke="#B45309" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <g filter="url(#sh)">
+    <rect x="324" y="326" width="134" height="106" rx="10" fill="#FFFFFF" stroke="#F0D4A8"/>
+    <rect x="334" y="336" width="52" height="19" rx="9" fill="#FEF3C7"/>
+    <text x="360" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#92400E">STEP 3</text>
+    <text x="334" y="374" class="font step-t">10-Col Ledger</text>
+    <text x="334" y="392" class="font step-b">Track LOA state</text>
+    <text x="334" y="407" class="font step-b">&amp; R22 metrics</text>
+  </g>
+  <line x1="458" y1="379" x2="469" y2="379" stroke="#B45309" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <g filter="url(#sh)">
+    <rect x="472" y="326" width="134" height="106" rx="10" fill="#FFFFFF" stroke="#F0D4A8"/>
+    <rect x="482" y="336" width="52" height="19" rx="9" fill="#FEF3C7"/>
+    <text x="508" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#92400E">STEP 4</text>
+    <text x="482" y="374" class="font step-t">Amendment</text>
+    <text x="482" y="392" class="font step-b">Audited time /</text>
+    <text x="482" y="407" class="font step-b">clinician move</text>
+  </g>
+  <line x1="606" y1="379" x2="617" y2="379" stroke="#B45309" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <g filter="url(#sh)">
+    <rect x="620" y="326" width="134" height="106" rx="10" fill="#FFFFFF" stroke="#F0D4A8"/>
+    <rect x="630" y="336" width="52" height="19" rx="9" fill="#FEF3C7"/>
+    <text x="656" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#92400E">STEP 5</text>
+    <text x="630" y="374" class="font step-t">Attestation</text>
+    <text x="630" y="392" class="font step-b">Served boolean</text>
+    <text x="630" y="407" class="font step-b">(notes hidden)</text>
+  </g>
+  <line x1="754" y1="379" x2="765" y2="379" stroke="#B45309" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <g filter="url(#sh)">
+    <rect x="768" y="326" width="134" height="106" rx="10" fill="#FFFFFF" stroke="#F0D4A8"/>
+    <rect x="778" y="336" width="52" height="19" rx="9" fill="#FEF3C7"/>
+    <text x="804" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#92400E">STEP 6</text>
+    <text x="778" y="374" class="font step-t">SOA &amp; Invoice</text>
+    <text x="778" y="392" class="font step-b">Initials-only SOA</text>
+    <text x="778" y="407" class="font step-b">&amp; 10% WTax SI</text>
+  </g>
+  <line x1="902" y1="379" x2="913" y2="379" stroke="#B45309" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <g filter="url(#sh)">
+    <rect x="916" y="326" width="136" height="106" rx="10" fill="#FFFBEB" stroke="#B45309" stroke-width="1.5"/>
+    <rect x="926" y="336" width="52" height="19" rx="9" fill="#B45309"/>
+    <text x="952" y="349" text-anchor="middle" class="font" font-size="10" font-weight="700" fill="#FFFFFF">STEP 7</text>
+    <text x="926" y="374" class="font step-t">BIR 2307</text>
+    <text x="926" y="392" class="font step-b">Deposit slip +</text>
+    <text x="926" y="407" class="font step-b">R25 / R28 close</text>
+  </g>
+
+  <!-- Footer Banner -->
+  <rect x="28" y="450" width="1024" height="38" rx="8" fill="#EBF4F0" stroke="#CFE0D8"/>
+  <text x="46" y="474" class="font" font-size="12" fill="#1F5C48"><tspan font-weight="700">Waitlist Recovery (WP-27 / R29):</tspan> Cancelled slots immediately surface ranked waitlisted clients for bounded backfill offers.</text>
+</svg>

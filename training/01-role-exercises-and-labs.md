@@ -9,6 +9,8 @@
 
 ## Lab Index
 
+![Role-Based Access Control and Clinical Privacy Isolation Matrix](../assets/visuals/role-rbac-isolation-matrix.svg)
+
 | Lab | Target Persona | Primary Modules Exercised | Est. Time |
 | :--- | :--- | :--- | :--- |
 | **Lab 01** | [Company & Branch Administrator](../personas/01-company-and-branch-administrator.md) | `WP-01` MFA, `WP-02` Branch, `WP-22` Audit, `WP-23` Reports | 20 min |
@@ -31,7 +33,7 @@
 4. **Verify Audit Trail:** Open `/admin/audit` and confirm user-creation and role-assignment events appear with timestamp and actor ID.
 5. **Pass Criteria:** New branch appears in the 8-Gate Simulator; audit log records 100% of administrative actions.
 
-> Visual reference: [Staff sign-in](../manuals/01-getting-started-and-mfa.md#staff-sign-in-screen) and [professional access preparation](../manuals/10-saas-clients-and-tenant-onboarding.md#prepare-professional-access-separately).
+> Visual reference: [Staff sign-in](../manuals/01-getting-started-and-mfa.md#staff-sign-in-screen), [read-access audit](../manuals/01-getting-started-and-mfa.md#reviewing-metadata-only-staff-read-access-audits), and [professional access preparation](../manuals/10-saas-clients-and-tenant-onboarding.md#prepare-professional-access-and-review-schedule-assignments).
 
 ---
 
@@ -41,7 +43,7 @@
 3. **Waitlist Backfill (`WP-17`):** Cancel an existing afternoon slot and use `/schedule/waitlist` to send a backfill offer to a waiting synthetic patient.
 4. **Pass Criteria:** Credential mismatch blocked cleanly; HMO visit reaches `CHECKED_IN` with LOA attached; waitlist offer converts to `CONFIRMED`.
 
-> Visual reference: [Missing booking hours](../manuals/02-scheduling-and-hmo-operations.md#when-the-booking-panel-shows-no-published-hours) and [HMO availability retry](../manuals/02-scheduling-and-hmo-operations.md#when-an-hmo-availability-lookup-fails).
+> Visual reference: [Missing booking hours](../manuals/02-scheduling-and-hmo-operations.md#when-the-booking-panel-shows-no-published-hours), [HMO slot hold](../manuals/02-scheduling-and-hmo-operations.md#holding-an-initial-hmo-consultation-time), and [HMO availability retry](../manuals/02-scheduling-and-hmo-operations.md#when-an-hmo-availability-lookup-returns-empty-or-fails).
 
 ---
 
@@ -52,7 +54,7 @@
 4. **QR MedCert:** Generate a `FIT_TO_WORK` certificate and verify the QR verification URL resolves to a masked authenticity confirmation.
 5. **Pass Criteria:** Encounter locks as `SIGNED`, Safety Plan triggers Case Manager alert, and eRx/MedCert PDFs render with valid credential blocks.
 
-> Visual reference: [SOAP draft conflict](../manuals/03-clinical-workflows-and-prescribing.md#reviewing-a-note-draft-conflict) and [saved certificate draft](../manuals/03-clinical-workflows-and-prescribing.md#checking-a-saved-certificate-draft).
+> Visual reference: [SOAP draft conflict](../manuals/03-clinical-workflows-and-prescribing.md#reviewing-a-note-draft-conflict), [1-click Starter Formulary](../manuals/03-clinical-workflows-and-prescribing.md#preparing-the-1-click-ph-psychiatric-starter-formulary), and [saved certificate draft](../manuals/03-clinical-workflows-and-prescribing.md#checking-a-saved-certificate-draft).
 
 ---
 
@@ -63,6 +65,8 @@
 4. **Co-Sign & Release (`RPsy`):** Log in as `rpsy.demo@example.test`, add clinical interpretation, and **Co-Sign & Release**.
 5. **Pass Criteria:** Dual-signature audit trail shows `RPm` submission followed by `RPsy` release.
 
+> Visual reference: [68-measure DSM-5-TR catalog](../manuals/04-assessments-and-specialty-tracks.md#browsing-the-68-measure-apa-dsm-5-tr-section-iii-catalog) and [evaluation instrument approval authority](../manuals/04-assessments-and-specialty-tracks.md#checking-evaluation-instrument-approval-authority-ra-10029).
+
 ---
 
 ## Lab 05: Counselor & IHC Specialist — `IHC Today`, Case Key & `SOAP <-> 5Ps`
@@ -72,6 +76,8 @@
 4. **MDT Escalation:** Refer the synthetic case to `/ihc/mdt` for psychiatric consultation.
 5. **Pass Criteria:** Session saved with valid case key, subtopic tags, and active `MDT` referral without exposing PHI to sponsor views.
 
+> Visual reference: [IHC Today & walk-in desk](../manuals/05-abc-bank-ihc-and-case-management.md#counselor-ihc-today-and-coordinator-walk-in-desk) and [ABC Bank annual workplan](../manuals/05-abc-bank-ihc-and-case-management.md#reviewing-the-abc-bank-annual-workplan-and-r14r21-links).
+
 ---
 
 ## Lab 06: Specialty Clinicians — Neuro/RND/CMA & 6-Pillar Lifestyle Rx
@@ -79,6 +85,8 @@
 2. **Nutrition Care (`RND`):** Document an `ADIME` note in `/specialty/nutrition`.
 3. **6-Pillar Lifestyle Rx (`RND` / `MD`):** Configure goals across all 6 Lifestyle Pillars and publish to `/portal/lifestyle`.
 4. **Pass Criteria:** Metabolic baseline appears in clinician timeline and Lifestyle Rx cards appear in the Client Portal.
+
+> Visual reference: [Specialty clinical governance & protocol review](../manuals/04-assessments-and-specialty-tracks.md#specialty-clinical-governance--protocol-review).
 
 ---
 
@@ -88,6 +96,8 @@
 3. **Cooldown Verification:** Confirm the responder console enforces the **15-minute post-`L1` cooldown** before accepting the next high-acuity call.
 4. **Pass Criteria:** Outreach logged with SLA timestamp; `ANON-9042` remains zero-PII; cooldown timer active.
 
+> Visual reference: [Public helpline deflection](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#public-entitlement-gate--philippine-national-crisis-hotline-deflection), [L1–L4 Responder Desk](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#l1l4-crisis-helpline-responder-desk-staffhelpline-desk), and [Case episodes](../manuals/05-abc-bank-ihc-and-case-management.md#managing-longitudinal-case-episodes).
+
 ---
 
 ## Lab 08: HMO Billing & Finance — Senior/PWD Discount & Aventus Claim
@@ -95,6 +105,8 @@
 2. **Aventus Claim Assembly (`WP-05`):** In `/billing/hmo`, verify the signed encounter from Lab 02/03 has all 7 Aventus checklist items green and submit to the claim batch.
 3. **Aging Report:** Open `/reports` and run `R12` (HMO AR Aging).
 4. **Pass Criteria:** Receipt reflects exact statutory tax/discount math; HMO claim transitions to `SUBMITTED`.
+
+> Visual reference: [Accounting opening validation, journal approval, and period close](../manuals/08-accounting-invoicing-and-payouts.md#5-connected-accounting-examples).
 
 ---
 
@@ -105,7 +117,7 @@
 4. **Public Hub:** Open `/learn` and `/helpline` in an unauthenticated window to verify zero-login access.
 5. **Pass Criteria:** PHQ-9 score syncs to clinician chart; `/learn` and `/helpline` load without authentication.
 
-> Visual reference: [Assignment and submission receipt](../manuals/04-assessments-and-specialty-tracks.md#following-an-assessment-from-assignment-to-submission). The screenshots use an invented form and do not depict PHQ-9 or a released report.
+> Visual reference: [Client portal visual guide](../personas/09-client-patient-and-guardian.md#3-visual-guide-to-your-client-experience), [Learning Hub](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#public-self-reading-library--administrator-publisher), and [Assignment and submission receipt](../manuals/04-assessments-and-specialty-tracks.md#following-an-assessment-from-assignment-to-submission). The screenshots use synthetic training records and an invented form, not PHQ-9 or a released report.
 
 ---
 
@@ -114,3 +126,5 @@
 2. **Small-Cell Suppression Check:** Inspect department/subtopic breakdowns where simulated count $< 5$ and verify cells are suppressed (`*` or `Suppressed`) under **$k$-anonymity ($k \ge 5$)**.
 3. **PHI Isolation Check:** Attempt to navigate to `/patients` or `/encounters`; verify strict `403 Forbidden` / redirect.
 4. **Pass Criteria:** Aggregate `R21`–`R25` metrics render cleanly with zero individual PHI exposure.
+
+> Visual reference: [Database-enforced $k$-anonymity (`R16`)](../manuals/06-reporting-and-analytics-guide.md#database-enforced-k-anonymity-in-institutional-reporting-r16) and [Scoped Report Studio](../manuals/06-reporting-and-analytics-guide.md#scoped-report-studio-workspace-mindwellph).

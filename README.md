@@ -55,6 +55,8 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 
 ## Platform Architecture Overview
 
+![MH-Clinic Enterprise Architecture Overview](assets/visuals/platform-architecture-overview.svg)
+
 ```mermaid
 flowchart LR
   Public["Public Brand Portals\n/sites, /learn, /helpline"] --> Auth["Verified Actor & MFA\nGoogle SSO / Passkeys / TOTP"]
@@ -64,3 +66,17 @@ flowchart LR
   Clinical --> PG
   PG --> BI["8 Dashboards & R01–R30 Reports\n+ Report Studio (k >= 5)"]
 ```
+
+---
+
+## Visual Highlights (Synthetic Training Captures)
+
+| Administrator Home (`/admin`) | 6-Layer Policy Registry (`/admin/configuration`) |
+| :---: | :---: |
+| ![Administrator Home](assets/screenshots/admin-home-dashboard.png) | ![Policy Registry](assets/screenshots/config-policy-registry.png) |
+
+| 68-Measure `DSM-5-TR` Catalog (`/staff/assessments/dsm5tr`) | ABC Bank `IHC` Annual Workplan (`/admin/ihc-workplan`) |
+| :---: | :---: |
+| ![DSM-5-TR Catalog](assets/screenshots/assessments-dsm5tr-catalog.png) | ![ABC Bank IHC Workplan](assets/screenshots/abc-bank-ihc-workplan.png) |
+
+Browse all **59 synthetic screenshots** and **8 architecture diagrams** in the [**Visual Guide**](VISUAL_GUIDE.md).

@@ -9,6 +9,10 @@
 
 ## Curriculum Overview
 
+![Company setup administrator home dashboard showing common setup tasks across managed clinic brands](../assets/screenshots/admin-home-dashboard.png)
+
+*Synthetic administrator-training capture, November 2026.*
+
 | Module | Topic | Target Routes | Est. Time |
 | :--- | :--- | :--- | :--- |
 | **Module 1** | Identity, Mandatory MFA, RBAC & Staff Provisioning | `/admin/user-access`, `/admin/staff-invitations`, `/admin/professional-credential-validity` | 25 min |
@@ -39,6 +43,10 @@
 4. **Access Audit (`/admin/user-access`):**
    - Confirm no user holds unnecessary `COMPANY_ADMIN` or `break_glass` privileges.
 
+![Administrator guidance separating staff account invitation, professional access invitation, and clinical readiness review](../assets/screenshots/professional-invitation-steps.png)
+
+*Synthetic administrator-training capture, November 2026.*
+
 ---
 
 ## Module 2: Organization Structure, Branches, Rooms & 8-Gate Policies
@@ -54,6 +62,10 @@
 4. **Booking Policies (`/admin/booking-policies`, `/admin/service-channel-policies`):**
    - Set buffer/turnover minutes, cancellation windows, and allowed modalities (`IN_PERSON` / `TELEHEALTH`).
 5. **8-Gate Verification:** Open `/schedule` and verify slots only appear where all 8 gates (hours, shift, room, credential match, buffer, double-book guard, HMO branch eligibility, age/consent) pass.
+
+![Policy registry showing 6-layer inheritance, effective value, inherited value, and required change reason](../assets/screenshots/config-policy-registry.png)
+
+*Synthetic administrator-training capture, November 2026.*
 
 ---
 
@@ -102,8 +114,14 @@
 2. **Compliance Exports (`/admin/compliance-exports`):**
    - Generate a synthetic compliance audit bundle and verify no raw psychotherapy notes are leaked.
 3. **Turnkey Reports & Report Studio (`/staff/reports`, `/admin/reports-studio`):**
-   - Run `R01` (Utilization), `R28` (AR Aging, Clinician Payout & Accounting Reconciliation), and a Sponsor report (`R21`–`R25`).
+   - Run `R01` (Utilization), `R28` (AR Aging, Clinician Payout & Accounting Reconciliation), and a Sponsor report (`R14`–`R21`, `R23`).
    - Confirm small-cell suppression ($k \ge 5$) masks any cohort slice with fewer than 5 individuals.
+
+![Staff read-access audit showing metadata-only read receipts without exposing clinical content](../assets/screenshots/admin-audit-log.png)
+
+![Report Studio scoped to MindWell.PH showing Saved recipes and Appointment report recipe builder](../assets/screenshots/admin-reports-studio.png)
+
+*Synthetic administrator-training captures, November 2026.*
 
 ---
 
@@ -113,12 +131,16 @@
 - Configure multi-brand portals, ABC Bank IHC non-billable operating mode, `/learn` content, and `WP-31` safety routing.
 
 ### Hands-On Steps
-1. **Brands & Landing Pages (`/admin/brands`, `/admin/brand-portals`, `/admin/landing-pages`):**
+1. **Brands & Landing Pages (`/admin/brands`, `/admin/brands/new-wizard`, `/admin/brand-portals`, `/admin/landing-pages`):**
    - Inspect brand-specific operating mode (`billable_clinic` vs. `in_house_non_billable` for ABC Bank IHC).
 2. **IHC Setup (`/admin/ihc-workplan`, `/admin/ihc-roster`, `/admin/ihc-calendar-import`):**
    - Review roster import format and `.ics` calendar sync rules.
 3. **Learning Hub & Risk Response (`/admin/learning-hub`, `/admin/risk-response`, `/admin/safety-followup-reviewers`):**
-   - Confirm `/learn` psychoeducation modules are published and `L3`/`L4` helpline escalations route to active Safety Responders.
+   - Confirm `/learn` psychoeducation modules are published and `L1`–`L3` helpline escalations route to active Safety Responders.
+
+![Brand launch wizard stepping through Template, Identity, Services, Care and billing, and Readiness](../assets/screenshots/admin-brand-launch-wizard.png)
+
+*Synthetic administrator-training capture, November 2026.*
 
 ---
 

@@ -41,6 +41,20 @@ The **Corporate Sponsor & HR Viewer** (`SPONSOR_VIEWER` / `HR_VIEWER`) represent
 
 ---
 
-## 4. Practice & Verification
+## 4. Visual Reference: $k$-Anonymity & Institutional Reporting
+
+![BI Dashboards, R01–R30 Turnkey Report Suite, and Database-Enforced k-Anonymity Map](../assets/visuals/bi-30-reports-map.svg)
+
+![R16 client demographics 6-band matrix explaining that PostgreSQL suppresses cells below the brand k-anonymity cohort floor](../assets/screenshots/abc-bank-ihc-demographics-r16.png)
+
+*Synthetic administrator-training capture, November 2026. PostgreSQL suppresses demographic cells below the cohort floor (`k >= 5`) before data ever reaches the UI.*
+
+![ABC Bank 2026 Institutional Workplan showing Withheld for privacy in the Actual column when cohort counts fall below the privacy threshold](../assets/screenshots/abc-bank-ihc-workplan.png)
+
+*Synthetic administrator-training capture, November 2026. Small-cohort counts automatically display **Withheld for privacy** to prevent re-identification.*
+
+---
+
+## 5. Practice & Verification
 - Complete **Lab 10** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review $k$-anonymity rules in [Manual 06: Reporting & Analytics Guide](../manuals/06-reporting-and-analytics-guide.md).

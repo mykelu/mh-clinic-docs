@@ -13,6 +13,12 @@ MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with 
 | **6. Early Development & Home Background** | **2** | `EDHB` Form — Parent/Guardian & Clinician |
 | **7. Cultural Formulation Interviews** | **4** | Core `CFI` (16 questions), Informant, Alternative, Supplementary (12 modules) |
 
+### Browsing the 68-measure APA `DSM-5-TR` Section III catalog
+
+![DSM-5-TR Standard Assessment Measures catalog showing category and population filters and all 68 structured measures](../assets/screenshots/assessments-dsm5tr-catalog.png)
+
+*Synthetic clinician-training capture, November 2026. Filter by category, population/rater, or measure code. The catalog serves as an advisory clinical decision-support index and never acts as a standalone diagnosis.*
+
 ## 2. Measurement-Based Care (`WP-17`) & Dual-Signatory `RPm` + `RPsy` Suite (`WP-24`)
 - **Client Portal Delivery (`/client/[brand]`):** Coordinators/clinicians assign activated self-report measures to appointments; clients complete them online and results flow into `/professional/assessments/paired-score-change`.
 - **RA 10029 Dual-Signatory Evaluations (`/professional/evaluations/`):**
@@ -26,11 +32,21 @@ MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with 
 
    ![Coordinator assessment panel showing a synthetic form version and the assigned status](../assets/screenshots/assessment-coordinator-assigned.png)
 
-2. **Linked client:** Submit the assigned task and look for **Submitted for professional review**. This confirms receipt, not completed clinical review or report release.
+2. **Linked client completing the task:** Open the assigned task in the client portal and submit answers.
+
+   ![Client portal synthetic assessment form displaying version 1 and sample multiple-choice selection](../assets/screenshots/assessment-client-task.png)
+
+3. **Linked client submission receipt:** Confirm **Submitted for professional review**. This confirms receipt, not completed clinical review or report release.
 
    ![Client assessment task with the synthetic form version and the Submitted for professional review receipt](../assets/screenshots/assessment-client-submitted.png)
 
-*Both captures are from the same synthetic training exercise, November 2026. They show an invented form, not a clinical instrument, licensed content or a signed evaluation report.*
+*These captures are from the same synthetic training exercise, November 2026. They show an invented form, not a clinical instrument, licensed content or a signed evaluation report.*
+
+### Checking evaluation instrument approval authority (`RA 10029`)
+
+![Evaluation instrument approvals workspace showing governance notice that no brand has current approval authority for the synthetic account](../assets/screenshots/professional-evaluations-suite.png)
+
+*Synthetic clinician-training capture, November 2026. Approved edition, rights, and norm references must be recorded by an authorized reviewer before an instrument is used in a formal evaluation.*
 
 ## 3. 6-Pillar `Lifestyle Rx` & Psychotropic Safety Monitoring (`WP-26`)
 - **6 Pillars (`Nutrition`, `Movement`, `Sleep`, `Stress`, `Connection`, `Substances`):** Clinicians publish SMART plans; clients log weekly check-ins (`/client/[brand]/lifestyle-rx`); tracked in `R10`.
@@ -40,3 +56,11 @@ MH-Clinic includes a structured **7-category, 68-measure catalog** aligned with 
 - **Neurologist (`MD`):** Focused neuro exam, seizure/headache/migraine diary (`R13`), and governed neuro-diagnostic file uploads.
 - **Registered Nutritionist-Dietitian (`RND`):** `ADIME` charting, medication-nutrient rule checks, and weight trajectory (`R11`).
 - **Certified Medical Acupuncturist (`CMA`):** `NADA` / body protocol selection with mandatory needle-count insertion/removal safety lock.
+
+### Specialty clinical governance & protocol review
+
+![Review nutrition medication rules workspace requiring verification of formulary revision, nutrition context, and source before signing](../assets/screenshots/specialty-nutrition-rules.png)
+
+![Review acupuncture protocols workspace requiring verification of source and intended use before making a signed protocol available in charts](../assets/screenshots/specialty-acupuncture-protocols.png)
+
+*Synthetic clinician-training captures, November 2026. Specialty protocols and medication-nutrient rules require explicit clinical authority and brand assignment before becoming available inside active charts.*

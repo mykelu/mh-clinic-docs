@@ -20,6 +20,8 @@ MH-Clinic operates as a **multi-tenant, white-label SaaS platform** where indepe
 
 ## 2. SaaS Client Operating Modes & Entitlements (`WP-20`)
 
+![Three Clinical Operating Modes Under One Governed Platform: Self-Pay, HMO Network, and Non-Billable IHC](../assets/visuals/three-operating-modes.svg)
+
 Each SaaS client tenant is provisioned with explicit **feature entitlements** and an **operating mode**:
 
 | Operating Mode | Typical Tenant | Billing & Invoicing | Key Entitlements |
@@ -58,17 +60,35 @@ flowchart LR
 
 ---
 
-### Review a brand profile before saving
+### Task-oriented Administrator Home & Brand Launch Wizard
+
+![Company setup administrator home dashboard displaying common setup tasks for onboarding professionals, making brand services bookable, granting access, closing HMO billing, and auditing compliance](../assets/screenshots/admin-home-dashboard.png)
+
+*Synthetic administrator-training capture, November 2026. The task-oriented Administrator Home surfaces readiness checklists and quick links across all managed company brands.*
+
+![Brand launch wizard showing stepped tabs for Template, Identity, Services, Care and billing, and Readiness](../assets/screenshots/admin-brand-launch-wizard.png)
+
+*Synthetic administrator-training capture, November 2026. Launch drafts move sequentially through Template, Identity, Services, Care and billing, and Readiness before going live.*
+
+### Review and preview a brand profile before saving
 
 ![Synthetic branch profile editor with public name, optional address and phone, logo selector and required reason for change](../assets/screenshots/brand-profile-review.png)
 
 *Synthetic administrator-training capture, November 2026. Verify the target branch, the intended public fields and the reason before saving. Saving this profile does not verify production routing or publish a site.*
 
-### Prepare professional access separately
+![Administrator-only preview of the saved synthetic branch profile confirming public name and address without publishing a visitor page](../assets/screenshots/brand-profile-preview.png)
+
+*Synthetic administrator-training capture, November 2026. Use the administrator-only preview to confirm public profile fields before publishing.*
+
+### Prepare professional access and review schedule assignments
 
 ![Administrator guidance distinguishes the staff account invitation, professional access invitation and clinical readiness review](../assets/screenshots/professional-invitation-steps.png)
 
 *Synthetic administrator-training capture, November 2026. Account setup, access to a brand and readiness for bookings are separate checks. The screenshot shows guidance, not an invitation link or an active grant.*
+
+![Review assignments and schedule dialog showing MindWell.PH brand scope, proposed payout diff, and optimistic CAS revision confirmation](../assets/screenshots/professional-schedule-review.png)
+
+*Synthetic administrator-training capture, November 2026. Schedule and payout updates show an explicit diff and enforce optimistic concurrency (`expectedRevision`) on confirmation.*
 
 ## 4. Tenant Isolation & Data Governance Guarantees
 - **Database Isolation:** Every tenant-scoped table enforces PostgreSQL `RLS` keyed to `company_id`; cross-tenant queries are blocked at the database layer.

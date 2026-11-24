@@ -68,14 +68,38 @@ Open **`/staff/reports/ar-payout-reconciliation`** (Turnkey Report **`R28`**) to
 
 These captures show the separate Accounting workspace, not the Clinic payer desk or a live journal.
 
-### Validate opening rows before saving
+### Configure book settings and currency
+
+![Accounting book settings showing PHP base currency, Asia/Manila time zone, fiscal year start, and revision 1](../assets/screenshots/accounting-book-settings.png)
+
+*Synthetic operator-training capture, November 2026. Confirm base currency (`PHP`), time zone (`Asia/Manila`), and books start date before posting opening balances.*
+
+### Validate opening rows and reconcile posted opening balances
 
 ![Accounting opening import shows two accepted rows, equal debit and credit, and no journal saved](../assets/screenshots/accounting-validate-opening-rows.png)
 
 *Synthetic operator-training capture, November 2026. Read the row checks and totals before deciding whether to save as an opening draft. Validation does not save or post a journal.*
+
+![Accounting opening balance reconciliation showing zero account differences between source workbook rows and the posted opening journal](../assets/screenshots/accounting-opening-reconciliation.png)
+
+*Synthetic operator-training capture, November 2026. Independent sign-off verifies zero differences between the source workbook and posted opening entries.*
 
 ### Review a journal before approval
 
 ![Accounting approval dialog showing the synthetic book, journal amount, reason field and Approve journal button](../assets/screenshots/accounting-review-journal-approval.png)
 
 *Synthetic operator-training capture, November 2026. The assigned approver checks the book, date, amount and reason. This dialog shows the review before approval, not a posted entry.*
+
+### Match bank statements, check period close readiness, and review cash flow
+
+![Bank statement line matching dialog pairing an unmatched PHP 25.00 statement movement with its posted bank transfer line](../assets/screenshots/accounting-bank-match-review.png)
+
+*Synthetic operator-training capture, November 2026. Pair each bank statement movement with its exact posted ledger entry before running period-close checks.*
+
+![Reconciliation and close workspace listing readiness checks and audited close and reopen history](../assets/screenshots/accounting-period-readiness.png)
+
+*Synthetic operator-training capture, November 2026. Verify zero unposted journals and zero unmatched bank movements before closing an accounting period.*
+
+![Accounting Transactions and reports screen showing guided transaction entry alongside a PHP cash flow report](../assets/screenshots/accounting-cash-flow.png)
+
+*Synthetic operator-training capture, November 2026. Confirm the book, date window, and branch filter when reviewing operating cash movement and ending balances.*

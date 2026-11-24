@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" width="1080" height="460" role="img" aria-label="6-Layer Policy Resolution Hierarchy and Philippine Regulatory Compliance">
+  <defs>
+    <style>
+      .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #182420; }
+      .sub { font-size: 13px; fill: #4B5D56; }
+      .sec { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; fill: #1F5C48; }
+      .l-num { font-size: 11px; font-weight: 800; fill: #FFFFFF; }
+      .l-title { font-size: 13px; font-weight: 700; fill: #182420; }
+      .l-desc { font-size: 11.5px; fill: #4B5D56; }
+      .reg-t { font-size: 13px; font-weight: 700; fill: #182420; }
+      .reg-b { font-size: 11.5px; fill: #3E4F49; }
+    </style>
+    <marker id="arr-p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#1F5C48"/>
+    </marker>
+    <filter id="sp" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#182420" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="460" rx="16" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="1.5"/>
+  <text x="28" y="38" class="font title">6-Layer Policy Resolution Engine &amp; Philippine Regulatory Controls</text>
+  <text x="28" y="58" class="font sub">Explicit inheritance with optimistic CAS (expectedRevision) and immutable audit receipts across every tenant</text>
+
+  <!-- 6-Layer Cascade -->
+  <text x="28" y="88" class="font sec">6-LAYER POLICY INHERITANCE CASCADE (MOST GENERAL → MOST SPECIFIC OVERRIDE)</text>
+
+  <g filter="url(#sp)">
+    <rect x="28" y="102" width="152" height="104" rx="10" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="40" y="114" width="58" height="20" rx="10" fill="#64748B"/><text x="69" y="128" text-anchor="middle" class="font l-num">LAYER 1</text>
+    <text x="40" y="154" class="font l-title">Platform Default</text>
+    <text x="40" y="172" class="font l-desc">Global safe baselines</text>
+    <text x="40" y="188" class="font l-desc">(e.g. k ≥ 5, 24h notice)</text>
+  </g>
+  <line x1="180" y1="154" x2="195" y2="154" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-p)"/>
+
+  <g filter="url(#sp)">
+    <rect x="198" y="102" width="152" height="104" rx="10" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="210" y="114" width="58" height="20" rx="10" fill="#475569"/><text x="239" y="128" text-anchor="middle" class="font l-num">LAYER 2</text>
+    <text x="210" y="154" class="font l-title">Brand / Tenant</text>
+    <text x="210" y="172" class="font l-desc">Operating mode &amp;</text>
+    <text x="210" y="188" class="font l-desc">WP-20 entitlements</text>
+  </g>
+  <line x1="350" y1="154" x2="365" y2="154" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-p)"/>
+
+  <g filter="url(#sp)">
+    <rect x="368" y="102" width="152" height="104" rx="10" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="380" y="114" width="58" height="20" rx="10" fill="#0F766E"/><text x="409" y="128" text-anchor="middle" class="font l-num">LAYER 3</text>
+    <text x="380" y="154" class="font l-title">Branch / Site</text>
+    <text x="380" y="172" class="font l-desc">Timezone, rooms &amp;</text>
+    <text x="380" y="188" class="font l-desc">branch cutoff rules</text>
+  </g>
+  <line x1="520" y1="154" x2="535" y2="154" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-p)"/>
+
+  <g filter="url(#sp)">
+    <rect x="538" y="102" width="152" height="104" rx="10" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="550" y="114" width="58" height="20" rx="10" fill="#2E6F59"/><text x="579" y="128" text-anchor="middle" class="font l-num">LAYER 4</text>
+    <text x="550" y="154" class="font l-title">Brand Program</text>
+    <text x="550" y="172" class="font l-desc">HMO, IHC, or</text>
+    <text x="550" y="188" class="font l-desc">specialty track rules</text>
+  </g>
+  <line x1="690" y1="154" x2="705" y2="154" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-p)"/>
+
+  <g filter="url(#sp)">
+    <rect x="708" y="102" width="152" height="104" rx="10" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="720" y="114" width="58" height="20" rx="10" fill="#1F5C48"/><text x="749" y="128" text-anchor="middle" class="font l-num">LAYER 5</text>
+    <text x="720" y="154" class="font l-title">Service SKU</text>
+    <text x="720" y="172" class="font l-desc">Duration, buffer,</text>
+    <text x="720" y="188" class="font l-desc">credential &amp; channel</text>
+  </g>
+  <line x1="860" y1="154" x2="875" y2="154" stroke="#1F5C48" stroke-width="1.6" marker-end="url(#arr-p)"/>
+
+  <g filter="url(#sp)">
+    <rect x="878" y="102" width="174" height="104" rx="10" fill="#EBF4F0" stroke="#1F5C48" stroke-width="1.5"/>
+    <rect x="890" y="114" width="58" height="20" rx="10" fill="#182420"/><text x="919" y="128" text-anchor="middle" class="font l-num">LAYER 6</text>
+    <text x="890" y="154" class="font l-title">Clinician / Resource</text>
+    <text x="890" y="172" class="font l-desc">Effective override wins</text>
+    <text x="890" y="188" class="font l-desc">+ logged to /admin/audit</text>
+  </g>
+
+  <!-- Regulatory Matrix -->
+  <text x="28" y="242" class="font sec">EMBEDDED PHILIPPINE REGULATORY COMPLIANCE CONTROLS</text>
+
+  <g filter="url(#sp)">
+    <rect x="28" y="256" width="244" height="176" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="42" y="270" width="96" height="22" rx="11" fill="#EBF4F0"/>
+    <text x="90" y="285" text-anchor="middle" class="font" font-size="11" font-weight="700" fill="#1F5C48">RA 10173</text>
+    <text x="42" y="312" class="font reg-t">Data Privacy Act</text>
+    <text x="42" y="334" class="font reg-b">• PostgreSQL RLS tenant wall</text>
+    <text x="42" y="352" class="font reg-b">• Read-audit on every route</text>
+    <text x="42" y="370" class="font reg-b">• Break-glass two-person audit</text>
+    <text x="42" y="388" class="font reg-b">• Zero-PII helpline &amp; k ≥ 5</text>
+    <text x="42" y="406" class="font reg-b">• Configurable retention rules</text>
+  </g>
+
+  <g filter="url(#sp)">
+    <rect x="288" y="256" width="244" height="176" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="302" y="270" width="118" height="22" rx="11" fill="#FFE4E6"/>
+    <text x="361" y="285" text-anchor="middle" class="font" font-size="11" font-weight="700" fill="#BE123C">RA 6675 &amp; DDB S2</text>
+    <text x="302" y="312" class="font reg-t">Generics &amp; Controlled Rx</text>
+    <text x="302" y="334" class="font reg-b">• Generic Name (Brand) format</text>
+    <text x="302" y="352" class="font reg-b">• 17-item PH Starter Formulary</text>
+    <text x="302" y="370" class="font reg-b">• PRC / PTR / S2 license gates</text>
+    <text x="302" y="388" class="font reg-b">• Yellow Rx quantity guardrails</text>
+    <text x="302" y="406" class="font reg-b">• Public QR authenticity check</text>
+  </g>
+
+  <g filter="url(#sp)">
+    <rect x="548" y="256" width="244" height="176" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="562" y="270" width="96" height="22" rx="11" fill="#EEF2FF"/>
+    <text x="610" y="285" text-anchor="middle" class="font" font-size="11" font-weight="700" fill="#3730A3">RA 10029</text>
+    <text x="562" y="312" class="font reg-t">PH Psychology Act</text>
+    <text x="562" y="334" class="font reg-b">• Dual RPm + RPsy signatures</text>
+    <text x="562" y="352" class="font reg-b">• 68 APA DSM-5-TR catalog</text>
+    <text x="562" y="370" class="font reg-b">• Multi-index scorebooks</text>
+    <text x="562" y="388" class="font reg-b">• Feedback-session release lock</text>
+    <text x="562" y="406" class="font reg-b">• Supervision co-sign tracking</text>
+  </g>
+
+  <g filter="url(#sp)">
+    <rect x="808" y="256" width="244" height="176" rx="12" fill="#FFFFFF" stroke="#D7E2DC"/>
+    <rect x="822" y="270" width="154" height="22" rx="11" fill="#FEF3C7"/>
+    <text x="899" y="285" text-anchor="middle" class="font" font-size="11" font-weight="700" fill="#92400E">RA 9994 / 10754 / BIR</text>
+    <text x="822" y="312" class="font reg-t">Statutory Tax &amp; Billing</text>
+    <text x="822" y="334" class="font reg-b">• Senior &amp; PWD 20% discount</text>
+    <text x="822" y="352" class="font reg-b">• 12% VAT-exempt calculator</text>
+    <text x="822" y="370" class="font reg-b">• HMO 10% Withholding Tax SI</text>
+    <text x="822" y="388" class="font reg-b">• BIR Form 2307 attachment</text>
+    <text x="822" y="406" class="font reg-b">• R27 / R28 reconciliation</text>
+  </g>
+</svg>

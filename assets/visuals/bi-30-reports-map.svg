@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" width="1080" height="460" role="img" aria-label="MH-Clinic 30 Turnkey Reports Map and k-Anonymity Governance">
+  <defs>
+    <style>
+      .font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #182420; }
+      .sub { font-size: 13px; fill: #4B5D56; }
+      .ct { font-size: 13.5px; font-weight: 700; fill: #182420; }
+      .cb { font-size: 11.5px; fill: #3E4F49; }
+      .badge { font-size: 10.5px; font-weight: 800; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
+    </style>
+    <filter id="sb" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#182420" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="460" rx="16" fill="#F7F6F2" stroke="#DFDDD4" stroke-width="1.5"/>
+  <text x="28" y="38" class="font title">BI Dashboards, R01–R30 Turnkey Report Suite &amp; Report Studio (WP-30)</text>
+  <text x="28" y="58" class="font sub">Every report is role-scoped, read-audited (clinic.record_staff_read_access), and k-anonymous (k ≥ 5) in SQL</text>
+
+  <!-- 5 Domain Columns -->
+  <g filter="url(#sb)">
+    <rect x="28" y="80" width="194" height="260" rx="12" fill="#FFFFFF" stroke="#CFE0D8"/>
+    <rect x="28" y="80" width="194" height="36" rx="12" fill="#1F5C48"/>
+    <rect x="28" y="102" width="194" height="14" fill="#1F5C48"/>
+    <text x="42" y="103" class="font badge" fill="#FFFFFF">EXECUTIVE (R01–R05)</text>
+    <text x="40" y="138" class="font cb"><tspan font-weight="700">R01</tspan> Cross-Brand Util.</text>
+    <text x="40" y="160" class="font cb"><tspan font-weight="700">R02</tspan> Operating Mode Mix</text>
+    <text x="40" y="182" class="font cb"><tspan font-weight="700">R03</tspan> 30-Day Retention</text>
+    <text x="40" y="204" class="font cb"><tspan font-weight="700">R04</tspan> TNAS Benchmark</text>
+    <text x="40" y="226" class="font cb"><tspan font-weight="700">R05</tspan> Scheduling Outcomes</text>
+    <line x1="40" y1="294" x2="210" y2="294" stroke="#E5E7EB"/>
+    <text x="40" y="316" class="font mono" fill="#1F5C48">/staff/reports</text>
+  </g>
+
+  <g filter="url(#sb)">
+    <rect x="235" y="80" width="194" height="260" rx="12" fill="#FFFFFF" stroke="#FECDD3"/>
+    <rect x="235" y="80" width="194" height="36" rx="12" fill="#BE123C"/>
+    <rect x="235" y="102" width="194" height="14" fill="#BE123C"/>
+    <text x="249" y="103" class="font badge" fill="#FFFFFF">CLINICAL (R06–R13)</text>
+    <text x="247" y="138" class="font cb"><tspan font-weight="700">R06</tspan> Safety Risk &amp; SLA</text>
+    <text x="247" y="158" class="font cb"><tspan font-weight="700">R07</tspan> Psychotropic Labs</text>
+    <text x="247" y="178" class="font cb"><tspan font-weight="700">R08</tspan> Unsigned &amp; Co-Sign</text>
+    <text x="247" y="198" class="font cb"><tspan font-weight="700">R09</tspan> MDT Care-Gaps</text>
+    <text x="247" y="218" class="font cb"><tspan font-weight="700">R10</tspan> 6-Pillar Lifestyle Rx</text>
+    <text x="247" y="238" class="font cb"><tspan font-weight="700">R11</tspan> Nutrition Weight</text>
+    <text x="247" y="258" class="font cb"><tspan font-weight="700">R12</tspan> Eval Turnaround</text>
+    <text x="247" y="278" class="font cb"><tspan font-weight="700">R13</tspan> Neuro Frequency</text>
+    <line x1="247" y1="294" x2="417" y2="294" stroke="#E5E7EB"/>
+    <text x="247" y="316" class="font mono" fill="#BE123C">/staff/reports · /prof</text>
+  </g>
+
+  <g filter="url(#sb)">
+    <rect x="442" y="80" width="196" height="260" rx="12" fill="#FFFFFF" stroke="#C7D2FE"/>
+    <rect x="442" y="80" width="196" height="36" rx="12" fill="#3730A3"/>
+    <rect x="442" y="102" width="196" height="14" fill="#3730A3"/>
+    <text x="454" y="103" class="font badge" fill="#FFFFFF">ABC BANK IHC (R14–R21)</text>
+    <text x="454" y="138" class="font cb"><tspan font-weight="700">R14</tspan> Service-Volume</text>
+    <text x="454" y="158" class="font cb"><tspan font-weight="700">R15</tspan> Monthly Modality</text>
+    <text x="454" y="178" class="font cb"><tspan font-weight="700">R16</tspan> 6-Band Demographics</text>
+    <text x="454" y="198" class="font cb"><tspan font-weight="700">R17</tspan> 27-Subtopic Summary</text>
+    <text x="454" y="218" class="font cb"><tspan font-weight="700">R18</tspan> Annual Workplan</text>
+    <text x="454" y="238" class="font cb"><tspan font-weight="700">R19</tspan> F.U.N.@Work Outreach</text>
+    <text x="454" y="258" class="font cb"><tspan font-weight="700">R20</tspan> Referral Closure</text>
+    <text x="454" y="278" class="font cb"><tspan font-weight="700">R21</tspan> Accommodation / RTW</text>
+    <line x1="454" y1="294" x2="626" y2="294" stroke="#E5E7EB"/>
+    <text x="454" y="316" class="font mono" fill="#3730A3">/admin/ihc-workplan</text>
+  </g>
+
+  <g filter="url(#sb)">
+    <rect x="651" y="80" width="194" height="260" rx="12" fill="#FFFFFF" stroke="#FDE68A"/>
+    <rect x="651" y="80" width="194" height="36" rx="12" fill="#B45309"/>
+    <rect x="651" y="102" width="194" height="14" fill="#B45309"/>
+    <text x="665" y="103" class="font badge" fill="#FFFFFF">HMO &amp; STUDIO (R22–R25)</text>
+    <text x="663" y="138" class="font cb"><tspan font-weight="700">R22</tspan> LOA Conversion</text>
+    <text x="663" y="160" class="font cb"><tspan font-weight="700">R23</tspan> Sponsor Monthly</text>
+    <text x="663" y="182" class="font cb"><tspan font-weight="700">R24</tspan> Report Studio</text>
+    <text x="663" y="204" class="font cb"><tspan font-weight="700">R25</tspan> Tiered Volume</text>
+    <text x="663" y="224" class="font cb" fill="#64748B">     (1–20, 21–30, 31+)</text>
+    <line x1="663" y1="294" x2="833" y2="294" stroke="#E5E7EB"/>
+    <text x="663" y="316" class="font mono" fill="#B45309">/admin/reports-studio</text>
+  </g>
+
+  <g filter="url(#sb)">
+    <rect x="858" y="80" width="194" height="260" rx="12" fill="#FFFFFF" stroke="#99F6E4"/>
+    <rect x="858" y="80" width="194" height="36" rx="12" fill="#0F766E"/>
+    <rect x="858" y="102" width="194" height="14" fill="#0F766E"/>
+    <text x="872" y="103" class="font badge" fill="#FFFFFF">COMMERCIAL (R26–R30)</text>
+    <text x="870" y="138" class="font cb"><tspan font-weight="700">R26</tspan> Inquiry Funnel</text>
+    <text x="870" y="160" class="font cb"><tspan font-weight="700">R27</tspan> MRR &amp; Deferred Rev.</text>
+    <text x="870" y="182" class="font cb"><tspan font-weight="700">R28</tspan> AR Aging &amp; Payouts</text>
+    <text x="870" y="204" class="font cb"><tspan font-weight="700">R29</tspan> Waitlist Recovery</text>
+    <text x="870" y="226" class="font cb"><tspan font-weight="700">R30</tspan> Client CSAT &amp; NPS</text>
+    <line x1="870" y1="294" x2="1040" y2="294" stroke="#E5E7EB"/>
+    <text x="870" y="316" class="font mono" fill="#0F766E">/staff/reports/*</text>
+  </g>
+
+  <!-- Bottom Privacy & Export Bar -->
+  <rect x="28" y="362" width="668" height="74" rx="12" fill="#182420"/>
+  <text x="48" y="388" class="font" font-size="13.5" font-weight="700" fill="#9EE6C8">Database-Enforced k-Anonymity Disclosure Floor (RA 10173)</text>
+  <text x="48" y="408" class="font mono" fill="#E2E8F0">floor := greatest(5, clinic.sponsor_minimum_cohort_size(...))</text>
+  <text x="48" y="424" class="font" font-size="11.5" fill="#CBD5E1">Slices with distinct_clients &lt; floor return status: 'suppressed' with NULL counts — zero re-identification.</text>
+
+  <rect x="712" y="362" width="340" height="74" rx="12" fill="#FFFFFF" stroke="#1F5C48" stroke-width="1.5"/>
+  <text x="730" y="388" class="font ct">No-Code Report Studio Exports</text>
+  <text x="730" y="408" class="font cb">Saved recipes · Privacy-filtered previews</text>
+  <text x="730" y="424" class="font mono" fill="#1F5C48">1-Click CSV · XLSX · PDF · PPTX Decks</text>
+</svg>

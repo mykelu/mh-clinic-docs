@@ -14,6 +14,12 @@
 
 *Synthetic operator-training capture, November 2026. Use the sign-in method assigned by your clinic. This screen shows sign-in choices, not role activation or MFA enrollment.*
 
+### Guardian-assisted enrollment for minors
+
+![Guardian-assisted enrollment workspace recording child and parent or guardian details separately under MindWell.PH](../assets/screenshots/guardian-enrollment-form.png)
+
+*Synthetic operator-training capture, November 2026. Child and parent/guardian details are captured separately so staff can verify safe contact and authority before linking portal access.*
+
 ## 2. Mandatory Multi-Factor Authentication (MFA)
 Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordinator**, **Parent/Oversight Viewer**, **Platform Master Admin**) require MFA on every active session:
 1. **Setup (`/mfa/setup`):** Enroll an authenticator app (TOTP QR code) and store single-use backup recovery codes offline.
@@ -21,12 +27,21 @@ Privileged roles (**Company Administrator**, **Branch Administrator**, **Coordin
 3. **Verification (`/mfa/verify`):** PostgreSQL enforces `clinic.staff_is_mfa_session_verified` inside `clinic.require_actor`; unverified sessions are rejected with `42501`.
 
 ## 3. Session Idle Timeouts & Role Isolation
+
+![Role-Based Access Control, MFA, and Clinical Privacy Isolation Matrix across all MH-Clinic personas](../assets/visuals/role-rbac-isolation-matrix.svg)
+
 | Role Group | Idle Timeout | Clinical Notes Access |
 | :--- | :---: | :--- |
 | **Company / Branch Administrator** | 15 min | **Denied (`403`)** unless granted explicit temporary break-the-glass / Two-Person approval |
 | **Front-Desk Coordinator / HMO** | 15 min | **Denied (`403`)** — sees appointment status/completion booleans only |
 | **Psychiatrist / Psychologist / Counselor / Specialty Clinician** | 30 min | **Assigned-care only** (or approved colleague access grant) |
 | **AI Coordinator Agent (`WP-32`)** | Per-run | **Denied (`403`)** on all clinical notes, prescriptions, and certificates |
+
+### Reviewing metadata-only staff read-access audits
+
+![Staff read-access audit showing metadata-only read receipts by timestamp, actor, scope, read type, and record count](../assets/screenshots/admin-audit-log.png)
+
+*Synthetic administrator-training capture, November 2026. Every protected operational and reporting screen logs a metadata-only read receipt without ever displaying clinical note bodies.*
 
 ### When no connected workspaces appear
 

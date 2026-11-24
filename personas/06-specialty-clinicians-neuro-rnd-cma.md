@@ -45,6 +45,18 @@ MH-Clinic supports integrated **whole-person behavioral health** through three s
 
 ---
 
-## 3. Practice & Verification
+## 3. Visual Workspace Reference
+
+![Clinical Documentation, Safety Planning, RA 6675 Prescribing, and Specialty Tracks Overview](../assets/visuals/clinical-safety-and-coding.svg)
+
+![Review nutrition medication rules workspace showing formulary revision and source verification gate](../assets/screenshots/specialty-nutrition-rules.png)
+
+![Review acupuncture protocols workspace showing source and intended use governance gate](../assets/screenshots/specialty-acupuncture-protocols.png)
+
+*Synthetic clinician-training captures, November 2026. Specialty protocols and nutrition-medication rules require explicit clinical sign-off before activation in charts.*
+
+---
+
+## 4. Practice & Verification
 - Complete **Lab 06** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
 - Review full specialty track workflows in [Manual 04: Assessments & Specialty Tracks](../manuals/04-assessments-and-specialty-tracks.md).

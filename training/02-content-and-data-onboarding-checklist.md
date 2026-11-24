@@ -7,6 +7,9 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 ---
 
 ## 1. Security, Identity & Compliance Baseline (`WP-01`, `WP-22`)
+
+![6-Layer Policy Resolution Engine and Philippine Regulatory Controls](../assets/visuals/six-layer-policy-hierarchy.svg)
+
 - [ ] **MFA Enforced:** All staff accounts have TOTP or Passkey MFA enrolled; zero shared logins exist.
 - [ ] **Idle Timeouts:** Reception/shared kiosks configured to 15-minute idle lock.
 - [ ] **RA 10173 Privacy Notice & Consent:** Digital consent templates reviewed and published for all active branches.
@@ -18,8 +21,12 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 ## 2. Clinical Catalog, Assessments & Formulary (`WP-04`, `WP-10`, `WP-12`)
 - [ ] **Service SKUs & Pricing:** All consultation, evaluation, nutrition, and neurology SKUs mapped to branches and clinician credential gates.
 - [ ] **Senior/PWD Rules:** `RA 9994` / `RA 10754` 20% discount + VAT-exempt flags verified on eligible SKUs.
-- [ ] **DSM-5-TR Catalog (`WP-12`):** All **68 DSM-5-TR Section III measures** verified active and categorized in `/assessments/catalog`.
+- [ ] **DSM-5-TR Catalog (`WP-12`):** All **68 DSM-5-TR Section III measures** verified active and categorized in `/staff/assessments/dsm5tr`.
 - [ ] **Starter Formulary (`WP-10`):** Clinic-approved `RA 6675` generic formulary regimens reviewed by Medical Director.
+
+![Formulary configuration screen showing the 1-Click Load Philippine Psychiatric Starter Formulary (17 items) action](../assets/screenshots/admin-formulary-starter.png)
+
+*Synthetic administrator-training capture, November 2026.*
 
 ---
 
@@ -31,14 +38,14 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 
 ### `WP-23`: Turnkey Reports (`R01`–`R30`) & Report Studio
 - [ ] **Turnkey Smoke Test:** Run sample queries across `R01`–`R30` in `/reports` ([Manual 06](../manuals/06-reporting-and-analytics-guide.md)).
-- [ ] **$k$-Anonymity Guard ($k \ge 5$):** Confirm small-cell suppression is active on all sponsor/HR exports (`R21`–`R25`).
+- [ ] **$k$-Anonymity Guard ($k \ge 5$):** Confirm small-cell suppression is active on all sponsor/HR exports (`R14`–`R21`, `R23`).
 
 ### `WP-24`: Dual-Role Usability & Assignment-to-Review
 - [ ] **Assignment-to-Review Walkthrough:** Verify `RPm` → `RPsy` assignment, scoring packet submission, and co-signature UX passes usability check ([Manual 04](../manuals/04-assessments-and-specialty-tracks.md)).
 - [ ] **Queue Notifications:** Confirm `RPsy` reviewers receive pending co-signature alerts promptly.
 
 ### `WP-26`: ABC Bank In-House Counseling (`IHC`) OS
-- [ ] **Roster & `.ics` Import Test:** Validate sample `.ics` and roster CSV import in `/ihc/today`.
+- [ ] **Roster & `.ics` Import Test:** Validate sample `.ics` and roster CSV import in `/admin/ihc-roster` and `/admin/ihc-calendar-import`.
 - [ ] **Case Key Format:** Confirm `MMDDYYYY+Initials+MMDDYYYY` generation matches organizational SOP.
 - [ ] **27 Subtopics & `SOAP <-> 5Ps`:** Verify all 27 IHC subtopics and `MDT` referral routing are active ([Manual 05](../manuals/05-abc-bank-ihc-and-case-management.md)).
 
@@ -49,9 +56,13 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 
 ### `WP-31`: Anonymous Helpline & `/learn` Learning Hub
 - [ ] **Zero-PII Helpline Test:** Verify `/helpline` issues `ANON-xxxx` IDs without storing IP, cookies, or login PII.
-- [ ] **L1–L4 & National Hotline Deflection:** Test `L4` escalation and confirm National Crisis Hotline deflection numbers are current and localized.
-- [ ] **15-Minute Cooldown:** Verify responder console enforces post-crisis cooldown.
+- [ ] **L1–L4 & National Hotline Deflection:** Test unentitled deflection and `L1` escalation and confirm National Crisis Hotline deflection numbers are current and localized.
+- [ ] **15-Minute Cooldown:** Verify responder console enforces post-`L1` cooldown.
 - [ ] **`/learn` Content Review:** Confirm all published psychoeducation articles, grounding tools, and crisis links in `/learn` are clinically reviewed and bilingual-ready.
+
+![Public Anonymous Helpline showing Immediate Public Crisis Support deflection with NCMH 1553, Hopeline PH, In Touch, and 911](../assets/screenshots/helpline-public-deflection.png)
+
+*Synthetic public-access training capture, November 2026.*
 
 ---
 

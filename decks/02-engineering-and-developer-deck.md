@@ -6,6 +6,9 @@
 ---
 
 ## Slide 1: Core Architectural Tenets
+
+![MH-Clinic Enterprise Architecture Overview](../assets/visuals/platform-architecture-overview.svg)
+
 1. **Database as the Security Boundary:**
    - The web tier connects as the unprivileged `clinic_app` role.
    - All table access is denied by default (`REVOKE ALL FROM PUBLIC, clinic_app, clinic_auth`); reads and writes occur exclusively through `SECURITY DEFINER` functions with `SET search_path = pg_catalog, clinic`.
@@ -36,6 +39,8 @@ sequenceDiagram
   Next-->>Client: 200 JSON / SSR HTML (Cache-Control: no-store)
 ```
 
+![Role-Based Access Control and Clinical Privacy Isolation Matrix](../assets/visuals/role-rbac-isolation-matrix.svg)
+
 ---
 
 ## Slide 3: Key Codebase Directories (`mh-clinic`)
@@ -49,9 +54,16 @@ sequenceDiagram
 ---
 
 ## Slide 4: Privacy, $k$-Anonymity & Migration Portability Rules
+
+![6-Layer Policy Resolution Engine and Philippine Regulatory Controls](../assets/visuals/six-layer-policy-hierarchy.svg)
+
 - **No Hardcoded Tenants:** `tools/check_migration_portability.py` rejects literal tenant slugs (e.g., `'abc-bank'`, `'aventus'`) in prospective migrations; behavior is driven by `clinic.policy_values`.
 - **Database-Enforced $k$-Anonymity:** Aggregate reports (`R01`–`R30`, Sponsor Portal) compute `floor := greatest(5, clinic.sponsor_minimum_cohort_size(...))` in SQL and return `status: 'suppressed'` with `NULL` counts whenever `distinct_clients < floor`.
 - **Read-Audit Bounds:** `clinic.record_staff_read_access` enforces `p_range_start/end IS NULL` for `'admin_configuration'` and `p_range_end - p_range_start <= 89` for `'operational_report'`.
+
+![Staff read-access audit showing metadata-only read receipts logged for operational and configuration screens](../assets/screenshots/admin-audit-log.png)
+
+*Synthetic administrator-training capture, November 2026.*
 
 ---
 

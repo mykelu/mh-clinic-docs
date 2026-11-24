@@ -8,6 +8,10 @@
 
 The **Configuration Hub** (`/admin/configuration`) centralizes tenant-level policy registries, clinical catalogs, specialty protocols, and commercial/statutory rules without requiring code deployments.
 
+![Configuration and permissions hub listing policy registry, business rules, Report Studio, formulary, prescription authority, specialty tracks, and statutory sales register](../assets/screenshots/admin-configuration-hub.png)
+
+*Synthetic administrator-training capture, November 2026. The Configuration and permissions hub organizes company-level and branch-level governance controls in one audited index.*
+
 ### 1.1 Policy & Governance Configurations
 | Sub-Module | Route | Purpose |
 | :--- | :--- | :--- |
@@ -40,6 +44,8 @@ The **Configuration Hub** (`/admin/configuration`) centralizes tenant-level poli
 
 When evaluating any operational or clinical rule (such as booking lead time, telehealth eligibility, or cancellation fee), MH-Clinic resolves settings from most general to most specific:
 
+![6-Layer Policy Resolution Engine and Embedded Philippine Regulatory Controls](../assets/visuals/six-layer-policy-hierarchy.svg)
+
 ```mermaid
 flowchart LR
     L1["1. Platform Default"] --> L2["2. Brand / Tenant"]
@@ -50,6 +56,12 @@ flowchart LR
 ```
 
 - **Override Rule:** Lower-numbered layers provide safe defaults; higher-numbered layers override only explicitly declared keys, preserving auditability in `/admin/audit`.
+
+### Reviewing effective scope, inherited value, and revision in the Policy Registry
+
+![Policy registry showing billing.operating_mode with all six inheritance layers, Effective value, Latest revision in this scope, Release default, Inherited value, Override value, and required Reason for change](../assets/screenshots/config-policy-registry.png)
+
+*Synthetic administrator-training capture, November 2026. Before drafting a policy override, inspect the active layer badge, Effective value, Inherited value, and revision number, then enter an audit reason before clicking **Review change**.*
 
 ---
 
