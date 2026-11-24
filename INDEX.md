@@ -14,7 +14,7 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 | **Wave 1** (`WP-11`–`WP-15`) | 6-layer Policy Engine, 8-Gate Simulator, Care Pathways, 5 Admin Hubs, 7-Step Aventus HMO | [Scheduling & HMO](manuals/02-scheduling-and-hmo-operations.md) · [Admin Guide](personas/01-company-and-branch-administrator.md) |
 | **Wave 2** (`WP-16`–`WP-20`) | $k$-Anonymous Sponsor Portal, Longitudinal MBC, Brand CMS, Sandbox, SaaS Entitlements | [Sponsor Guide](personas/10-sponsor-and-hr-viewer.md) · [Admin Guide](personas/01-company-and-branch-administrator.md) |
 | **Wave 3** (`WP-21`–`WP-25`) | 14-Domain MSE & `ICD-10-CM`/`ICD-11`, `C-SSRS` Safety Plan, RA 6675 `eRx`, Dual `RPm`+`RPsy`, Self-Pay & PH Senior/PWD | [Clinical Workflows](manuals/03-clinical-workflows-and-prescribing.md) · [Assessments](manuals/04-assessments-and-specialty-tracks.md) |
-| **Wave 4** (`WP-26`–`WP-30`) | `Lifestyle Rx` & Metabolic/`QTc`/`AIMS`/`ANC`, QR `MedCerts`, `MD`/`RND`/`CMA` tracks, ABC Bank `IHC` OS, `R01`–`R30` + Report Studio | [ABC Bank IHC Manual](manuals/05-abc-bank-ihc-and-case-management.md) · [BI & Reports](manuals/06-reporting-and-analytics-guide.md) |
+| **Wave 4** (`WP-26`–`WP-30`) | `Lifestyle Rx` & Metabolic/`QTc`/`AIMS`/`ANC`, QR `MedCerts`, `MD`/`RND`/`CMA` tracks, ABC Bank `IHC` OS, `R01`–`R30` + Report Studio | [ABC Bank IHC Manual](manuals/05-ihc-and-case-management.md) · [BI & Reports](manuals/06-reporting-and-analytics-guide.md) |
 | **Wave 5** (`WP-31`–`WP-32`) | Anonymous Helpline, Psychoeducation/Learning Hub, `AG-UI` AI Coordinator, Native Telehealth + Ambient Scribe | [Helpline, Learn & AI](manuals/07-helpline-learning-hub-and-ai-coordinator.md) |
 
 ---
@@ -45,7 +45,7 @@ This index maps every major **route**, **work package (`WP-01`–`WP-32`)**, **t
 - `/admin/configuration/formulary` & `/admin/configuration/prescription-authority` — 1-click PH Psychiatric Starter Formulary & clinical approval ([Manual 03](manuals/03-clinical-workflows-and-prescribing.md))
 - `/admin/hmo-payer-review`, `/admin/cancellation-refunds`, `/staff/payments`, `/staff/reports/ar-payout-reconciliation` — HMO invoicing, journal accounts, refunds & `R28` reconciliation ([Manual 08](manuals/08-accounting-invoicing-and-payouts.md))
 - `/admin/learning-hub` — Psychoeducation & blog publisher ([Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md))
-- `/admin/ihc-workplan` & `/admin/ihc-roster` — ABC Bank IHC OS & `R14`–`R21` reports ([Manual 05](manuals/05-abc-bank-ihc-and-case-management.md))
+- `/admin/ihc-workplan` & `/admin/ihc-roster` — ABC Bank IHC OS & `R14`–`R21` reports ([Manual 05](manuals/05-ihc-and-case-management.md))
 - `/staff/reports` & `/admin/reports-studio` — Executive/Clinical/Commercial reports (`R01`–`R30`) & No-Code Report Studio ([Manual 06](manuals/06-reporting-and-analytics-guide.md))
 - `/platform/clients`, `/admin/brands/new-wizard`, `/admin/brand-portals`, `/sites/[company]` — SaaS tenant provisioning, entitlements (`WP-20`) & white-label brand launch ([Manual 10](manuals/10-saas-clients-and-tenant-onboarding.md))
 - `/admin/configuration/*` — 6-layer policy registry, specialty track protocols, statutory sales & technical reference ([Manual 11](manuals/11-configurations-and-reference.md))

@@ -57,10 +57,10 @@ Use this guide to find a screenshot or architecture diagram at the point where y
 
 | Task | What to look for |
 | :--- | :--- |
-| [Use `IHC Today` and the IHC walk-in desk](manuals/05-abc-bank-ihc-and-case-management.md#counselor-ihc-today-and-coordinator-walk-in-desk) | Counselor assigned institutional schedule and coordinator `ABC Bank` walk-in lookup. |
-| [Review de-identified IHC roster & `.ics` import](manuals/05-abc-bank-ihc-and-case-management.md#reviewing-de-identified-roster-and-ics-calendar-import) | `4000` population target, `sourceId,clientId` format (zero names/DOBs), and PII-stripped `.ics` import. |
-| [Inspect ABC Bank annual workplan & `R14`–`R21` links](manuals/05-abc-bank-ihc-and-case-management.md#reviewing-the-abc-bank-annual-workplan-and-r14r21-links) | Turnkey `R14`–`R21` navigation and `Withheld for privacy` small-cohort suppression. |
-| [Manage MDT longitudinal case episodes](manuals/05-abc-bank-ihc-and-case-management.md#managing-longitudinal-case-episodes) | Brand-scoped follow-up queue in Philippine time and care-gap summary link. |
+| [Use `IHC Today` and the IHC walk-in desk](manuals/05-ihc-and-case-management.md#counselor-ihc-today-and-coordinator-walk-in-desk) | Counselor assigned institutional schedule and coordinator `ABC Bank` walk-in lookup. |
+| [Review de-identified IHC roster & `.ics` import](manuals/05-ihc-and-case-management.md#reviewing-de-identified-roster-and-ics-calendar-import) | `4000` population target, `sourceId,clientId` format (zero names/DOBs), and PII-stripped `.ics` import. |
+| [Inspect ABC Bank annual workplan & `R14`–`R21` links](manuals/05-ihc-and-case-management.md#reviewing-the-abc-bank-annual-workplan-and-r14r21-links) | Turnkey `R14`–`R21` navigation and `Withheld for privacy` small-cohort suppression. |
+| [Manage MDT longitudinal case episodes](manuals/05-ihc-and-case-management.md#managing-longitudinal-case-episodes) | Brand-scoped follow-up queue in Philippine time and care-gap summary link. |
 | [Verify anonymous helpline crisis deflection](manuals/07-helpline-learning-hub-and-ai-coordinator.md#public-entitlement-gate--philippine-national-crisis-hotline-deflection) | Passcode gate and immediate PH National Crisis Hotlines (`NCMH 1553`, `Hopeline`, `In Touch`, `911`). |
 | [Open the `L1–L4` Helpline Responder Desk](manuals/07-helpline-learning-hub-and-ai-coordinator.md#l1l4-crisis-helpline-responder-desk-staffhelpline-desk) | Brand-scoped responder endpoints and 15-minute post-`L1` cooldown reminder. |
 | [Browse and publish Learning Hub guides](manuals/07-helpline-learning-hub-and-ai-coordinator.md#public-self-reading-library--administrator-publisher) | Public `/learn` CBT/grounding library and `/admin/learning-hub` brand publisher. |

@@ -1,6 +1,6 @@
 # Persona Guide 05: Counselor & IHC Specialist
 
-> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-abc-bank-ihc-and-case-management.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
+> **Navigation:** [Knowledge Base Home](../README.md) · [Master Index](../INDEX.md) · [ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md) · [Role Exercises & Labs](../training/01-role-exercises-and-labs.md)
 
 ---
 
@@ -57,4 +57,4 @@ The **Counselor & In-House Counselor (`IHC`) Specialist** (`COUNSELOR` / `IHC_SP
 
 ## 5. Practice & Verification
 - Complete **Lab 05** in [Role Exercises & Labs](../training/01-role-exercises-and-labs.md).
-- Review full IHC specifications in [Manual 05: ABC Bank IHC & Case Management](../manuals/05-abc-bank-ihc-and-case-management.md).
+- Review full IHC specifications in [Manual 05: ABC Bank IHC & Case Management](../manuals/05-ihc-and-case-management.md).

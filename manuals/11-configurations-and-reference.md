@@ -78,7 +78,7 @@ flowchart LR
 ### 3.2 Clinical & Technical Standards
 | Standard | Scope | Reference Manual |
 | :--- | :--- | :--- |
-| **`MHCLINIC-SOAP/3`** | Structured clinical note with `SOAP <-> 5Ps` mapping | [Manual 03](03-clinical-workflows-and-prescribing.md) · [Manual 05](05-abc-bank-ihc-and-case-management.md) |
+| **`MHCLINIC-SOAP/3`** | Structured clinical note with `SOAP <-> 5Ps` mapping | [Manual 03](03-clinical-workflows-and-prescribing.md) · [Manual 05](05-ihc-and-case-management.md) |
 | **14-Domain MSE** | Standardized Mental Status Examination | [Manual 03](03-clinical-workflows-and-prescribing.md) |
 | **68 `DSM-5-TR` Measures** | APA Section III Cross-Cutting, Severity, WHODAS, PID-5, Pediatric | [Manual 04](04-assessments-and-specialty-tracks.md) |
 | **`ICD-10-CM` & `ICD-11`** | Dual diagnostic coding | [Manual 03](03-clinical-workflows-and-prescribing.md) |

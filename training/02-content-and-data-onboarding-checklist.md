@@ -47,7 +47,7 @@ Use this checklist before promoting a new clinic branch, corporate sponsor progr
 ### `WP-26`: ABC Bank In-House Counseling (`IHC`) OS
 - [ ] **Roster & `.ics` Import Test:** Validate sample `.ics` and roster CSV import in `/admin/ihc-roster` and `/admin/ihc-calendar-import`.
 - [ ] **Case Key Format:** Confirm `MMDDYYYY+Initials+MMDDYYYY` generation matches organizational SOP.
-- [ ] **27 Subtopics & `SOAP <-> 5Ps`:** Verify all 27 IHC subtopics and `MDT` referral routing are active ([Manual 05](../manuals/05-abc-bank-ihc-and-case-management.md)).
+- [ ] **27 Subtopics & `SOAP <-> 5Ps`:** Verify all 27 IHC subtopics and `MDT` referral routing are active ([Manual 05](../manuals/05-ihc-and-case-management.md)).
 
 ### `WP-29`: Data Migration & Legacy Import (If Applicable)
 - [ ] **Synthetic Dry-Run:** Execute dry-run import on anonymized test batch before live migration.

@@ -76,7 +76,7 @@
 4. **MDT Escalation:** Refer the synthetic case to `/ihc/mdt` for psychiatric consultation.
 5. **Pass Criteria:** Session saved with valid case key, subtopic tags, and active `MDT` referral without exposing PHI to sponsor views.
 
-> Visual reference: [IHC Today & walk-in desk](../manuals/05-abc-bank-ihc-and-case-management.md#counselor-ihc-today-and-coordinator-walk-in-desk) and [ABC Bank annual workplan](../manuals/05-abc-bank-ihc-and-case-management.md#reviewing-the-abc-bank-annual-workplan-and-r14r21-links).
+> Visual reference: [IHC Today & walk-in desk](../manuals/05-ihc-and-case-management.md#counselor-ihc-today-and-coordinator-walk-in-desk) and [ABC Bank annual workplan](../manuals/05-ihc-and-case-management.md#reviewing-the-abc-bank-annual-workplan-and-r14r21-links).
 
 ---
 
@@ -96,7 +96,7 @@
 3. **Cooldown Verification:** Confirm the responder console enforces the **15-minute post-`L1` cooldown** before accepting the next high-acuity call.
 4. **Pass Criteria:** Outreach logged with SLA timestamp; `ANON-9042` remains zero-PII; cooldown timer active.
 
-> Visual reference: [Public helpline deflection](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#public-entitlement-gate--philippine-national-crisis-hotline-deflection), [L1–L4 Responder Desk](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#l1l4-crisis-helpline-responder-desk-staffhelpline-desk), and [Case episodes](../manuals/05-abc-bank-ihc-and-case-management.md#managing-longitudinal-case-episodes).
+> Visual reference: [Public helpline deflection](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#public-entitlement-gate--philippine-national-crisis-hotline-deflection), [L1–L4 Responder Desk](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#l1l4-crisis-helpline-responder-desk-staffhelpline-desk), and [Case episodes](../manuals/05-ihc-and-case-management.md#managing-longitudinal-case-episodes).
 
 ---
 
