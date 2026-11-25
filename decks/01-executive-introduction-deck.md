@@ -58,7 +58,7 @@
 
 ![WP-31 Zero-PII Anonymous Helpline and WP-32 AG-UI AI Coordinator Safety Guardrails](../assets/visuals/helpline-ai-guardrails.svg)
 
-- **Entitlement-Gated Anonymous Helpline (`WP-31`):** Blinded corporate passcode or member token opens an `ANON-xxxx` session with Zero-PII scrubbing, `L1`–`L4` triage, mandatory 15-minute post-`L1` responder cooldown, and instant Philippine National Crisis Hotline deflection (`NCMH 1553`, `Hopeline`, `In Touch`, `911`) for unentitled callers.
+- **Entitlement-Gated Anonymous Helpline (`WP-31`):** Blinded corporate passcode or member token opens an `ANON-xxxx` session with Zero-PII scrubbing, `L1`–`L4` triage, mandatory 15-minute post-`L1` responder cooldown, and instant Philippine National Crisis Hotline deflection (`911`, `NCMH 1553`, `In Touch`, `Hopeline PH` — numbers verified against official sources 25 November 2026 PHT; pending clinical reviewer confirmation; see [Manual 07](../manuals/07-helpline-learning-hub-and-ai-coordinator.md#verified-philippine-national-crisis-hotlines-checked-25-november-2026-pht)) for unentitled callers.
 - **Psychoeducation & Self-Reading Hub (`WP-31`):** Clinician-curated `/learn` library & between-session homework prescriptions.
 - **Omnichannel `AG-UI` AI Coordinator & Telehealth (`WP-32`):** Human-in-the-loop (`HITL`) coordinator co-pilot with deterministic crisis hard-stop, plus native telehealth rooms with **dual-consent-gated** ambient clinical scribing (`unverified_ai_draft` until clinician signature).
 

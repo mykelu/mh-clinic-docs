@@ -6,6 +6,13 @@
 
 Dates are in Philippine Time (PHT).
 
+## 25 November 2026: WCAG SVG contrast audit, screenshot provenance, verified crisis hotlines, and Filipino/Taglish drafts
+
+- **WCAG 2.2 AA SVG contrast audit & fix (#7):** Measured all 399 text elements across all 8 SVG diagrams; darkened two muted cells in `assets/visuals/role-rbac-isolation-matrix.svg` (`#64748B` → `#475569` on `#EEF2FF`, `4.26:1` → `6.77:1`) so 100% of SVG text passes `>= 4.55:1`; recorded exact per-diagram contrast ratios and 59-PNG zoom/resolution findings in [ACCESSIBILITY.md](ACCESSIBILITY.md).
+- **Screenshot capture provenance & refresh checklist (#8):** Recorded the 24 November 2026 synthetic capture date, application baseline, and pending re-captures in [VISUAL_GUIDE.md](VISUAL_GUIDE.md), and added a release screenshot-refresh rule to [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Verified Philippine National Crisis Hotlines (#6):** Verified `911`, `NCMH 1553`, `In Touch`, and `Hopeline PH` against official DOH, DILG, eHotlines, In Touch, and DSWD pages on 25 November 2026 (PHT) and added a source-cited reference table (pending clinical reviewer confirmation) in [Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md), linked from the [Executive Deck](decks/01-executive-introduction-deck.md) and [Glossary](GLOSSARY.md).
+- **Draft Filipino/Taglish editions (#10):** Added [Pagsisimula (`GETTING_STARTED_FIL.md`)](GETTING_STARTED_FIL.md) (`MHD-HOW-04`) and [Gabay ng Persona 09 (`personas/09-client-patient-and-guardian-fil.md`)](personas/09-client-patient-and-guardian-fil.md) (`MHD-PER-11`), marked **needs native-speaker review**, and linked both from [README.md](README.md), [FAQ.md](FAQ.md), and [DOCUMENT_REGISTER.md](DOCUMENT_REGISTER.md).
+
 ## 25 November 2026: helpline visual guidance
 
 - Labelled the existing passcode screenshot as a feature-enabled view. The client guide, visual index, Manual 07 and Lab 09 now distinguish it from the unavailable view without treating it as a started session.

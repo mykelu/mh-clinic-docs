@@ -96,6 +96,18 @@ Practice these workflows in the [role-based labs](training/01-role-exercises-and
 | [Native Telehealth & Dual-Consent Scribe](manuals/07-helpline-learning-hub-and-ai-coordinator.md#4-native-telehealth-room--ambient-clinical-scribe-telehealthappointmentid) | Live synthetic WebRTC telehealth room showing dual-consent toggle and `unverified_ai_draft` banner. |
 | [Dual-Signatory Evaluation Release (`RA 10029`)](manuals/04-assessments-and-specialty-tracks.md#2-measurement-based-care-wp-17--dual-signatory-rpm--rpsy-suite-wp-24) | Synthetic dual-signed (`RPm` + `RPsy`) report unlock state after attesting `Feedback Session Completed`. |
 
+## Screenshot Capture Provenance & Refresh Policy
+
+| Property | Recorded value |
+| :--- | :--- |
+| **Capture date (PHT)** | 24 November 2026 (all 59 PNG screenshots in `assets/screenshots/`) |
+| **Source environment** | Isolated synthetic training tenant (`@example.test` accounts only; zero real PHI or live credentials) |
+| **Application baseline** | `mh-clinic` `main` baseline `cf52f970` (routes and features cross-checked against `fd45a889` on 25 November 2026) |
+| **Diagram assets** | 8 WCAG 2.2 AA-measured SVG diagrams in `assets/visuals/` (verified 25 November 2026 PHT; see [ACCESSIBILITY.md](ACCESSIBILITY.md)) |
+| **Pending re-captures** | Feature-off `/helpline` unavailable notice, interactive `/staff/helpline-desk` responder desk (PR #793), interactive `/staff/ai-coordinator` and `/telehealth/[appointmentId]` preview panels (PR #794), and `/professional/headache-diary-months` (PR #797) — to be re-captured from a synthetic training tenant on the next visual refresh cycle |
+
+When a release changes a documented route or screen layout, re-capture affected screenshots from a synthetic training tenant only and update this provenance table in the same pull request (see [CONTRIBUTING.md](CONTRIBUTING.md#screenshots-and-diagrams)).
+
 ---
 
 ← Previous: [Master Index](INDEX.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Accessibility](ACCESSIBILITY.md) →
