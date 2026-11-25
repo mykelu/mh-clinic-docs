@@ -6,6 +6,10 @@
 
 Dates are in Philippine Time (PHT).
 
+## 25 November 2026: helpline visual guidance
+
+- Labelled the existing passcode screenshot as a feature-enabled view. The client guide, visual index, Manual 07 and Lab 09 now distinguish it from the unavailable view without treating it as a started session.
+
 ## 25 November 2026: standards, wiki and consistency sweep
 
 - Added [Documentation Standards](STANDARDS.md) (`MHD-REF-07`), binding for people and AI agents, plus agent entry points (`AGENTS.md`, `CLAUDE.md`, `.cursor/rules/docs.mdc`, `.github/copilot-instructions.md`), a pull request template with a documentation checklist, and optional local lint and link-check configurations.
