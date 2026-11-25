@@ -50,7 +50,7 @@
   <text x="280" y="230" class="font cell" fill="#0F766E">Verified · 30m</text>
   <text x="410" y="230" class="font cell" fill="#0F766E">Own Schedule &amp; Attest</text>
   <rect x="575" y="215" width="154" height="22" rx="11" fill="#EBF4F0"/><text x="652" y="230" text-anchor="middle" class="font cell" fill="#1F5C48">Assigned-Care Only</text>
-  <text x="765" y="230" class="font cell" fill="#64748B">View Quote Only</text>
+  <text x="765" y="230" class="font cell" fill="#475569">View Quote Only</text>
   <text x="920" y="230" class="font cell" fill="#0F766E">Clinical (R06–R13)</text>
 
   <!-- Row 4: Case Manager & Safety Responder -->
@@ -59,14 +59,14 @@
   <text x="280" y="274" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
   <text x="410" y="274" class="font cell" fill="#1F5C48">MDT &amp; L1–L4 Triage</text>
   <rect x="575" y="259" width="154" height="22" rx="11" fill="#FEF3C7"/><text x="652" y="274" text-anchor="middle" class="font cell" fill="#92400E">Shared Plan / ANON</text>
-  <text x="765" y="274" class="font cell" fill="#64748B">None</text>
+  <text x="765" y="274" class="font cell" fill="#475569">None</text>
   <text x="920" y="274" class="font cell" fill="#0F766E">Safety SLA (R06/09)</text>
 
   <!-- Row 5: HMO Billing & Finance -->
   <rect x="28" y="294" width="1024" height="40" rx="6" fill="#FFFFFF" stroke="#E5E7EB"/>
   <text x="44" y="318" class="font role">HMO Billing &amp; Finance</text>
   <text x="280" y="318" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
-  <text x="410" y="318" class="font cell" fill="#64748B">Read LOA / Holds</text>
+  <text x="410" y="318" class="font cell" fill="#475569">Read LOA / Holds</text>
   <rect x="575" y="303" width="154" height="22" rx="11" fill="#FFE4E6"/><text x="652" y="318" text-anchor="middle" class="font cell" fill="#BE123C">403 Strictly Denied</text>
   <text x="765" y="318" class="font cell" fill="#1F5C48">SOA, SI, BIR 2307</text>
   <text x="920" y="318" class="font cell" fill="#1F5C48">R22, R25, R27, R28</text>
@@ -75,9 +75,9 @@
   <rect x="28" y="338" width="1024" height="40" rx="6" fill="#FAFAF8" stroke="#E5E7EB"/>
   <text x="44" y="362" class="font role">Sponsor / HR &amp; Oversight</text>
   <text x="280" y="362" class="font cell" fill="#1F5C48">Mandatory · 15m</text>
-  <text x="410" y="362" class="font cell" fill="#64748B">None</text>
+  <text x="410" y="362" class="font cell" fill="#475569">None</text>
   <rect x="575" y="347" width="154" height="22" rx="11" fill="#FFE4E6"/><text x="652" y="362" text-anchor="middle" class="font cell" fill="#BE123C">403 Zero Individual PHI</text>
-  <text x="765" y="362" class="font cell" fill="#64748B">Sponsor Invoices</text>
+  <text x="765" y="362" class="font cell" fill="#475569">Sponsor Invoices</text>
   <text x="920" y="362" class="font cell" fill="#3730A3">k ≥ 5 Aggregate Only</text>
 
   <!-- Row 7: AI Virtual Care Coordinator -->

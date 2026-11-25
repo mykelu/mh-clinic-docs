@@ -10,13 +10,13 @@ We aim for this knowledge base to be usable with screen readers, keyboard naviga
 
 - All 129 Markdown image references have descriptive alt text (an automated check found none empty or shorter than 8 characters).
 - All 8 SVG diagrams (`assets/visuals/*.svg`, 399 text elements) declare `role="img"` and include `<title>` and `<desc>` elements.
-- **Measured SVG colour contrast (25 November 2026 PHT):** Automated WCAG 2.2 AA contrast measurement across all 8 SVGs confirmed **0 failures** after darkening two muted `#64748B` cells on `#EEF2FF` in `role-rbac-isolation-matrix.svg` to `#475569` (`4.26:1` → `6.77:1`). Measured minimum text contrast across every diagram is `>= 4.64:1` (normal text threshold `4.5:1`, large text `3.0:1`):
+- **Measured SVG colour contrast (25 November 2026 PHT):** Automated WCAG 2.2 AA contrast measurement across all 8 SVGs confirmed **0 failures** after darkening all muted `#64748B` cells in `role-rbac-isolation-matrix.svg` to `#475569` (`4.26:1` → `6.78:1` on `#EEF2FF`, `4.55:1`–`4.76:1` → `7.25:1`–`7.58:1` on `#FAFAF8`/`#FFFFFF`). Measured minimum text contrast across every diagram is `>= 4.64:1` (normal text threshold `4.5:1`, large text `3.0:1`):
   - `bi-30-reports-map.svg` (49 text elements): minimum `4.76:1`
   - `clinical-safety-and-coding.svg` (48 text elements): minimum `4.86:1`
   - `eight-gate-booking-flow.svg` (57 text elements, incl. `#FFFFFF` on `#1F5C48` badges at `7.83:1`): minimum `4.64:1`
   - `helpline-ai-guardrails.svg` (36 text elements): minimum `5.62:1`
   - `platform-architecture-overview.svg` (61 text elements): minimum `4.86:1`
-  - `role-rbac-isolation-matrix.svg` (51 text elements): minimum `4.55:1` (after fix)
+  - `role-rbac-isolation-matrix.svg` (51 text elements): minimum `5.24:1` (after fix)
   - `six-layer-policy-hierarchy.svg` (56 text elements): minimum `4.76:1`
   - `three-operating-modes.svg` (41 text elements): minimum `5.02:1`
 - **Screenshot zoom & resolution check (59 PNGs, 25 November 2026 PHT):** 51 full-page and panel captures are `886px`–`1920px` wide (readable at 200% zoom). 8 compact UI-element crops are narrower than `800px` (`accounting-review-journal-approval.png`, `appointment-details-panel.png`, `assessment-client-submitted.png`, `assessment-client-task.png`, `assessment-coordinator-assigned.png`, `client-unpublished-hours.png`, `soap-draft-conflict.png`, `soap-first-draft-version.png`); each is paired with descriptive alt text, a caption, and surrounding step prose repeating every label and action.

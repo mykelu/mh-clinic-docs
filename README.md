@@ -110,6 +110,8 @@ flowchart LR
 
 Browse all **59 synthetic screenshots** and **8 architecture diagrams** in the [**Visual Guide**](VISUAL_GUIDE.md).
 
+**License:** Copyright (c) 2026 CML and MindMatters.asia. All rights reserved. See [LICENSE](LICENSE).
+
 ---
 
 [FAQ](FAQ.md) · [Documentation Standards](STANDARDS.md) · Next: [Getting Started](GETTING_STARTED.md) →
