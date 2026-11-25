@@ -38,7 +38,7 @@ The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses 
 - Adolescent confidentiality rules allow age-appropriate privacy boundaries where clinically and legally required.
 
 ### 2.5 Anonymous Helpline & Learning Hub (`/helpline`, `/learn`)
-- **Need immediate anonymous support?** Open **`/helpline`** (`WP-31`) and present a corporate passcode or blinded member token at the entitlement gate. An entitled session receives an ephemeral `ANON-xxxx` identifier and does not collect a legal name, email, or phone number. Unentitled visitors see the national crisis deflection card only — that view is not a completed helpline session.
+- **Check helpline availability at `/helpline`** (`WP-31`). If the page says the helpline is unavailable, it shows public crisis-support information and has no passcode form. Where anonymous sessions are enabled, an issued corporate passcode or blinded member token opens the entitlement flow.
 - **Want self-guided psychoeducation?** Browse **`/learn`** for evidence-based articles, breathing/grounding exercises, and Filipino/English mental health resources. The library does not require a clinic login.
 
 ---
@@ -59,7 +59,7 @@ The **Client, Patient & Authorized Guardian** (`PATIENT` / `GUARDIAN`) accesses 
 
 ![Entitlement-Gated Anonymous Helpline showing passcode gate and Immediate Public Crisis Support deflection numbers](../assets/screenshots/helpline-public-deflection.png)
 
-*Synthetic public-access training capture, November 2026. National crisis hotlines remain immediately visible whenever an unentitled visitor accesses `/helpline`.*
+*Synthetic training capture, November 2026. This is the feature-enabled view: look for the passcode field. If `/helpline` shows an unavailable notice instead, no session can be started there; the page shows public crisis-support information.*
 
 ---
 

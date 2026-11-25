@@ -15,9 +15,11 @@
 
 ### Public entitlement gate & Philippine National Crisis Hotline deflection
 
+If `/helpline` displays an unavailable notice, public crisis-support information is visible and there is no passcode form. The screenshot below applies only where anonymous sessions are enabled.
+
 ![Entitlement-Gated Anonymous Helpline showing the passcode gate and Immediate Public Crisis Support deflection with NCMH 1553, Hopeline PH, In Touch, and 911](../assets/screenshots/helpline-public-deflection.png)
 
-*Synthetic public-access training capture, November 2026. When an unentitled passcode is submitted, visitors receive immediate Philippine National Crisis Hotline numbers without collecting any personal identifiers.*
+*Synthetic training capture, November 2026. Feature-enabled view with a passcode field and public crisis-support information. An unavailable screen has no passcode field.*
 
 ### `L1–L4` Crisis Helpline Responder Desk (`/staff/helpline-desk`)
 

@@ -48,6 +48,8 @@ This is the master list of documents in this public knowledge base. IDs use the 
 | `MHD-TRN-02` | Training Checklist 02: Content & Data Onboarding (Go-Live Readiness) | [`training/02-content-and-data-onboarding-checklist.md`](training/02-content-and-data-onboarding-checklist.md) | How-to guide | 2026-11-25 |
 | `MHD-TRN-03` | Training 03: Company & Branch Administrator Curriculum | [`training/03-admin-training-curriculum.md`](training/03-admin-training-curriculum.md) | Tutorial | 2026-11-25 |
 
+**25 November 2026 visual-availability revision:** `MHD-HOW-01`, `MHD-MAN-07`, `MHD-PER-09` and `MHD-TRN-01` clarify enabled and unavailable helpline views; document IDs and revision dates are unchanged.
+
 ---
 
 ← Previous: [Documentation Standards](STANDARDS.md) · [Knowledge Base Home](README.md) · [Getting Started](GETTING_STARTED.md) · [FAQ](FAQ.md) · Next: [Changelog](CHANGELOG.md) →
