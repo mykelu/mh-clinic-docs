@@ -86,8 +86,8 @@
   <text x="280" y="406" class="font cell" fill="#3730A3">Per-Run Scoped</text>
   <text x="410" y="406" class="font cell" fill="#3730A3">HITL Draft Proposals</text>
   <rect x="575" y="391" width="154" height="22" rx="11" fill="#BE123C"/><text x="652" y="406" text-anchor="middle" class="font cell" fill="#FFFFFF">403 Hard RLS Wall</text>
-  <text x="765" y="406" class="font cell" fill="#64748B">None</text>
-  <text x="920" y="406" class="font cell" fill="#64748B">None (Crisis → L1)</text>
+  <text x="765" y="406" class="font cell" fill="#475569">None</text>
+  <text x="920" y="406" class="font cell" fill="#475569">None (Crisis → L1)</text>
 
   <text x="28" y="440" class="font note">Clients &amp; verified Guardians access only their own brand portal (/client/[brand]) — evaluations unlock only after Feedback Session Completed.</text>
 </svg>

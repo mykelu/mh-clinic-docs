@@ -37,14 +37,15 @@ Decks also have an **Agenda** section before Slide 1 and a **Summary & Next Step
 - Capture from a synthetic training tenant only, and check every visible field before committing.
 - Save screenshots under `assets/screenshots/` as `kebab-case.png`, and diagrams under `assets/visuals/` as SVG.
 - Every image needs descriptive alt text (what the screen shows and why it matters), plus an italic caption that starts with "Synthetic … capture, Month YYYY."
-- SVGs must include `role="img"`, a `<title>` and a `<desc>`.
+- SVGs must include `role="img"`, a `<title>`, a `<desc>`, and pass WCAG 2.2 AA contrast (`>= 4.5:1` normal text, `>= 3.0:1` large text).
+- When a release changes a documented route or layout, re-capture affected screenshots from a synthetic training tenant and record the capture date and application baseline in [VISUAL_GUIDE.md](VISUAL_GUIDE.md#screenshot-capture-provenance--refresh-policy).
 - Follow [ACCESSIBILITY.md](ACCESSIBILITY.md).
 
 ## Changes
 
 1. Branch from `main` and open a pull request.
-2. Update the [Document Register](DOCUMENT_REGISTER.md) and [CHANGELOG.md](CHANGELOG.md).
-3. Check links and alt text before you request review.
+2. Update the [Document Register](DOCUMENT_REGISTER.md), [CHANGELOG.md](CHANGELOG.md), and (when UI changes) screenshot provenance in [VISUAL_GUIDE.md](VISUAL_GUIDE.md).
+3. Check links, alt text, and SVG contrast before you request review.
 
 ---
 

@@ -43,6 +43,7 @@ Terms used across the manuals, persona guides, training labs, and decks. Route p
 | **MFA** | Multi-factor authentication. Staff enroll TOTP or passkeys at `/mfa/setup`, `/mfa/passkeys`, and `/mfa/verify`. |
 | **MSE** | Mental status examination. The 14-domain structured exam lives in `/professional/appointments/[appointmentId]/notes`. |
 | **PHI** | Personal health information. Training materials in this repository use synthetic data only. |
+| **Philippine National Crisis Hotlines** | Public 24/7 crisis deflection directory (`911`, `NCMH 1553`, `In Touch`, `Hopeline PH`) shown to unentitled `/helpline` visitors. Numbers last verified against official sources on 25 November 2026 PHT (clinical reviewer confirmation required before live clinical deployment); see [Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md#verified-philippine-national-crisis-hotlines-checked-25-november-2026-pht). |
 | **PRC / PTR / S2** | Professional license, tax receipt, and dangerous-drug authority records, maintained at `/admin/professional-credential-validity`. |
 | **RA 10173** | Philippine Data Privacy Act of 2012. |
 | **RA 10029** | Philippine Psychology Act: dual `RPm` + `RPsy` evaluation release rules. |

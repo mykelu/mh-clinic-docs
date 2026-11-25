@@ -15,6 +15,9 @@ Yes. Brands sit under a governed company tree with separate client records, cons
 **Is the data in these docs real?**
 No. Every screenshot, persona and lab uses synthetic data, such as `@example.test` addresses.
 
+**Are Filipino or Taglish guides available?**
+Draft Filipino/Taglish editions of [Getting Started](GETTING_STARTED_FIL.md) and the [Client, Patient & Guardian Guide](personas/09-client-patient-and-guardian-fil.md) are available (marked **needs native-speaker review** before publication).
+
 ## Access and security
 
 **How do staff sign in?**
