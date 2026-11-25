@@ -63,7 +63,7 @@ In a synthetic training tenant, using the [Role Exercises & Labs](training/01-ro
 No. Your clinic's own standard operating procedures take precedence.
 
 **Is there a Filipino or Taglish version?**
-Not yet in this public knowledge base.
+Draft Taglish translations are available for [Getting Started](GETTING_STARTED_TL.md) and [Persona Guide 09: Client, Patient & Guardian](personas/09-client-patient-and-guardian-tl.md) (both pending native-speaker review).
 
 ---
 

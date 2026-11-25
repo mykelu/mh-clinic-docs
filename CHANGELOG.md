@@ -6,6 +6,13 @@
 
 Dates are in Philippine Time (PHT).
 
+## 25 November 2026: license, accessibility contrast, hotline verification and Taglish drafts
+
+- Added `LICENSE` (`All rights reserved`) and linked it from [README.md](README.md) (`#3`).
+- Verified Philippine crisis-hotline numbers in [Manual 07](manuals/07-helpline-learning-hub-and-ai-coordinator.md) against current sources (`ncmhusaptayo.com`, `ekwentomo.dswd.gov.ph`, `in-touch.org`, `findahelpline.com`) with verification date `25 November 2026 PHT` (`#6`).
+- Fixed 2 WCAG 2.2 AA contrast cells in [`role-rbac-isolation-matrix.svg`](assets/visuals/role-rbac-isolation-matrix.svg) (`#64748B` → `#475569`, `>6.5:1`) and recorded the 8-SVG contrast audit in [ACCESSIBILITY.md](ACCESSIBILITY.md) (`#7`).
+- Added Taglish drafts (pending native-speaker review) for [Getting Started](GETTING_STARTED_TL.md) (`MHD-HOW-04`) and [Persona Guide 09](personas/09-client-patient-and-guardian-tl.md) (`MHD-PER-11`), linked from [README.md](README.md) and [FAQ.md](FAQ.md) (`#10`).
+
 ## 25 November 2026: helpline visual guidance
 
 - Labelled the existing passcode screenshot as a feature-enabled view. The client guide, visual index, Manual 07 and Lab 09 now distinguish it from the unavailable view without treating it as a started session.

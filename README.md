@@ -109,6 +109,10 @@ flowchart LR
 
 Browse all **59 synthetic screenshots** and **8 architecture diagrams** in the [**Visual Guide**](VISUAL_GUIDE.md).
 
+**Taglish drafts (needs native-speaker review):** [Pagsisimula (Getting Started)](GETTING_STARTED_TL.md) · [Persona Guide 09: Client, Patient & Guardian](personas/09-client-patient-and-guardian-tl.md)
+
+**License:** Copyright (c) 2026 MH-Clinic. All rights reserved. See [LICENSE](LICENSE).
+
 ---
 
 [FAQ](FAQ.md) · [Documentation Standards](STANDARDS.md) · Next: [Getting Started](GETTING_STARTED.md) →

@@ -15,6 +15,7 @@ This is the master list of documents in this public knowledge base. IDs use the 
 | `MHD-HOW-01` | MH-Clinic Visual Guide | [`VISUAL_GUIDE.md`](VISUAL_GUIDE.md) | How-to guide | 2026-11-25 |
 | `MHD-HOW-02` | Getting Started | [`GETTING_STARTED.md`](GETTING_STARTED.md) | How-to guide | 2026-11-25 |
 | `MHD-HOW-03` | Contributing and Style Guide | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How-to guide | 2026-11-25 |
+| `MHD-HOW-04` | Pagsisimula sa MH-Clinic Knowledge Base (Taglish Draft) | [`GETTING_STARTED_TL.md`](GETTING_STARTED_TL.md) | How-to guide | 2026-11-25 |
 | `MHD-MAN-01` | Manual 01: Getting Started, Authentication & Mandatory MFA | [`manuals/01-getting-started-and-mfa.md`](manuals/01-getting-started-and-mfa.md) | Reference | 2026-11-25 |
 | `MHD-MAN-02` | Manual 02: Scheduling, Waitlist & 7-Step Aventus HMO Operations | [`manuals/02-scheduling-and-hmo-operations.md`](manuals/02-scheduling-and-hmo-operations.md) | Reference | 2026-11-25 |
 | `MHD-MAN-03` | Manual 03: Clinical Workflows, 14-Domain MSE, `eRx` & Certificates | [`manuals/03-clinical-workflows-and-prescribing.md`](manuals/03-clinical-workflows-and-prescribing.md) | Reference | 2026-11-25 |
@@ -36,6 +37,7 @@ This is the master list of documents in this public knowledge base. IDs use the 
 | `MHD-PER-08` | Persona Guide 08: HMO Billing & Finance Officer | [`personas/08-hmo-billing-and-finance-officer.md`](personas/08-hmo-billing-and-finance-officer.md) | How-to guide | 2026-11-25 |
 | `MHD-PER-09` | Persona Guide 09: Client, Patient & Guardian | [`personas/09-client-patient-and-guardian.md`](personas/09-client-patient-and-guardian.md) | How-to guide | 2026-11-25 |
 | `MHD-PER-10` | Persona Guide 10: Corporate Sponsor & HR Viewer | [`personas/10-sponsor-and-hr-viewer.md`](personas/10-sponsor-and-hr-viewer.md) | How-to guide | 2026-11-25 |
+| `MHD-PER-11` | Persona Guide 09 (Taglish Draft): Client, Patient & Guardian | [`personas/09-client-patient-and-guardian-tl.md`](personas/09-client-patient-and-guardian-tl.md) | How-to guide | 2026-11-25 |
 | `MHD-POL-01` | Security | [`SECURITY.md`](SECURITY.md) | Reference | 2026-11-25 |
 | `MHD-REF-01` | Glossary | [`GLOSSARY.md`](GLOSSARY.md) | Reference | 2026-11-25 |
 | `MHD-REF-02` | MH-Clinic Knowledge Base Index (`A–Z` & Route Map) | [`INDEX.md`](INDEX.md) | Reference | 2026-11-25 |
