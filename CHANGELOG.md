@@ -8,7 +8,7 @@ Dates are in Philippine Time (PHT).
 
 ## 25 November 2026: repository license notice and additional RBAC SVG contrast polish
 
-- **Repository license notice (#3, pending Product Owner / legal confirmation):** Added `LICENSE` (`All rights reserved` notice for the public showcase knowledge base) and linked it from [README.md](README.md).
+- **Repository license notice (#3):** Added `LICENSE` (`Copyright (c) 2026 CML and MindMatters.asia. All rights reserved.`) and linked it from [README.md](README.md).
 - **Additional SVG contrast polish (#7):** Darkened the remaining 5 muted `#64748B` cells on `#FAFAF8`/`#FFFFFF` rows in [`assets/visuals/role-rbac-isolation-matrix.svg`](assets/visuals/role-rbac-isolation-matrix.svg) to `#475569`, raising its measured minimum contrast from `4.55:1` to `5.24:1` ([ACCESSIBILITY.md](ACCESSIBILITY.md)).
 
 ## 25 November 2026: WCAG SVG contrast audit, screenshot provenance, verified crisis hotlines, and Filipino/Taglish drafts

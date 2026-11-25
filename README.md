@@ -110,7 +110,7 @@ flowchart LR
 
 Browse all **59 synthetic screenshots** and **8 architecture diagrams** in the [**Visual Guide**](VISUAL_GUIDE.md).
 
-**License:** Copyright (c) 2026 MH-Clinic. All rights reserved. See [LICENSE](LICENSE) (pending Product Owner / legal confirmation).
+**License:** Copyright (c) 2026 CML and MindMatters.asia. All rights reserved. See [LICENSE](LICENSE).
 
 ---
 
