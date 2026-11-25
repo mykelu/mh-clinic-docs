@@ -10,13 +10,14 @@ Welcome to the official public documentation, knowledge base, role-based trainin
 Staff standard operating procedures live in the internal operator documentation.
 
 > [!TIP]
-> **New here?** Start with [**Getting Started**](GETTING_STARTED.md) to find your path by role, or read the [**FAQ**](FAQ.md).
+> **New here?** Start with [**Getting Started**](GETTING_STARTED.md) ([Filipino / Taglish draft — needs native-speaker review](GETTING_STARTED_FIL.md)) to find your path by role, or read the [**FAQ**](FAQ.md).
 
 ---
 
 ## Contents
 
-- [Getting Started](GETTING_STARTED.md)
+- [Getting Started](GETTING_STARTED.md) · [Pagsisimula (Filipino / Taglish draft)](GETTING_STARTED_FIL.md)
+- [Client, Patient & Guardian Guide (Filipino / Taglish draft)](personas/09-client-patient-and-guardian-fil.md)
 - [FAQ](FAQ.md)
 - [Quick Navigation](#quick-navigation)
   - [Presentation Decks](#1-presentation-decks-decks)
@@ -109,9 +110,7 @@ flowchart LR
 
 Browse all **59 synthetic screenshots** and **8 architecture diagrams** in the [**Visual Guide**](VISUAL_GUIDE.md).
 
-**Taglish drafts (needs native-speaker review):** [Pagsisimula (Getting Started)](GETTING_STARTED_TL.md) · [Persona Guide 09: Client, Patient & Guardian](personas/09-client-patient-and-guardian-tl.md)
-
-**License:** Copyright (c) 2026 MH-Clinic. All rights reserved. See [LICENSE](LICENSE).
+**License:** Copyright (c) 2026 MH-Clinic. All rights reserved. See [LICENSE](LICENSE) (pending Product Owner / legal confirmation).
 
 ---
 

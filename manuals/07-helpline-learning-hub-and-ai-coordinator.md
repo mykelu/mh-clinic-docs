@@ -9,10 +9,21 @@
 ## 1. Entitlement-Gated Anonymous Helpline (`/helpline` & `/staff/helpline-desk`)
 - **Zero-PII Gatekeeper:** Validates corporate passcodes or blinded member tokens against `clinic.helpline_access_policies` without collecting legal names, emails, or phone numbers.
 - **Anonymous Alias & PIN:** Issues a deterministic `ANON-xxxx` alias and 4-digit recovery PIN for repeat continuity.
-- **Public Deflection Card:** Unentitled visitors are immediately shown Philippine National Crisis Hotlines (**NCMH 1553 / 0917-899-8727**, **Hopeline PH 0917-558-4673**, **In Touch 0917-800-1123**, **911**).
-  - *Hotline verification (25 November 2026 PHT):* Numbers checked against [DOH-NCMH (`ncmhusaptayo.com`)](https://www.ncmhusaptayo.com/), [DSWD WiSupport (`ekwentomo.dswd.gov.ph`)](https://ekwentomo.dswd.gov.ph/faqs/), [In Touch Community Services (`in-touch.org`)](https://in-touch.org/contact-us/), and [Find A Helpline (`findahelpline.com`)](https://findahelpline.com/countries/ph/topics/suicidal-thoughts). Pending clinical reviewer confirmation.
+- **Public Deflection Card:** Unentitled visitors are immediately shown Philippine National Crisis Hotlines (**NCMH 1553**, **Hopeline PH**, **In Touch**, and **911** — see the verified directory below).
 - **Responder Welfare Guardrail:** Closing an `L1` (Imminent Life Safety) encounter automatically places the responder into a **15-minute mandatory post-`L1` cooldown** (`helpline_responder_cooldowns`).
 - **Zero-PII Scrubber:** `scrubHelplinePii` redacts accidental emails and PH mobile numbers before storage.
+
+### Verified Philippine National Crisis Hotlines (checked 25 November 2026 PHT)
+
+> [!NOTE]
+> **Clinical review required:** Numbers below were verified against official provider and government pages on **25 November 2026 (PHT)** for documentation accuracy. Confirm with the designated **Clinical Reviewer** before publishing in a live clinical helpline deflection card.
+
+| Service | Verified numbers (24/7) | Official source checked (25 November 2026 PHT) |
+| :--- | :--- | :--- |
+| **National Emergency Hotline** | `911` (nationwide police, fire, and medical emergency) | [PH eHotlines (`ehotlines.e.gov.ph`)](https://ehotlines.e.gov.ph/) · [DILG NCR Unified 911](https://ncr.dilg.gov.ph/dilg-leads-nationwide-campaign-for-unified-911-emergency-hotline/) |
+| **DOH — National Center for Mental Health (`NCMH`) Crisis Hotline** | `1553` (toll-free landline), `1800-1888-1553` (toll-free), `0919-057-1553` (Smart/TNT), `0917-899-8727` (Globe/TM) | [DOH Mental Health Program (`ro2.doh.gov.ph`)](https://ro2.doh.gov.ph/mental-health-program/) · [PH eHotlines](https://ehotlines.e.gov.ph/) |
+| **In Touch Community Services Crisis Line** | `+63 2 8893 7603` (landline), `+63 919 056 0709` (Smart), `+63 917 800 1123` (Globe), `+63 917 108 5412` (Globe) | [In Touch Contact Us (`in-touch.org/contact-us/`)](https://in-touch.org/contact-us/) |
+| **Hopeline Philippines (Natasha Goulbourn Foundation)** | `(02) 8804-4673` (PLDT/landline), `0917-558-4673` (Globe), `0918-873-4673` (Smart), `2919` (toll-free Globe/TM) | [DSWD WiSupport Directory (`ekwentomo.dswd.gov.ph/faqs/`)](https://ekwentomo.dswd.gov.ph/faqs/) |
 
 ### Public entitlement gate & Philippine National Crisis Hotline deflection
 
