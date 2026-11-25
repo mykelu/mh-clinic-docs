@@ -16,7 +16,7 @@ We aim for this knowledge base to be usable with screen readers, keyboard naviga
   - `eight-gate-booking-flow.svg` (57 text elements, incl. `#FFFFFF` on `#1F5C48` badges at `7.83:1`): minimum `4.64:1`
   - `helpline-ai-guardrails.svg` (36 text elements): minimum `5.62:1`
   - `platform-architecture-overview.svg` (61 text elements): minimum `4.86:1`
-  - `role-rbac-isolation-matrix.svg` (51 text elements): minimum `4.83:1` (after fix)
+  - `role-rbac-isolation-matrix.svg` (51 text elements): minimum `4.55:1` (after fix)
   - `six-layer-policy-hierarchy.svg` (56 text elements): minimum `4.76:1`
   - `three-operating-modes.svg` (41 text elements): minimum `5.02:1`
 - **Screenshot zoom & resolution check (59 PNGs, 25 November 2026 PHT):** 51 full-page and panel captures are `886px`–`1920px` wide (readable at 200% zoom). 8 compact UI-element crops are narrower than `800px` (`accounting-review-journal-approval.png`, `appointment-details-panel.png`, `assessment-client-submitted.png`, `assessment-client-task.png`, `assessment-coordinator-assigned.png`, `client-unpublished-hours.png`, `soap-draft-conflict.png`, `soap-first-draft-version.png`); each is paired with descriptive alt text, a caption, and surrounding step prose repeating every label and action.
