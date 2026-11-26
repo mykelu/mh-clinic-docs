@@ -2,9 +2,13 @@
 
 > **Navigation:** [Knowledge Base Home](README.md) · [Document Register](DOCUMENT_REGISTER.md)
 >
-> **Doc ID:** `MHD-REF-06` · **Type:** Reference · **Revised:** 25 November 2026
+> **Doc ID:** `MHD-REF-06` · **Type:** Reference · **Revised:** 26 November 2026
 
 Dates are in Philippine Time (PHT).
+
+## 26 November 2026: private vulnerability reporting enabled
+
+- **Security vulnerability reporting route (#4):** Enabled GitHub Private Vulnerability Reporting on `mykelu/mh-clinic-docs` and updated [SECURITY.md](SECURITY.md) (`MHD-POL-01`) to name it as the official private security reporting channel.
 
 ## 25 November 2026: repository license notice and additional RBAC SVG contrast polish
 

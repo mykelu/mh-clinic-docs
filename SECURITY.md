@@ -1,12 +1,12 @@
 # Security
 
-> **Doc ID:** `MHD-POL-01` · **Type:** Reference · **Revised:** 25 November 2026
+> **Doc ID:** `MHD-POL-01` · **Type:** Reference · **Revised:** 26 November 2026
 
 If you believe you have found a security vulnerability in MH-Clinic, please report it privately. Do not open a public GitHub issue, and do not include real patient information, live credentials, or production secrets in any report.
 
 Use synthetic data only when you need to illustrate a report.
 
-Until a dedicated reporting address is published for this repository, use GitHub's private vulnerability reporting if it is enabled, or contact the repository owner through the private channel they publish for security reports.
+Report suspected security vulnerabilities through **GitHub Private Vulnerability Reporting** on this repository: [Submit a private security advisory](https://github.com/mykelu/mh-clinic-docs/security/advisories/new) (`Security` → `Advisories` → `Report a vulnerability`). Private vulnerability reporting is enabled on `mykelu/mh-clinic-docs`.
 
 ## Privacy and Data Protection Officer
 
