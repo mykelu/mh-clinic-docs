@@ -38,7 +38,7 @@ This is the master list of documents in this public knowledge base. IDs use the 
 | `MHD-PER-09` | Persona Guide 09: Client, Patient & Guardian | [`personas/09-client-patient-and-guardian.md`](personas/09-client-patient-and-guardian.md) | How-to guide | 2026-11-25 |
 | `MHD-PER-10` | Persona Guide 10: Corporate Sponsor & HR Viewer | [`personas/10-sponsor-and-hr-viewer.md`](personas/10-sponsor-and-hr-viewer.md) | How-to guide | 2026-11-25 |
 | `MHD-PER-11` | Gabay ng Persona 09: Client, Pasyente at Guardian (Filipino / Taglish Draft — needs native-speaker review) | [`personas/09-client-patient-and-guardian-fil.md`](personas/09-client-patient-and-guardian-fil.md) | How-to guide | 2026-11-25 |
-| `MHD-POL-01` | Security | [`SECURITY.md`](SECURITY.md) | Reference | 2026-11-25 |
+| `MHD-POL-01` | Security | [`SECURITY.md`](SECURITY.md) | Reference | 2026-11-26 |
 | `MHD-REF-01` | Glossary | [`GLOSSARY.md`](GLOSSARY.md) | Reference | 2026-11-25 |
 | `MHD-REF-02` | MH-Clinic Knowledge Base Index (`A–Z` & Route Map) | [`INDEX.md`](INDEX.md) | Reference | 2026-11-25 |
 | `MHD-REF-03` | Frequently Asked Questions | [`FAQ.md`](FAQ.md) | Reference | 2026-11-25 |
